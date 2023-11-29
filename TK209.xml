@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 209. <term xml:lang="ta">tīviṉai accam</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK209">
+            <lg type="edition">
+<l>taṉṉaittāṉ kātala ṉāyi ṉeṉaittoṉṟun</l>
+<l>tuṉṉaṟka tīviṉaip pāl</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>If a man love himself, let him not commit any sin however small.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

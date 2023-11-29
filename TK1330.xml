@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1330. <term xml:lang="ta">ūṭal uvakai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1330">
+            <lg type="edition">
+<l>ūṭutal kāmattiṟ kiṉpam mataṟkiṉpaṅ</l>
+<l>kūṭi muyaṅkap peṟiṉ</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Dislike adds delight to love and a hearty embrace (thereafter) will add delight to dislike.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

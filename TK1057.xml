@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1057. <term xml:lang="ta">iravu</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1057">
+            <lg type="edition">
+<l>ikaḻnteḷḷā tīvāraik kāṇiṉ makiḻntuḷḷam</l>
+<l> uḷḷu ḷuvappa tuṭaittu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Beggars rejoice exceedingly when they behold those who bestow (their alms) with kindness and courtesy.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

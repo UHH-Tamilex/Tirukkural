@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 250. <term xml:lang="ta">aruḷ uṭaimai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK250">
+            <lg type="edition">
+<l>valiyārmuṟ ṟammai niṉaikkatān tammiṉ</l>
+<l>meliyārmēṟ cellu miṭattu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>When a man is about to rush upon those who are weaker than himself, let him remember how he has stood (trembling) before those who are stronger than himself.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

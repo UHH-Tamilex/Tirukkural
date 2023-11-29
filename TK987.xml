@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 987. <term xml:lang="ta">cāṉṟāṇmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK987">
+            <lg type="edition">
+<l>iṉṉācey tārkku miṉiyavē ceyyākkā</l>
+<l>leṉṉa payattatō cālpu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Of what avail is perfect goodness if it cannot do pleasing things even to those who have pained (it) ?</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

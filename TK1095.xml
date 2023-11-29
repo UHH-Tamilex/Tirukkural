@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1095. <term xml:lang="ta">kuṟippu aṟital</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1095">
+            <lg type="edition">
+<l>kuṟikkoṇṭu nōkkāmai yallā lorukaṇ</l>
+<l>ciṟakkaṇittāḷ pōla nakum</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>She not only avoids a direct look at me, but looks as it were with a half-closed eye and smiles.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

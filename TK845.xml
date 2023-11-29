@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 845. <term xml:lang="ta">pullaṟivu āṇmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK845">
+            <lg type="edition">
+<l>kallāta mēṟkoṇ ṭoḻukal kacaṭaṟa</l>
+<l>vallatūu maiyan tarum</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Fools pretending to know what has not been read (by them) will rouse suspicion even as to what they have thoroughly mastered.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

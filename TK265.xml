@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 265. <term xml:lang="ta">tavam</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK265">
+            <lg type="edition">
+<l>vēṇṭiya vēṇṭiyāṅ keytalāṟ ceytava</l>
+<l>mīṇṭu muyalap paṭum</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Religious dislipline is practised in this world, because it secures the attainment of whatever one may wish to enjoy (in the world to come).</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

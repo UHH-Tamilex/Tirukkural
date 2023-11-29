@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1267. <term xml:lang="ta">avarvayiṉ vitumpal</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1267">
+            <lg type="edition">
+<l>pulappēṉkol pulluvēṉ kollō kalappēṉkol </l>
+<l> kaṇṇaṉṉa kēḷir variṉ</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>On the return of him who is as dear as my eyes, am I displeased or am I to embrace (him); or am I to do both?</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 285. <term xml:lang="ta">kaḷḷāmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK285">
+            <lg type="edition">
+<l>aruḷkaruti yaṉpuṭaiya rātal poruḷkarutip</l>
+<l>poccāppup pārppārka ṇil</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>The study of kindness and the exercise of benevolence is not with those who watch for another's forgetfulness, though desire of his property.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

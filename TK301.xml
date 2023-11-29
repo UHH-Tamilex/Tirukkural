@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 301. <term xml:lang="ta">vekuḷāmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK301">
+            <lg type="edition">
+<l>celliṭattuk kāppāṉ ciṉaṅkāppā ṉalliṭattuk</l>
+<l>kākkileṉ kāvākkā leṉ</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>He restrains his anger who restrains it when it can injure; when it cannot injure, what does it matter whether he restrain it, or not ?</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

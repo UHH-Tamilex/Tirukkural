@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 700. <term xml:lang="ta">maṉṉaraic cērntu oḻukal</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK700">
+            <lg type="edition">
+<l>paḻaiyam eṉak karuti, paṇpu alla ceyyum</l>
+<l>keḻutakaimai kēṭu tarum.</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>The (foolish) claim with which a minister does unbecoming acts because of his (long) familiarity (with the king) will ensure his ruin.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

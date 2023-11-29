@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 442. <term xml:lang="ta">periyārait tuṇaikkōṭal</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK442">
+            <lg type="edition">
+<l>uṟṟanōy nīkki yuṟāamai muṟkākkum </l>
+<l>peṟṟiyārp pēṇik koḷal</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Let (a king) procure and kindly care for men who can overcome difficulties when they occur, and guard against them before they happen.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

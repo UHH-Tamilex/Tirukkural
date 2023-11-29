@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1005. <term xml:lang="ta">naṉṟi il celvam</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1005">
+            <lg type="edition">
+<l>koṭuppatūun tuyppatūum millārk kaṭukkiya </l>
+<l> kōṭiyuṇ ṭāyiṉum mil</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Those who neither give (to others) nor enjoy (their property) are (truly) destitute, though possessing immense riches.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 165. <term xml:lang="ta">aḻukkāṟāmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK165">
+            <lg type="edition">
+<l>aḻukkā ṟuṭaiyark katucālu moṉṉār</l>
+<l> vaḻukkiyuṅ kēṭīṉ patu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>To those who cherish envy that is enough. Though free from enemies that (envy) will bring destruction.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

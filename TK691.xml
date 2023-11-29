@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 691. <term xml:lang="ta">maṉṉaraic cērntu oḻukal</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK691">
+            <lg type="edition">
+<l>akalā taṇukātu tīkkāyvār pōlka </l>
+<l> vikalvēntarc cērntoḻuku vār</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Ministers who serve under fickle-minded monarchs should, like those who warm themselves at the fire, be neither (too) far, nor (too) near.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

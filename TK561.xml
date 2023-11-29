@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 561. <term xml:lang="ta">veruvanta ceyyāmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK561">
+            <lg type="edition">
+<l>takkāṅku nāṭit talaiccellā vaṇṇattā </l>
+<l> lottāṅ koṟuppatu vēntu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>He is a king who having equitably examined (any injustice which has been brought to his notice), suitably punishes it, so that it may not be again committed.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

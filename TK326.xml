@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 326. <term xml:lang="ta">kollāmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK326">
+            <lg type="edition">
+<l>kollāmai mēlkoṇ ṭoḻukuvāṉ vāḻnāḷmēṟ</l>
+<l>cellā tuyiruṇṇuṅ kūṟṟu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Yama, the destroyer of life, will not attack the life of him, who acts under the determination of never destroying life.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1090. <term xml:lang="ta">takai aṇaṅku uṟuttal</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1090">
+            <lg type="edition">
+<l>uṇṭārka ṇalla taṭunaṟāk kāmampōṟ</l>
+<l> kaṇṭār makiḻceyta liṉṟu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Unlike boiled honey which yields delight only when it is drunk, love gives pleasure even when looked at.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

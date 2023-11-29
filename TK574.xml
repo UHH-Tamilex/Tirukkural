@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 574. <term xml:lang="ta">kaṇṇōṭṭam</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK574">
+            <lg type="edition">
+<l>uḷapōṉ mukattēvaṉ ceyyu maḷaviṉāṟ </l>
+<l> kaṇṇēṭṭa millāta kaṇ</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Beyond appearing to be in the face, what good do they do, those eyes in which is no well-regulated kindness ?</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

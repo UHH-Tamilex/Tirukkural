@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 506. <term xml:lang="ta">terintu teḷital</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK506">
+            <lg type="edition">
+<l>aṟṟārait tēṟuta lōmpuka maṟṟavar </l>
+<l>paṟṟilar nāṇār paḻi</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Let (a king) avoid choosing men who have no relations; such men have no attachment, and thereforehave no fear of crime.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

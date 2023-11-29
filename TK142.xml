@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 142. <term xml:lang="ta">piṟaṉ il viḻaiyāmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK142">
+            <lg type="edition">
+<l>aṟaṉkaṭai niṉṟāru ḷellām piṟaṉkaṭai</l>
+<l>niṉṟāriṟ pētaiyā ril</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Among all those who stand on the outside of virtue, there are no greater fools than those who stand outside their neighbou's door.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

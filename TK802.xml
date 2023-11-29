@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 802. <term xml:lang="ta">paḻaimai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK802">
+            <lg type="edition">
+<l>naṭpiṟ kuṟuppuk keḻutakaimai maṟṟataṟku</l>
+<l>uppātal cāṉṟōr kaṭaṉ</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>The constituents of friendship are (things done through) the right of intimacy to be pleased with such a right is the duty of the wise.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 349. <term xml:lang="ta">tuṟavu</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK349">
+            <lg type="edition">
+<l>paṟṟaṟṟa kaṇṇē piṟappaṟukkum maṟṟu</l>
+<l>nilaiyāmai kāṇap paṭum</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>At the moment in which desire has been abandoned, (other) births will be cut off; when that has not been done, instability will be seen.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

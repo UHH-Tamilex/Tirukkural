@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 381. <term xml:lang="ta">iṟaimāṭci</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK381">
+            <lg type="edition">
+<l>paṭaikuṭi kūḻamaiccu naṭpara ṇāṟu</l>
+<l>muṭaiyā ṉaracaru ḷēṟu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>He who possesses these six things, an army, a people, wealth, ministers, friends and a fortress, is a lion among kings.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

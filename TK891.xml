@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 891. <term xml:lang="ta">periyāraip piḻaiyāmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK891">
+            <lg type="edition">
+<l>āṟṟuvā rāṟa likaḻāmai pōṟṟuvār \npōṟṟalu ḷellān talai</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Not to disregard the power of those who can carry out (their wishes) is more important than all the watchfulness of those who guard (themselves against evil).</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

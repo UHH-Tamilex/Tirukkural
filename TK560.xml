@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 560. <term xml:lang="ta">koṭuṅkōṉmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK560">
+            <lg type="edition">
+<l>āpayaṉ kuṉṟu maṟutoḻilōr nūṉmaṟappar </l>
+<l> kāvalaṉ kāvā ṉeṉiṉ</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>If the guardian (of the country) neglects to guard it, the produce of the cows will fail, and the men of six duties viz., the Brahmins will forget the vedas.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

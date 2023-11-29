@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 622. <term xml:lang="ta">iṭukkaṇ aḻiyāmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK622">
+            <lg type="edition">
+<l>veḷḷat taṉaiya viṭumpaiyaṟivuṭaiyā</l>
+<l> ṉuḷḷatti ṉuḷḷak keṭum</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>A flood of troubles will be overcome by the (courageous) thought which the minds of the wise will entertain, even in sorrow.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

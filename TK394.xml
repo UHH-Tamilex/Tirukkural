@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 394. <term xml:lang="ta">kalvi</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK394">
+            <lg type="edition">
+<l>uvappat talaikkūṭi yuḷḷap pirital</l>
+<l> aṉaittē pulavar toḻil</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>It is the part of the learned to give joy to those whom they meet, and on leaving, to make them think (Oh! when shall we meet them again.)</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

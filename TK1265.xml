@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1265. <term xml:lang="ta">avarvayiṉ vitumpal</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1265">
+            <lg type="edition">
+<l>kāṇkamaṟ koṇkaṉaik kaṇṇārak kaṇṭapiṉ </l>
+<l>nīṅkumeṉ meṉṟōṭ pacappu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>May I look on my lover till I am satisfied and thereafter will vanish the sallowness of my slender shoulders.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 129. <term xml:lang="ta">aṭakkam uṭaimai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK129">
+            <lg type="edition">
+<l>tīyiṉāṟ cuṭṭapu ṇuḷḷāṟu māṟātē</l>
+<l>nāviṉāṟ cuṭṭa vaṭu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>The wound which has been burnt in by fire may heal, but a wound burnt in by the tongue will never heal.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

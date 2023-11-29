@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 206. <term xml:lang="ta">tīviṉai accam</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK206">
+            <lg type="edition">
+<l>tīppāla tāṉpiṟarkaṭ ceyyaṟka nōyppāla</l>
+<l>taṉṉai yaṭalvēṇṭā tāṉ</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Let him not do evil to others who desires not that sorrows should pursue him.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

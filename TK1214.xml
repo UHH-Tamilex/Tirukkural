@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1214. <term xml:lang="ta">kaṉavu nilai uraittal</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1214">
+            <lg type="edition">
+<l>kaṉaviṉā luṇṭākuṅ kāma naṉaviṉāl </l>
+<l> nalkārai nāṭit taraṟku</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>There is pleasure in my dream, because in it I seek and obtain him who does not visit me in my wakefulness.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

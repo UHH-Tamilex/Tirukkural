@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 94. <term xml:lang="ta">iṉiyavai kūṟal</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK94">
+            <lg type="edition">
+<l>tuṉpuṟūun tuvvāmai yillākum yārmāṭṭu</l>
+<l>miṉpuṟūu miṉco lavarkku</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Sorrow-increasing poverty shall not come upon those who use towards all, pleasure-increasing sweetness of speech.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

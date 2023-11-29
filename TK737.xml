@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 737. <term xml:lang="ta">nāṭu</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK737">
+            <lg type="edition">
+<l>irupuṉalum vāynta malaiyum varupuṉalum</l>
+<l>vallaraṇu nāṭṭiṟ kuṟuppu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>The constituents of a kingdom are the two waters (from above and below), well situated hills and an undestructible fort.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

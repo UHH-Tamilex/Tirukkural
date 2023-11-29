@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 911. <term xml:lang="ta">varaivu il makaḷir</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK911">
+            <lg type="edition">
+<l>aṉpiṉ viḻaiyār poruḷviḻaiyu māytoṭiyā </l>
+<l>riṉco liḻukkan tarum</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>The sweet words of elegant braceleted (prostitutes) who desire (a man) not from affection but from avarice, will cause sorrow.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

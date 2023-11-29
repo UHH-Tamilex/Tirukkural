@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1051. <term xml:lang="ta">iravu</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1051">
+            <lg type="edition">
+<l>irakka irattakkārk kāṇiṟ karappiṉ </l>
+<l>avarpaḻi tampaḻi yaṉṟu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>If you meet with those that may be begged of, you may beg; (but) if they withhold (their gift) it is their blame and not yours.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

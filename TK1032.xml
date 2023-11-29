@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1032. <term xml:lang="ta">uḻavu</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1032">
+            <lg type="edition">
+<l>uḻuvā rulakattārk kāṇiyaḵ tāṟṟār </l>
+<l>toḻuvārē yellām poṟuttu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Agriculturists are (as it were) the linch-pin of the world for they support all other workers who cannot till the soil.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 106. <term xml:lang="ta">ceynnaṉṟi aṟital</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK106">
+            <lg type="edition">
+<l>maṟavaṟka mācaṟṟār kēṇmai tuṟavaṟka</l>
+<l>tuṉpattuṭ ṭuppāyār naṭpu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Forsake not the friendship of those who have been your staff in adversity. Forget not be benevolence of the blameless.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

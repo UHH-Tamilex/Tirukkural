@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 346. <term xml:lang="ta">tuṟavu</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK346">
+            <lg type="edition">
+<l>yāṉeṉa teṉṉuñ cerukkaṟuppāṉ vāṉōrk</l>
+<l>kuyarnta vulakam pukum</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>He who destroys the pride which says "I", "mine" will enter a world which is difficult even to the Gods to attain.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

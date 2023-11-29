@@ -1,0 +1,108 @@
+#blackout {
+    z-index: 10;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(50,50,50,0.5);
+}
+
+.popup {
+    width: 75%;
+    height: 50%;
+    background: #f5f2f0;
+    padding: 2rem;
+    font-size: 1.1rem;
+    white-space: pre;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup .boxen {
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.boxen > div {
+    flex-grow: 1;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup select {
+    width: fit-content;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.popup textarea {
+    background: white;
+    height: 100%;
+}
+
+.popup button {
+    width: fit-content;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+#output-boxen {
+    display: none;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+}
+
+#output-boxen > div {
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 300px;
+    width: 50%;
+}
+
+#popup-output {
+    background: white;
+    position: relative;
+}
+
+#popup-warnings {
+    border: 1px dotted red;
+    margin-left: 0.5rem;
+}
+
+#popup-warnings > div {
+    margin-right: 1rem;
+}
+
+#popup-warnings table {
+    width: min-content;
+    border-collapse: collapse;
+    margin-bottom: 0.5rem;
+}
+#popup-warnings td {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 100%;
+    text-wrap: nowrap;
+    word-break: keep-all;
+    white-space: nowrap;
+}
+#popup-warnings td.mismatch {
+    background: rgb(200,200,200);
+}
+#popup-warnings td.typo {
+    background: #FF3535;
+}
+
+#popup-output {
+    white-space: pre;
+    height: 300px;
+    overflow-y: scroll;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 775. <term xml:lang="ta">paṭaic cerukku</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK775">
+            <lg type="edition">
+<l>viḻittakaṇ vēlkoṇ ṭeṟiya vaḻittimaippi</l>
+<l>oṭṭaṉṟō vaṉka ṇavarkku</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Is it not a defeat to the valiant to wink and destroy their ferocious look when a lance in cast at them (by their foe) ?</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

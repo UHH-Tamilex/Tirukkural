@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 399. <term xml:lang="ta">kalvi</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK399">
+            <lg type="edition">
+<l>tāmiṉ puṟuva tulakiṉ puṟakkaṇṭu </l>
+<l>kāmuṟuvar kaṟṟaṟin tār</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>The learned will long (for more learning), when they see that while it gives pleasure to themselves, the world also derives pleasure from it.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>
