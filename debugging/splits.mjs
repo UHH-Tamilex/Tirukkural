@@ -1,5 +1,9 @@
 import { alignWordsplits } from './aligner.mjs';
+import { Sanscript } from '../lib/js/sanscript.mjs';
 import makeAlignmentTable from './alignmenttable.mjs';
+
+var Transliterate;
+const setTransliterator = (obj) => Transliterate = obj;
 
 const addWordSplits = () => {
     const selector = document.querySelector('.popup select');
@@ -38,6 +42,14 @@ const cancelPopup = (e) => {
 
 };
 
+const getCached = (el) => {
+    let ret = '';
+    const walker = document.createTreeWalker(el,NodeFilter.SHOW_TEXT);
+    while(walker.nextNode())
+        ret = ret + Transliterate.getCached(walker.currentNode).replaceAll(/[\u00AD\s]/g,'');
+    return ret;
+};
+
 const showSplits = () => {
     const popup = document.querySelector('.popup');
     popup.style.height = '80%';
@@ -54,25 +66,31 @@ const showSplits = () => {
     warnings.innerHTML = '';
 
     const inputs = popup.querySelectorAll('textarea');
-    const tam = inputs[0].value.trim().split(/\s+/).map(s => s.replace(/[,.;?]$/,''));
-    const eng = inputs[1].value.trim().split(/\s+/).map(s => s.replace(/[,.;?]$/,''));
+    const tamval = Sanscript.t(inputs[0].value.trim(),'tamil','iast');
+    const tam = tamval.split(/\s+/).map(s => s.replace(/[,.;?]$/,''));
+    const engval = inputs[1].value.trim();
+    const eng = engval ? engval.split(/\s+/).map(s => s.replace(/[,.;?]$/,'')) :
+                         Array(tam.length).fill('');
 
-    const tamlines = inputs[0].value.trim().split(/\n+/);
-    const englines = inputs[1].value.trim().split(/\n+/);
-    for(let n=0;n<tamlines.length;n++) {
-        if(tamlines[n].trim().split(/\s+/).length !== englines[n].trim().split(/\s+/).length) {
-            
-            warnings.innerHTML = (`<div>Line ${n+1}: Tamil & English don't match.</div>`);
-            output.style.border = 'none';
-            output.style.display = 'none';
-            return;
+    const tamlines = tamval.split(/\n+/);
+
+    if(engval) {
+        const englines = engval.split(/\n+/);
+        for(let n=0;n<tamlines.length;n++) {
+            if(tamlines[n].trim().split(/\s+/).length !== englines[n].trim().split(/\s+/).length) {
+                
+                warnings.innerHTML = (`<div>Line ${n+1}: Tamil & English don't match.</div>`);
+                output.style.border = 'none';
+                output.style.display = 'none';
+                return;
+            }
         }
     }
 
     const blockid = popup.querySelector('select').value;
 
     const textblock = document.getElementById(blockid).querySelector('.text-block');
-    const text = textblock.textContent.replaceAll(/[\u00AD\s]/g,'');
+    const text = getCached(textblock);
 
     const ret = alignWordsplits(text,tam,eng);
 
@@ -214,4 +232,10 @@ const makeEntries = (list) => {
     });
 };
 */
-export { addWordSplits };
+
+const Splitter = {
+    addWordSplits: addWordSplits,
+    setTransliterator: setTransliterator
+};
+
+export default Splitter;
