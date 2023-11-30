@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="wordindex.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title><title xml:lang="ta">Tirukkuṟaḷ</title> word index</title>
+        </titleStmt>
+        <sourceDesc>
+            <listWit>
+                
+            </listWit>
+        </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+<text xml:lang="ta"><body></body>
+</text>
+</TEI>
