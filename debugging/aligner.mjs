@@ -9,19 +9,19 @@ particlebare.sort((a,b) => b.length - a.length);
 const particles = particlebare.map(a => {
     if(a.endsWith('-')) {
         const aa = a.slice(0,-1);
-        if(/u$/.test(a)) {
+        if(/u$/.test(aa)) {
             const regex = aa.replace(/u$/,'[*\'’u]');
-            return [a,new RegExp(`^\\[?\\+?~?${regex}\\+?\\]?-`)];
+            return [a,new RegExp(`^\\+?~?${regex}\\+?-`)];
         }
         else
-            return [a,new RegExp(`^\\[?\\+?~?${a}\\+?\\]?-`)];
+            return [a,new RegExp(`^\\+?~?${aa}\\+?-`)];
     }
     if(/u$/.test(a)) {
         const regex = a.replace(/u$/,'[*\'’u]');
-        return [a,new RegExp(`\\[?\\+?~?${regex}\\+?\\]?$`)];
+        return [a,new RegExp(`\\+?~?${regex}\\+?$`)];
     }
     else
-        return [a,new RegExp(`\\[?\\+?~?${a}\\+?\\]?$`)];
+        return [a,new RegExp(`\\+?~?${a}\\+?$`)];
 });
 
 const caseAffixes = [
