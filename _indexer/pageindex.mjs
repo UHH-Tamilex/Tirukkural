@@ -8,7 +8,7 @@ const go = () => {
     const files = Fs.readdirSync(dir);
     const flist = [];
     files.forEach((f) => {
-        if(/^Aink.+\.xml$/.test(f))
+        if(/^TK.+\.xml$/.test(f))
             flist.push(f);
     });
     
