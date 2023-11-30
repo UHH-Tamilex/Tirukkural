@@ -1,7 +1,7 @@
 import { Transliterate } from './lib/js/transliterate.mjs';
 import { GitHubFunctions } from './lib/js/githubfunctions.mjs';
 import { ApparatusViewer } from './lib/js/apparatus.mjs';
-import { addWordSplits } from './debugging/splits.mjs';
+import Splitter from './debugging/splits.mjs';
 import { addVariants } from './debugging/variants.mjs';
 import './lib/js/tooltip.mjs';
 //import { tamilize, iastToTamil } from './transliterate.mjs';
@@ -378,7 +378,8 @@ const go = () => {
         uploader.addEventListener('change',addwordsplit);
         wordsplitbutton.addEventListener('click',() => {uploader.click();});
         */
-        wordsplitbutton.addEventListener('click',addWordSplits);
+        Splitter.setTransliterator(Transliterate);
+        wordsplitbutton.addEventListener('click',Splitter.addWordSplits);
     }
 
     if(document.querySelector('.translation')) {
