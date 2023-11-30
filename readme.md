@@ -24,6 +24,7 @@
 - `-kollō`
 - `-kollē`
 - `-koṉ`
+- `koṉ-`
 - `-tilla`
 - `-tillamma`
 - `-teyya`
