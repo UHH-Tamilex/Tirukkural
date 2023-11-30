@@ -3,20 +3,26 @@ import needlemanWunsch from './needlemanwunsch.mjs';
 const CONCATRIGHT = Symbol.for('concatright');
 const CONCATLEFT = Symbol.for('concatleft');
 
-const particlebare = ['amma','arō','ā','ār','āl','āl-amma','āl-illa','ikā','um','ē','ō','kol','kollō','kollē','koṉ','tilla','tillamma','teyya','maṟṟu','maṟṟē','ōmaṟṟē','maṟṟilla','maṉ','maṉṟa','maṉṟilla','maṉṉō','maṉṉē','maṉṟa','maṉṟamma','mātu','mātō','māḷa','yāḻa'];
+const particlebare = ['amma','arō','ā','ār','āl','ālamma','āṟṟilla','ikā','um','ē','ō','kol','kollō','kollē','koṉ','tilla','tillamma','teyya','maṟṟu','maṟṟu-','maṟṟē','ōmaṟṟē','maṟṟilla','maṉ','maṉṟa','maṉṟilla','maṉṉō','maṉṉē','maṉṟa','maṉṟamma','mātu','mātō','māḷa','yāḻa','yāḻa-'];
 particlebare.sort((a,b) => b.length - a.length);
 
 const particles = particlebare.map(a => {
+    if(a.endsWith('-')) {
+        const aa = a.slice(0,-1);
+        if(/u$/.test(a)) {
+            const regex = aa.replace(/u$/,'[*\'’u]');
+            return [a,new RegExp(`^\\[?\\+?~?${regex}\\+?\\]?-`)];
+        }
+        else
+            return [a,new RegExp(`^\\[?\\+?~?${a}\\+?\\]?-`)];
+    }
     if(/u$/.test(a)) {
         const regex = a.replace(/u$/,'[*\'’u]');
-        return [a,new RegExp(`\\[?~?\\+?${regex}\\+?\\]?$`)];
+        return [a,new RegExp(`\\[?\\+?~?${regex}\\+?\\]?$`)];
     }
     else
-        return [a,new RegExp(`\\[?~?\\+?${a}\\+?\\]?$`)];
-
+        return [a,new RegExp(`\\[?\\+?~?${a}\\+?\\]?$`)];
 });
-
-particles.push(['maṟṟu',new RegExp('^\\[?maṟṟ[u*\'’]\\+?\\]?')]);
 
 const caseAffixes = [
     ['māṭṭu',{
@@ -284,8 +290,9 @@ const cleanBare = (str) => {
 };
 
 const findHyphen = (str, index,affix) => {
-    if(affix === 'maṟṟu' && /^maṟṟ[*u']-/.test(str))
+    if(affix.endsWith('-')) {
         return true;
+    }
     for(let i=index-1;i>0;i--) {
         if(str[i] === '-') return i;
         if(['~','+'].includes(str[i])) continue;

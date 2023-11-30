@@ -42,6 +42,7 @@
 - `-mātō`
 - `-māḷa`
 - `-yāḻa`
+- `yāḻa-`
 
 ## Word-by-word gloss
 
