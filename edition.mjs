@@ -3,6 +3,7 @@ import { GitHubFunctions } from './lib/js/githubfunctions.mjs';
 import { ApparatusViewer } from './lib/js/apparatus.mjs';
 import Splitter from './debugging/splits.mjs';
 import { addVariants } from './debugging/variants.mjs';
+import { Sanscript } from './lib/js/sanscript.mjs';
 import './lib/js/tooltip.mjs';
 //import { tamilize, iastToTamil } from './transliterate.mjs';
 
@@ -21,7 +22,7 @@ const lookup = (e) => {
             const clone = word.cloneNode(true);
             for(const pc of clone.querySelectorAll('.invisible, .ignored'))
                 pc.remove();
-            clean = clone.textContent.replaceAll('\u00AD','');
+            clean = Sanscript.t(clone.textContent.replaceAll('\u00AD',''),'tamil','iast');
         }
         //window.open(`https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=${clean}&amp;searchhws=yes&amp;matchtype=exact`,'lexicon',/*'height=500,width=500'`*/);
         window.open(`wordindex.xml#${clean}`);
@@ -215,8 +216,8 @@ const makeWord = (entry) => {
     span.className = 'word split';
     const translation = entry.querySelector('.f[data-name="translation"]');
     const affix = entry.querySelector('.f[data-name="affix"]');
-    const particle = entry.querySelector('.f[data-name="particle"]');
-    const role = entry.querySelector(':scope > .f[data-name="role"], :scope > .f[data-name=""] > .f[data-name="role"]');
+    const particles = entry.querySelectorAll('.f[data-name="particle"]');
+    const roles = entry.querySelectorAll(':scope > .f[data-name="role"], :scope > .f[data-name=""] > .f[data-name="role"]');
     const cleanlemma = entry.querySelector('.f[data-name="simple"]');
     if(cleanlemma) span.dataset.clean = cleanlemma.textContent;
     if(translation || affix) {
@@ -226,14 +227,14 @@ const makeWord = (entry) => {
         annoel.lang = 'en';
         if(translation) annoel.append(translation.textContent);
         let annohtml = translation ? translation.textContent : '';
-        if(role)
-            annohtml = annohtml + ` (${role.textContent})`;
+        if(roles.length > 0)
+            annohtml = annohtml + ` (${[...roles].map(r => r.textContent).join(' ')})`;
         if(affix) {
             const affixrole = affix.querySelector('[data-name="role"]')?.textContent || 'suffix';
             const form = affix.querySelector('[data-name="lemma"]');
             annohtml = annohtml + ` (${affixrole} <span lang="ta">${form.textContent}</span>)`;
         }
-        if(particle) {
+        for(const particle of particles) {
             const form = particle.querySelector('[data-name="lemma"]');
             annohtml = annohtml + ` (particle <span lang="ta">${form.textContent}</span>)`;
         }

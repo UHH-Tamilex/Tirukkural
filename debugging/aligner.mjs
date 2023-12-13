@@ -1,9 +1,10 @@
 import needlemanWunsch from './needlemanwunsch.mjs';
+import dbQuery from './dbquery.mjs';
 
 const CONCATRIGHT = Symbol.for('concatright');
 const CONCATLEFT = Symbol.for('concatleft');
 
-const particlebare = ['amma','amma-','arō','ā','ār','āl','ālamma','āṟṟilla','ikā','um','ē','ō','kol','kollō','kollē','koṉ','koṉ-','tilla','tillamma','teyya','maṟṟu','maṟṟu-','maṟṟē','ōmaṟṟē','maṟṟilla','maṉ','maṉṟa','maṉṟilla','maṉṉō','maṉṉē','maṉṟa','maṉṟamma','mātu','mātō','māḷa','yāḻa','yāḻa-'];
+const particlebare = ['amma','amma-','arō','ā','ār','āl','ālamma','āṟṟilla','ikā','um','umār','ē','ō','kol','kollō','kollē','koṉ','koṉ-','tilla','tillamma','teyya','maṟṟu','maṟṟu-','maṟṟē','ōmaṟṟē','maṟṟilla','maṉ','maṉṟa','maṉṟilla','maṉṉō','maṉṉē','maṉṉum','maṉṟa','maṉṟamma','mātu','mātō','māḷa','yāḻa','yāḻa-'];
 particlebare.sort((a,b) => b.length - a.length);
 
 const particles = particlebare.map(a => {
@@ -25,6 +26,7 @@ const particles = particlebare.map(a => {
 });
 
 const caseAffixes = [
+/*
     ['māṭṭu',{
         regex: /māṭṭ[*’u]$/,
         gram: 'locative',
@@ -40,10 +42,11 @@ const caseAffixes = [
         gram: 'locative',
         translatonregex: /\(loc.\.\)$/
     }],
+    */
     ['iṉ',{
         regex: /iṉ\+?$/,
-        gram: 'locative',
-        translationregex: /\(loc\.\)$|iṉ$/
+        gram: 'oblique',
+        translationregex: /iṉ$/
     }],
     ['iṉum',{
         regex: /~?iṉum\+?$/,
@@ -71,52 +74,73 @@ const caseAffixes = [
 caseAffixes.sort((a,b) => b[0].length - a[0].length);
 
 const gramAbbreviations = [
-    ['(a.)','absolutive?'], // check
-    ['(abs.)','absolutive'],
-    ['(acc.)','accusative'],
-    ['(adj.)','adjective'],
-    ['(adv.)','adverb'],
-    ['(comp.)','comparative'],
-    ['(dat.)','dative'],
-    ['(f.)','feminine'],
-    ['(f.v.)','finite verb'],
-    ['(gen.)','genitive'],
-    ['(h.)','honorific'],
-    ['(3.h.)','3rd person honorific'],
-    ['(h.dat.)','honorific dative'],
-    ['(h.loc.)','honorific locative'],
-    ['(hab.fut.)','habitual future'],
-    ['(i.a.)','imperfect aspect'],
-    ['(id.)','ideophone'],
-    ['(inf.)','infinitive'],
-    ['(inst.)','instrumental'],
-    ['(inter.pron.)','interrogative pronoun'],
-    ['(ipt.)','imperative'],
-    ['(ipt.pl.)','imperative plural'],
-    ['(loc.)','locative'],
-    ['(m.)','masculine'],
-    ['(muṟ.)','muṟṟeccam'],
-    ['(n.)','neuter'],
-    ['(n.sg.)','neuter singular'],
-    ['(n.pl.)','neuter plural'],
-    ['(neg.)','negative'],
-    ['(obl.)','oblique'],
-    ['(opt.)','optative'],
-    ['(p.)','peyareccam'],
-    ['(p.a.)','perfective aspect'],
-    ['(p.n.)','proper name'],
-    ['(part.n.)','participial noun'],
-    ['(pey.)','peyareccam'],
-    ['(pl.)','plural'],
-    ['(pl.sub.)','plural subjunctive'],
-    ['(pron.n.)','pronominalised noun'],
-    ['(sg.)','singular'],
-    ['(soc.)','sociative'],
-    ['(sub.)','subjuntive'],
-    ['(suff.)','suffix'],
-    ['(v.n.)','verbal noun'],
-    ['(voc.)','vocative']
+    ['abl.','ablative'],
+    ['abs.','absolutive'],
+    ['acc.','accusative'],
+    ['adj.','adjective'],
+    ['adv.','adverb'],
+    ['caus.','causative'],
+    ['conc.','concessive'],
+    ['cond.','conditional'],
+    ['comp.','comparative'],
+    ['dat.','dative'],
+    ['f.','feminine'],
+    ['f.s.','feminine singular'],
+    ['f.pl.','feminine plural'],
+    ['f.v.','finite verb'],
+    ['gen.','genitive'],
+    ['h.','honorific'],
+    ['1.','first person'],
+    ['2.','second person'],
+    ['3.','third person'],
+    ['hab.fut.','habitual future'],
+    ['i.a.','imperfect aspect'],
+    ['id.','ideophone'],
+    ['inf.','infinitive'],
+    ['inst.','instrumental'],
+    ['inter.pron.','interrogative pronoun'],
+    ['ipt.','imperative'],
+    ['loc.','locative'],
+    ['m.','masculine'],
+    ['m.sg.','masculine singular'],
+    ['m.pl.','masculine singular'],
+    ['muṟ.','muṟṟeccam'],
+    ['n.','noun'],
+    ['n.sg.','neuter singular'],
+    ['n.pl.','neuter plural'],
+    ['neg.','negative'],
+    ['obl.','oblique'],
+    ['opt.','optative'],
+    ['p.a.','perfective aspect'],
+    ['p.n.','proper name'],
+    ['part.n.','participial noun'],
+    ['pey.','peyareccam'],
+    ['pl.','plural'],
+    ['post.','postposition'],
+    ['sub.','subjunctive'],
+    ['pron.n.','pronominalised noun'],
+    ['r.n.','root noun'],
+    ['sg.','singular'],
+    ['soc.','sociative'],
+    ['sub.','subjuntive'],
+    ['suff.','suffix'],
+    ['v.n.','verbal noun'],
+    ['v.r.','verbal root'],
+    ['v.r.adj.','verbal root as adjective'],
+    ['v.r.ger.','verbal root as gerundive'],
+    ['v.r.imp.','verbal root as imperative'],
+    ['v.r.inf.','verbal root as infinitive'],
+    ['v.r.pey.','verbal root as peyareccam'],
+    ['v.r.pey.p.a.','verbal root as peyareccam perfective aspect'],
+    ['v.r.pey.i.a.','verbal root as peyareccam imperfective aspect'],
+    ['voc.','vocative']
 ];
+
+gramAbbreviations.sort((a,b) => b[0].length - a[0].length);
+
+const gramKeys = gramAbbreviations.map(a => a[0]);
+
+const gramMap = new Map(gramAbbreviations);
 
 const wordsplitscore = (a,b) => {
     const vowels = 'aāiīuūoōeē'.split('');
@@ -169,7 +193,7 @@ const tamilSplit = (str) => {
     return ret;
 };
 
-const alignWordsplits = (text,tam,eng) => {
+const alignWordsplits = async (text,tam,eng,lookup=false) => {
     /*
     if(tam.length !== eng.length) {
         return {xml: null, warnings: ['Tamil and English don\'t match.']};
@@ -188,12 +212,15 @@ const alignWordsplits = (text,tam,eng) => {
         return {word: e, translation: eng[i]};
     });
     
-    cleanupWordlist(wordlist);
+    await cleanupWordlist(wordlist,lookup);
 
     const entries = makeEntries(wordlist);
     const rle = formatAlignment(realigned,0);
 
-    return {xml: rle + '\n' + entries.join('\n'), alignment: aligned};
+    const ret = {xml: rle + '\n' + entries.join('\n'), alignment: aligned};
+    if(lookup)
+        ret.wordlist = wordlist;
+    return ret;
 };
 /*
 const cleanupTranslation = (str) => {
@@ -244,7 +271,7 @@ const makeEntries = (arr) => {
     const formatWord = (w) => {
         return w.replace(/([~+()])/g,'<pc>$1</pc>')
                 //.replace(/['’*]$/,'<pc type="ignored">(</pc>u<pc type="ignored">)</pc>')
-                .replace(/['’*]/,'<pc type="ignored">(</pc>u<pc type="ignored">)</pc>')
+                .replaceAll(/['’*]/g,'<pc type="ignored">(</pc>u<pc type="ignored">)</pc>')
                 .replaceAll(/\[(.+?)\]/g,'<supplied>$1</supplied>');
                 //.replaceAll(/\[(.+?)\]/g,'$1');
     };
@@ -253,7 +280,10 @@ const makeEntries = (arr) => {
         const bare = e.bare ? `<form type="simple">${e.bare}</form>\n` : '';
         const affixrole = e.affixrole ? `<gramGrp><gram type="role">${e.affixrole}</gram></gramGrp>` : '';
         const affix = e.affix ? `<gramGrp type="affix"><m>${e.affix}</m>${affixrole}</gramGrp>\n` : '';
-        const gram = e.gram ? `<gramGrp><gram type="role">${e.gram}</gram></gramGrp>\n` : '';
+        const gram = e.gram ? '<gramGrp>' + 
+                    e.gram.map(g => `<gram type="role">${gramMap.get(g)}</gram>\n`).join('') +
+                    '</gramGrp>'
+                : '';
         const particle = e.particle ? `<gramGrp type="particle"><m>${e.particle}</m></gramGrp>\n` : '';
         return `<entry>\n<form>${formatWord(e.word)}</form>\n<def>${e.translation}</def>\n${bare}${affix}${gram}${particle}${e.wordnote ? formatNote(e.wordnote) : ''}${e.transnote ? formatNote(e.transnote) : ''}</entry>`;
     };
@@ -275,7 +305,7 @@ const makeEntries = (arr) => {
 
 const cleanBare = (str) => {
     //str = str.replaceAll(/[~+-.]/g,'').replace(/['’*]$/,'u');
-    str = str.replaceAll(/[\[\]~+.]/g,'').replace(/-$|^-/,'').replace(/['’*]/,'u');
+    str = str.replaceAll(/[\[\]~+.]/g,'').replace(/-$|^-/,'').replaceAll(/['’*]/g,'u');
     /*
     if(str.match(/[iīeē]y$/))
         return str.slice(0,-1); // inserted glide
@@ -346,6 +376,30 @@ const findAffix = (word,translation) => {
 };
 
 const findGrammar = (translation) => {
+    const gram = translation.search(/\(.+\)-?$/);
+    if(gram == -1) return null;
+
+    const hyphen = translation.endsWith('-') ? '-' : '';
+    const trimmed = translation.slice(0,gram) + hyphen;
+
+    let hay = translation.slice(gram).replaceAll(/[\(\)\-]/g,'');
+    
+    const ret = [];
+
+    for(const abbr of gramKeys) {
+        const found = hay.indexOf(abbr);
+        if(found === -1) continue;
+        
+        hay = hay.slice(0,found) + hay.slice(found + abbr.length);
+        ret.push(abbr);
+    }
+
+    return {
+        translation: trimmed,
+        gram: ret
+    };
+
+    /*
     for(const [affix,gram] of gramAbbreviations) {
        if(translation.endsWith(affix))
             return {
@@ -359,10 +413,27 @@ const findGrammar = (translation) => {
             };
     }
     return null;
+    */
 };
 
-const cleanupWordlist = (list) => {
-    const cleanupWord = (obj) => {
+const lookupFeatures = async (str) => {
+    const newstr = str.replace(/([~+()])/g,'')
+                .replaceAll(/['’*]/g,'u');
+    const res = await dbQuery(newstr);
+    if(!res) return null;
+    
+    const arr = JSON.parse(res);
+    if(arr.length === 0) return null;
+
+    const ret = [];
+    for(const abbr of arr) {
+        if(gramMap.has(abbr)) ret.push(abbr);
+    }
+    return ret;
+};
+
+const cleanupWordlist = async (list,lookup) => {
+    const cleanupWord = async (obj) => {
         // we should remove punctuation from the wordlist so it aligns properly
         //obj.word = obj.word.replace(/[\.;]$/,'');
         //obj.translation = obj.translation.replace(/[\.;]$/,'');
@@ -385,8 +456,11 @@ const cleanupWordlist = (list) => {
         if(grammar) {
             //console.log(`Found grammar: ${grammar.gram} in ${obj.translation}`);
             obj.translation = grammar.translation;
-            if(obj.gram) obj.gram = [obj.gram,grammar.gram];
-            else obj.gram = grammar.gram;
+            obj.gram = grammar.gram;
+        }
+        else if(lookup) {
+            const features = await lookupFeatures(obj.bare || obj.word);
+            if(features) obj.gram = features;
         }
         /*
         if(!particle && !affix && !grammar) {
@@ -397,7 +471,7 @@ const cleanupWordlist = (list) => {
         
     };
     for(const entry of list)
-        cleanupWord(entry);
+        await cleanupWord(entry);
 };
 
 /*

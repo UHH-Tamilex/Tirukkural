@@ -106,3 +106,10 @@
     height: 300px;
     overflow-y: scroll;
 }
+
+.popup-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+

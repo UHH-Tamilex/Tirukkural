@@ -154,7 +154,30 @@
                 </xsl:element>
             </xsl:if>
             <xsl:if test="$debugging = 'true'">
-                <div id="blackout"><div class="popup"><select name="edblock"></select><div class="boxen"><div><label>Tamil wordsplit</label><textarea></textarea></div><div><label>Word-by-word translation</label><textarea></textarea></div></div><button type="button">Align</button><div id="output-boxen"><div id="popup-output"></div><div id="popup-warnings"></div></div></div></div>
+                <div id="blackout">
+                    <div class="popup">
+                        <div class="popup-options">
+                            <select name="edblock"></select>
+                            <div>
+                                <input name="lookup" type="checkbox"/>
+                                <label for="lookup">Grammar lookup</label>
+                            </div>
+                        </div>
+                        <div class="boxen">
+                            <div>
+                                <label>Tamil wordsplit</label><textarea></textarea>
+                            </div>
+                            <div>
+                                <label>Word-by-word translation</label><textarea></textarea>
+                            </div>
+                        </div>
+                        <button type="button">Align</button>
+                        <div id="output-boxen">
+                            <div id="popup-output"></div>
+                            <div id="popup-warnings"></div>
+                        </div>
+                    </div>
+                </div>
             </xsl:if>
         </xsl:element>
     </xsl:element>
