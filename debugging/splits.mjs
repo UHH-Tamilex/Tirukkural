@@ -59,12 +59,13 @@ const showSplits = async () => {
 
     const inputs = popup.querySelectorAll('textarea');
     const tamval = Sanscript.t(inputs[0].value.trim(),'tamil','iast');
-    const tam = tamval.split(/\s+/).map(s => s.replace(/[,.;?]$/,''));
+    //const tam = tamval.split(/\s+/).map(s => s.replace(/[,.;?]$/,''));
+    const tamlines = tamval.replaceAll(/[,.;?](?=\s|$)/g,'').split(/\n+/);
+    const tam = tamlines.reduce((acc,cur) => acc.concat(cur.split(/\s+/)),[]);
+
     const engval = inputs[1].value.trim();
     const eng = engval ? engval.split(/\s+/).map(s => s.replace(/[,.;?]$/,'')) :
                          Array(tam.length).fill('');
-
-    const tamlines = tamval.split(/\n+/);
 
     if(engval) {
         const englines = engval.split(/\n+/);

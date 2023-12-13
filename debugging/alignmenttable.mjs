@@ -9,43 +9,48 @@ const wordClean = (str) => {
 const consonants = new Set(['k','ṅ','c','ñ','ṭ','ṇ','t','n','p','m','y','r','l','v','ḷ','ḻ','ṟ','ṉ']);
 
 const checkEquality = (arr1, arr2, n) => {
-    if(typeof arr1[n] !== 'string' || typeof arr2[n] !== 'string')
+    const char1 = arr1[n];
+    const char2 = arr2[n];
+
+    if(typeof char1 !== 'string' || typeof char2 !== 'string')
         return 'mismatch';
-    if(arr1[n] === arr2[n])
+    if(char1 === char2)
         return null;
-    if([';','.',','].includes(arr1[n]) && arr2[n] === '')
+    if([';','.',','].includes(char1) && char2 === '')
         return null;
-    if(arr2[n] === '')
+    if(char2 === '')
         return 'typo';
-    if(arr2[n] === '~') {
-        if(['y','v'].includes(arr1[n])) return null;
+    if(char2 === '~') {
+        if(['y','v'].includes(char1)) return null;
         else return 'typo';
     }
-    if(arr2[n] === '+') {
-        if(!consonants.has(arr1[n])) return 'typo';
+    if(char2 === '+') {
+        if(!consonants.has(char1)) return 'typo';
         
         const next = getNext(arr1,n);
-        if(next && next === arr1[n]) return null;
+        if(next && next === char1) return null;
         
         const prev = getPrev(arr1,n);
-        if(prev && prev === arr1[n]) return null;
+        if(prev && prev === char1) return null;
 
         return 'typo';
 
     }
-    if(arr2[n] === '*' || arr2[n] === "'") {
-        if(arr1[n] !== '')
+    if(char2 === '*' || char2 === "'") {
+        if(char1 !== '')
             return 'typo';
         else return null;
     }
-    if(arr2[n] === '-') {
-        if(arr1[n] !== '') return 'typo';
+    if(char2 === '-') {
+        if(char1 !== '') return 'typo';
         else return null;
     }
-    if(arr1[n] === 'i' && ['u','’','*'].includes(arr2[n]))
+    if(char1 === 'i' && ['u','’','*'].includes(char2))
         return 'typo';
-    return 'mismatch';
+    if(char2 === 'u' && char1 === '')
+        return 'typo';
 
+    return 'mismatch';
 };
 
 const getNext = (arr,n) => {
@@ -87,7 +92,7 @@ const makeAlignmentTable = (alignment,lines,par) => {
             td1.append(alignment[0][n]);
             if(alignment[0][n + 1] === Symbol.for('concatleft') ||
                alignment[0][n - 1] === Symbol.for('concatright')) {
-                td1.colSpan = '2';
+                td1.colSpan = 2;
                 td1.classList.add('mismatch');
             }
             else if(unequal) td1.classList.add(unequal);
@@ -98,7 +103,7 @@ const makeAlignmentTable = (alignment,lines,par) => {
             td2.append(alignment[1][n]);
             if(alignment[1][n + 1] === Symbol.for('concatleft') ||
                alignment[1][n - 1] === Symbol.for('concatright')) {
-                td2.colSpan = '2';
+                td2.colSpan = 2;
                 td2.classList.add('mismatch');
             }
             else if(unequal) td2.classList.add(unequal);
@@ -109,12 +114,17 @@ const makeAlignmentTable = (alignment,lines,par) => {
         if(typeof alignment[1][n] === 'string' && alignment[1][n] !== '') nn++;
 
         if(alignment[1][n+1] !== '' && charcounts.includes(nn)) {
+            const add1 = row1.lastChild.colSpan === 2;
+
             atab.appendChild(row1);
             atab.appendChild(row2);
             par.appendChild(atab);
             atab = document.createElement('table');
             row1 = document.createElement('tr');
             row2 = document.createElement('tr');
+
+            if(add1)
+                row1.appendChild(document.createElement('td'));
         }
 
     atab.appendChild(row1);
