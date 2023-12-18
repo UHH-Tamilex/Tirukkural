@@ -65,7 +65,7 @@
         <xsl:if test="$debugging = 'true'">
             <xsl:element name="link">
                 <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                <xsl:attribute name="href">debugging/prism.css</xsl:attribute>
+                <xsl:attribute name="href"><xsl:value-of select="$root"/>debugging/prism.css</xsl:attribute>
             </xsl:element>
         </xsl:if>
         <xsl:element name="link">
@@ -75,13 +75,13 @@
         <xsl:if test="$debugging = 'true'">
             <xsl:element name="link">
                 <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                <xsl:attribute name="href">debugging/debugging.css</xsl:attribute>
+                <xsl:attribute name="href"><xsl:value-of select="$root"/>debugging/debugging.css</xsl:attribute>
             </xsl:element>
             <!--xsl:element name="script">
                 <xsl:attribute name="src">debugging/papaparse.min.js</xsl:attribute>
             </xsl:element-->
             <xsl:element name="script">
-                <xsl:attribute name="src">debugging/prism.js</xsl:attribute>
+                <xsl:attribute name="src"><xsl:value-of select="$root"/>debugging/prism.js</xsl:attribute>
                 <xsl:attribute name="data-manual"/>
             </xsl:element>
         </xsl:if>

@@ -1,5 +1,6 @@
 import Fs from 'fs';
 import Jsdom from 'jsdom';
+import {tamilSplit} from '../lib/debugging/aligner.mjs';
 
 const template = Fs.readFileSync('wordlist-template.xml',{encoding: 'UTF-8'});
 
@@ -19,6 +20,13 @@ const go = () => {
     });
 };
 
+const getInitial = (str) => {
+    const ugh = new Set(['i','u']);
+    if(str[0] === 'a' && ugh.has(str[1]))
+        return str.slice(0,2);
+    return str[0];
+};
+
 const readfiles = (arr) => {
      
     const words = new Map();
@@ -31,7 +39,7 @@ const readfiles = (arr) => {
         [...order].reverse().map(s => [s,[]])
     );
     for(const [word, entry] of words) {
-        const arr = wordgroups.get(word[0]);
+        const arr = wordgroups.get(getInitial(word));
         arr.push([word,entry]);
     }
 
@@ -50,7 +58,12 @@ const readfiles = (arr) => {
     Fs.writeFileSync('../wordindex.xml',out);
 };
 
-const order = 'aāiīuūṛṝeēoōkgṅcjñṭḍṇtdnpbmyrlvḻḷṟṉśṣsh'.split('').reverse();
+const order = [
+    'a','ā','i','ī','u','ū','ṛ','ṝ','e','ē','ai','o','ō','au',
+    'k','g','ṅ','c','j','ñ','ṭ','ṇ','t','n','p','m',
+    'y','r','l','v',
+    'ḻ','ḷ','ṟ','ṉ','ś','ṣ','h'
+    ].reverse();
 const ordermap = new Map();
 for(const [i,v] of order.entries()) {
     ordermap.set(v,i);
@@ -59,11 +72,13 @@ for(const [i,v] of order.entries()) {
 const tamilSort2 = (a,b) => tamilSort(a[0],b[0]);
 
 const tamilSort = (a,b) => {
-    const minlen = Math.min(a.length,b.length);
+    const aa = tamilSplit(a);
+    const bb = tamilSplit(b);
+    const minlen = Math.min(aa.length,bb.length);
     let n = 0;
     while(n < minlen) {
-        const achar = a.charAt(n);
-        const bchar = b.charAt(n);
+        const achar = aa[n];
+        const bchar = bb[n];
         if(achar === bchar) {
             n++;
         } else {
@@ -75,7 +90,7 @@ const tamilSort = (a,b) => {
             //return order.indexOf(achar) < order.indexOf(bchar);
         }
     }
-    return a.length > b.length ? 1 : -1;
+    return aa.length > bb.length ? 1 : -1;
 };
 
 const formatWords = (words,append='') => {

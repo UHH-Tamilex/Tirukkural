@@ -162,9 +162,6 @@ span.invisible {
     padding: 5px 4px 1px 5px;
 }
 
-.teitext {
-    font-variant-ligatures: historical-ligatures;
-}
 /*
 .lemmalookup:hover svg {
     filter: drop-shadow(2px 2px 2px #ff9900);

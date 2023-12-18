@@ -1,8 +1,8 @@
 import { Transliterate } from './lib/js/transliterate.mjs';
 import { GitHubFunctions } from './lib/js/githubfunctions.mjs';
 import { ApparatusViewer } from './lib/js/apparatus.mjs';
-import Splitter from './debugging/splits.mjs';
-import { addVariants } from './debugging/variants.mjs';
+import Splitter from './lib/debugging/splits.mjs';
+import { addVariants } from './lib/debugging/variants.mjs';
 import { Sanscript } from './lib/js/sanscript.mjs';
 import './lib/js/tooltip.mjs';
 //import { tamilize, iastToTamil } from './transliterate.mjs';

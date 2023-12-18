@@ -125,9 +125,10 @@ const alignVariants = (doc,alignment) => {
         let textslice = textarr.slice(newstart,newend);
         let splitslice = wordsplitarr.slice(newstart,newend);
         let readings = [];
-        for(const rdg of variant.querySelectorAll('rdg')) {
-            
-            const rdgtext = cleanText(rdg);
+        for(const rdg of variant.querySelectorAll(':scope > rdg, :scope > rdgGrp')) {
+            const rdgtext = rdg.tagName === 'rdgGrp' ?
+                cleanText(rdg.querySelector('rdg[type="main"]')) :
+                cleanText(rdg);
             const witnesses = rdg.getAttribute('wit').split(' ').map(s => {
                 if(correctedWits.includes(s))
                     return s.slice(0,-1) + 'v';
@@ -535,6 +536,7 @@ const clipWord = (wordsplitarr, textarr, start, end) => {
     const word = wordsplitarr.slice(newstart,newend).join('');
 
     return word//.replaceAll(/[.-]/g,'')
+               .replace(/^-/,'')
                .replaceAll("'",'u')
                .replaceAll('(i)','u');
 };
