@@ -155,7 +155,7 @@
             </xsl:if>
             <xsl:if test="$debugging = 'true'">
                 <div id="blackout">
-                    <div class="popup">
+                    <div class="popup" id="splits-popup">
                         <div class="popup-options">
                             <select name="edblock"></select>
                             <div>
@@ -172,9 +172,31 @@
                             </div>
                         </div>
                         <button type="button">Align</button>
-                        <div id="output-boxen">
-                            <div id="popup-output"></div>
-                            <div id="popup-warnings"></div>
+                        <div class="output-boxen">
+                            <div class="popup-output"></div>
+                            <div class="popup-warnings"></div>
+                        </div>
+                    </div>
+                    <div class="popup" id="variants-popup">
+                        <div class="popup-options">
+                            <select name="edblock"></select>
+                            <div>
+                                <input type="checkbox" id="normlem" checked="true"/>
+                                <label>Use normalized readings</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="mergerdgs" checked="true"/>
+                                <label>Merge groups</label>
+                            </div>
+                            <div>
+                                <label for="teifile">Select alignment file... </label>
+                                <input type="file" autocomplete="off" id="teifile" name="teifile" accept=".xml"/>
+                            </div>
+                        </div>
+                        <!--div class="boxen">
+                        </div-->
+                        <div class="output-boxen">
+                            <div class="popup-output"></div>
                         </div>
                     </div>
                 </div>
