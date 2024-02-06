@@ -1,6 +1,7 @@
 import { Transliterate } from './lib/js/transliterate.mjs';
 import { GitHubFunctions } from './lib/js/githubfunctions.mjs';
 import { ApparatusViewer } from './lib/js/apparatus.mjs';
+import { AlignmentViewer } from './lib/js/alignment.mjs';
 import Splitter from './lib/debugging/splits.mjs';
 import { addVariants } from './lib/debugging/variants.mjs';
 import { Sanscript } from './lib/js/sanscript.mjs';
@@ -13,6 +14,13 @@ const cachedContent = new Map();
 
 const lookup = (e) => {
 //if(e.target.nodeName === 'RT' || e.target.classList?.contains('word')) {
+    const apointer = e.target.closest('.alignment-pointer');
+    if(apointer) {
+        e.preventDefault();
+        AlignmentViewer.viewer(apointer.href);
+        return;
+    }
+
     const word = e.target.closest('.word');
     if(word) {
         //const clean = e.target.dataset.norm.trim();
@@ -248,6 +256,7 @@ const makeWord = (entry) => {
         noteel.dataset.anno = '';
         noteel.append('†');
         const annoel = document.createElement('span');
+        annoel.lang = note.lang;
         annoel.className = 'anno-inline';
         annoel.innerHTML = note.innerHTML;
         noteel.appendChild(annoel);

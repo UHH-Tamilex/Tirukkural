@@ -335,6 +335,21 @@
     </xsl:element>
 </xsl:template>
 
+<xsl:template match="x:entry/x:note">
+    <xsl:element name="span">
+        <xsl:attribute name="class">note</xsl:attribute>
+        <xsl:attribute name="lang">
+            <xsl:choose>
+                <xsl:when test="@xml:lang">
+                    <xsl:value-of select="@xml:lang"/>
+                </xsl:when>
+                <xsl:otherwise><xsl:text>en</xsl:text></xsl:otherwise>
+            </xsl:choose>
+        </xsl:attribute>
+        <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
+
 <xsl:template match="x:superEntry">
     <xsl:element name="div">
         <xsl:attribute name="class">
@@ -401,6 +416,26 @@
         <xsl:attribute name="style">display: none;</xsl:attribute>
     <xsl:call-template name="inline-apparatus"/>
     <xsl:apply-templates select="$apparatus/x:listApp"/>
+    <xsl:if test="$apparatus/@source">
+        <xsl:element name="a">
+            <xsl:attribute name="href"><xsl:value-of select="$apparatus/@source"/></xsl:attribute>
+            <xsl:attribute name="data-anno">Textual alignment of this section</xsl:attribute>
+            <xsl:attribute name="class">alignment-pointer</xsl:attribute>
+                <svg width="235.08" height="188" version="1.1" viewBox="0 0 235.08 188" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                <style type="text/css">
+                    .st0{fill:none;stroke:rgb(168,81,16);stroke-width:10;stroke-linecap:round;stroke-linejoin:round;}
+                </style>
+                <path class="st0" d="m2.3798 176.26v-164.52c0-5.1785 5.9714-9.3612 13.365-9.3612h203.45c7.3932 0 13.365 4.1827 13.365 9.3612v164.52c0 5.1785-5.9714 9.3612-13.365 9.3612h-203.45c-7.3931-0.19918-13.365-4.3818-13.365-9.3612z"/>
+                <line class="st0" x1="48.587" x2="48.587" y1="185.42" y2="2.3798"/>
+                <line class="st0" x1="232.7" x2="50.009" y1="139.81" y2="139.81"/>
+                <line class="st0" x1="232.7" x2="50.009" y1="94" y2="94"/>
+                <line class="st0" x1="232.7" x2="50.009" y1="48.09" y2="48.09"/>
+                <line class="st0" x1="94.368" x2="94.368" y1="185.42" y2="2.3798"/>
+                <line class="st0" x1="140.72" x2="140.72" y1="185.42" y2="2.3798"/>
+                <line class="st0" x1="186.5" x2="186.5" y1="185.42" y2="2.3798"/>
+                </svg>
+        </xsl:element>
+    </xsl:if>
     </xsl:element>
 </xsl:template>
 <xsl:template match="x:standOff/x:listApp">
