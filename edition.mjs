@@ -308,8 +308,18 @@ const applymarkup = (standoff) => {
             for(const seg of entry.querySelectorAll(':scope > .fs')) {
                 const segel = document.createElement('span');
                 segel.className = 'choiceseg';
-                for(const subentry of seg.querySelectorAll('.fs')) {
-                    const word = makeWord(subentry);
+                const subentries = seg.querySelectorAll('.fs');
+                if(subentries.length > 0) {
+                    for(const subentry of subentries) {
+                        const word = makeWord(subentry);
+                        segel.appendChild(word);
+                        //if(seg.dataset.select === '0')
+                        if(seg === seg.parentElement.firstElementChild)
+                            wordcount = wordcount + wordLength(word);
+                    }
+                }
+                else {
+                    const word = makeWord(seg);
                     segel.appendChild(word);
                     //if(seg.dataset.select === '0')
                     if(seg === seg.parentElement.firstElementChild)
