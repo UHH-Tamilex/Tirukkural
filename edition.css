@@ -118,6 +118,10 @@ span.word.split {
     margin-right: 0;
 }
 
+.choiceseg .word:not(:last-child)::after {
+    content: ' ';
+}
+
 span.word.ignored {
     display: none;
 }
