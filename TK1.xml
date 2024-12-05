@@ -36,16 +36,22 @@
 <interp type="alignment" select="0">6ML11MG21M2G7M,49M</interp>
 <entry>
 <form>akaram</form>
+<def>the syllable a</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>mutala</form>
-<def>base they</def>
+<def>beginning they</def>
 <gramGrp>
-  <gram type="role">adjective</gram>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter plural</gram>
 </gramGrp>
 </entry>
 <entry>
 <form><c type="glide">v</c>eḻutt<c type="elided">u</c></form>
+<def>written character</def>
 <form type="sandhi"><c type="glide">v</c>eḻutt</form>
 <gramGrp>
   <gram type="role">noun</gram>
@@ -60,18 +66,27 @@
 </entry>
 <entry>
 <form>āti</form>
-<def>galopping</def>
+<def>origin</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>pakavaṉ</form>
+<def>Lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>mutaṟṟ<c type="elided">u</c>-ē</form>
+<def>beginning it</def>
 <form type="simple">mutaṟṟu</form>
 <form type="sandhi">mutaṟṟ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
