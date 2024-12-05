@@ -8,12 +8,36 @@
         </titleStmt>
         <sourceDesc>
             <listWit>
-                
+                <witness xml:id="TK1" source="TK1.xml"><abbr>TK1</abbr><expan><title xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ta">Tirukkuṟaḷ</title> 1. <term xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ta">kaṭavuḷ vāḻttu</term>.</expan></witness>
             </listWit>
         </sourceDesc>
     </fileDesc>
   </teiHeader>
 
-<text xml:lang="ta"><body></body>
+<text xml:lang="ta"><body><div><head>a</head><entry>
+<form type="standard">akaram</form>
+<def xml:lang="en">the syllable a</def><cit><q corresp="#TK1"> <hi>akara mu</hi>tala veḻuttellā</q></cit></entry>
+</div><div><head>ā</head><entry>
+<form type="standard">āti</form>
+<def xml:lang="en">origin</def><cit><q corresp="#TK1">veḻuttellā <hi>māti</hi> pakavaṉ mutaṟṟē</q></cit></entry>
+</div><div><head>e</head><entry>
+<form type="standard">ellām</form>
+<def xml:lang="en">all</def><cit><q corresp="#TK1">mutala veḻu<hi>ttellā mā</hi>ti pakavaṉ</q></cit></entry>
+</div><div><head>p</head><entry>
+<form type="standard">pakavaṉ</form>
+<def xml:lang="en">Lord</def><cit><q corresp="#TK1">māti <hi>pakavaṉ</hi> mutaṟṟē yulak</q></cit></entry>
+</div><div><head>m</head><entry>
+<form type="standard">mutala</form>
+<def xml:lang="en">beginning they</def><cit><q corresp="#TK1">akara <hi>mutala</hi> veḻuttellā māti</q></cit></entry>
+<entry>
+<form type="standard">mutaṟṟu</form>
+<form type="sandhi">mutaṟṟ</form><gram type="particle">ē</gram><def xml:lang="en">beginning it</def><cit><q corresp="#TK1">pakavaṉ <hi>mutaṟṟē</hi> yulak</q></cit></entry>
+</div><div><head>y</head><entry>
+<form type="standard">yulaku</form>
+<def xml:lang="en">world</def><cit><q corresp="#TK1">mutaṟṟē <hi>yulak</hi></q></cit></entry>
+</div><div><head>v</head><entry>
+<form type="standard">veḻuttu</form>
+<form type="sandhi">veḻutt</form><def xml:lang="en">written character</def><cit><q corresp="#TK1">mutala <hi>veḻutte</hi>llā māti</q></cit></entry>
+</div></body>
 </text>
 </TEI>
