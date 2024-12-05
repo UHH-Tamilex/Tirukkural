@@ -21,19 +21,19 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '20'
 
       - name: build word index
         run: |
-          cd _indexer
-          mkdir wordlists
+          cd lib/_indexer
           yarn install
-          for f in ../TK*.xml; do yarn go $f; done
-          yarn combine
-          yarn pageindex
+          yarn pageindex TK Tirukkuṟaḷ
+          yarn todb TK
+          yarn dbtohtml Tirukkuṟaḷ
+          git pull
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: automatic wordindex update
-          file_pattern: wordindex.xml index.html
+          file_pattern: wordindex.db wordindex.html index.html
           commit_user_name: Tamilex Bot
