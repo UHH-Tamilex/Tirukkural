@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 51. <term xml:lang="ta">vāḻkkaittuṇai nalam</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK51">
+            <lg type="edition">
+<l>maṉaittakka māṇpuṭaiya ḷākittaṟ koṇṭāṉ</l>
+<l>vaḷattakkāḷ vāḻkkait tuṇai</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>She who has the excellence of home virtues, and can expend within the means of her husband, is a help in the domestic state.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

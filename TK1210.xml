@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1210. <term xml:lang="ta">niṉaintu avar pulampal</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1210">
+            <lg type="edition">
+<l>viṭāatu ceṉṟāraik kaṇṇiṉāṟ kāṇap </l>
+<l>paṭāati vāḻi mati</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>May you live, O Moon! Do not set, that I mine see him who has departed without quitting my soul.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

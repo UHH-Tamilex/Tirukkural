@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1241. <term xml:lang="ta">neñcoṭu kiḷattal</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1241">
+            <lg type="edition">
+<l>niṉaittoṉṟu collāyō neñcē yeṉaittoṉṟum </l>
+<l>mevvanōy tīrkkum maruntu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>O my soul, will you not think and tell me some medicine be it what it may, that can cure this incurable malady?</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

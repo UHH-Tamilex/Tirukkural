@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 756. <term xml:lang="ta">poruḷ ceyal vakai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK756">
+            <lg type="edition">
+<l>uṟuporuḷu mulku poruḷuntaṉoṉṉārt</l>
+<l>teṟuporuḷum vēntaṉ poruḷ</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Unclaimed wealth, wealth acquired by taxes, and wealth (got) by conquest of foes are (all) the wealth of the king.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

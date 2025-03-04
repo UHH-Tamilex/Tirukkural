@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 444. <term xml:lang="ta">periyārait tuṇaikkōṭal</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK444">
+            <lg type="edition">
+<l>tammiṟ periyār tamarā voḻukutal</l>
+<l> vaṉmaiyu ḷellān talai</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>So to act as to make those men, his own, who are greater than himself is of all powers the highest.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 66. <term xml:lang="ta">putalvaraip peṟutal</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK66">
+            <lg type="edition">
+<l>kuḻaliṉi tiyāḻiṉi teṉpatam makkaṇ</l>
+<l>maḻalaiccoṟ kēḷā tavar</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>The pipe is sweet, the lute is sweet, say those who have not heard the prattle of their own children.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

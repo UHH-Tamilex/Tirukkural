@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 715. <term xml:lang="ta">avai aṟital</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK715">
+            <lg type="edition">
+<l>naṉṟeṉ ṟevaṟṟuḷḷunaṉṟē mutuvaruṇ </l>
+<l>muntu kiḷavāc ceṟivu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>The modesty by which one does not rush forward and speak in (an assembly of) superiors is the best among all (one's) good qualities.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

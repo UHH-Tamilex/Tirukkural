@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1236. <term xml:lang="ta">uṟuppu nalaṉ aḻital</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1236">
+            <lg type="edition">
+<l>toṭiyoṭu tōṇekiḻa nōva lavaraik </l>
+<l>koṭiya reṉakkūṟa ṉontu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>I am greatly pained to hear you call him a cruel man, just because your shoulders are reduced and your bracelets loosened.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

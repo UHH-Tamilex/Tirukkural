@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1177. <term xml:lang="ta">kaṇ vituppu aḻital</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1177">
+            <lg type="edition">
+<l>uḻantuḻan tuṇṇī raṟuka viḻaintiḻaintu </l>
+<l> vēṇṭi yavarkaṇṭa kaṇ</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>The eyes that became tender and gazed intently on him, may they suffer so much as to dry up the fountain of their tears.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

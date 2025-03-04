@@ -1,0 +1,116 @@
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1. <term xml:lang="ta">kaṭavuḷ vāḻttu</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p/>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1">
+            <lg type="edition">
+<l>akara mutala veḻuttellā māti</l>
+<l>pakavaṉ mutaṟṟē yulaku</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>As the letter A is the first of all letters, so the eternal God is first in the world.</l>
+            </lg>
+        </div>
+        <div xml:id="TK1-Pari1">
+            <p type="edition"> 
+                     (itaṉporuḷ) akaramākiya mutalaiyuṭaiyaṉa eḻuttukkaḷellām; atupōla, ātipakavaṉākiya mutalaiyuṭait tulaku.—(eṉṟa vāṟu).
+            </p>
+        </div>
+        <div xml:id="TK1-Pari2">
+          <p type="edition">
+            itu talaimaipaṟṟivanta eṭuttukkoṭṭuvamai.
+            akarattiṟkuttalaimai vikārattāṉaṉṟi nātamāttiraiyākiya viyalpāṟ piṟattalāṉum,
+            ātipakavaṟkut talaimai ceyaṟkai yuṇarvāṉaṉṟi iyaṟkai yuṇarvāṉ muṟṟu muṇartalāṉuṅ koḷka. tamiḻeḻuttiṟkēyaṉṟi vaṭaveḻuttiṟku mutalātaṉōkki ‘eḻut tellām’ eṉṟār.
+            āti pakavaṉeṉṉumirupeyaroṭṭuppaṇputtokai vaṭanūṉmuṭipu. ulakeṉṟa tīṇ ṭuyirkaṇmēṉiṉṟatu. kāṇappaṭṭa vulakattāṟ kāṇap paṭāta kaṭavuṭ kuṇmai kūṟavēṇṭutaliṉ,
+            ‘ātipakavaṉ mutaṟṟē yulaku’ eṉa vulakiṉmēl vaittuk kūṟiṉār; kūṟiṉārēṉum, ulakiṟku muta lātipakava ṉeṉpatu karuttākakkoḷka. ēkāran tēṟṟattiṉkaṇ vantatu. ippāṭṭāṉ mutaṟkaṭavuḷ tuṇmai kūṟappaṭṭatu.
+          </p>
+        </div>
+        <div>
+        <trailer>Parimēlaḻakar</trailer>
+        </div>
+    </body>
+  </text>
+<standOff corresp="#TK1" type="wordsplit">
+<interp type="alignment" select="0">6ML11MG21M2G7M,49M</interp>
+<entry>
+<form>akaram</form>
+<def>the syllable a</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mutala</form>
+<def>beginning they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eḻutt<c type="elided">u</c></form>
+<def>written character</def>
+<form type="sandhi"><c type="glide">v</c>eḻutt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ellām</form>
+<def>all</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āti</form>
+<def>origin</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pakavaṉ</form>
+<def>Lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mutaṟṟ<c type="elided">u</c>-ē</form>
+<def>beginning it</def>
+<form type="simple">mutaṟṟu</form>
+<form type="sandhi">mutaṟṟ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ulaku</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>

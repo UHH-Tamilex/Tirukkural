@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1010. <term xml:lang="ta">naṉṟi il celvam</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1010">
+            <lg type="edition">
+<l>cīruṭaic celvar ciṟutuṉi māri </l>
+<l>vaṟaṅkūrn taṉaiya tuṭaittu.</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>The short-lived poverty of those who are noble and rich is like the clouds becoming poor (for a while).</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

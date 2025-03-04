@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 730. <term xml:lang="ta">avai añcāmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK730">
+            <lg type="edition">
+<l>uḷareṉiṉu millārō ṭopparkaḷaṉañcik</l>
+<l>kaṟṟa celaccollā tār</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Those who through fear of the assembly are unable to set forth their learning in an interesting manner, though alive, are yet like the dead.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

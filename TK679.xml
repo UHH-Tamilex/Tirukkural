@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 679. <term xml:lang="ta">viṉai ceyal vakai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK679">
+            <lg type="edition">
+<l>naṭṭārkku nallaceyaliṉ viraintatē</l>
+<l>oṭṭārai oṭṭik koḷal</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>One should rather hasten to secure the alliance of the foes (of one's foes) than perform good offices to one's friends</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

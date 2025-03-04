@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 452. <term xml:lang="ta">ciṟṟiṉam cērāmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK452">
+            <lg type="edition">
+<l>nilattiyalpā ṉīrtirin taṟṟāku māntark </l>
+<l> kiṉattiṉiyalpa tāku maṟivu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>As water changes (its nature), from the nature of the soil (in which it flows), so will the character of men resemble that of their associates.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

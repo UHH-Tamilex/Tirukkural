@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 585. <term xml:lang="ta">oṟṟu āṭal</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK585">
+            <lg type="edition">
+<l>kaṭāa uruvoṭu kaṇṇañcā tiyāṇṭu </l>
+<l> mukāamai vallatē yoṟṟu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>A spy is one who is able to assume an appearance which may create no suspicion (in the minds of others), who fears no man's face, and who never reveals (his purpose).</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

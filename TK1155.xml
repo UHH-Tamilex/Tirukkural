@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1155. <term xml:lang="ta">pirivu āṟṟāmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1155">
+            <lg type="edition">
+<l>ōmpi ṉamaintār pirivōmpal maṟṟavar </l>
+<l>nīṅki ṉaritāṟ puṇarvu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>If you would save (my life), delay the departure of my destined (husband); for if he departs, intercourse will become impossible.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+
+</TEI>

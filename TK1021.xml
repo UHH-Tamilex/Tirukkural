@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1021. <term xml:lang="ta">kuṭi ceyal vakai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1021">
+            <lg type="edition">
+<l>karumañ ceyavoruvaṉ kaitūvē ṉeṉṉum </l>
+<l>perumaiyiṟ pīṭuṭaiya til</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>There is no higher greatness than that of one saying. I will not cease in my effort (to raise my family).</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

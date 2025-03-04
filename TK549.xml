@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 549. <term xml:lang="ta">ceṅkōṉmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK549">
+            <lg type="edition">
+<l>kuṭipuṟaṅ kāttōmpik kuṟṟaṅ kaṭital </l>
+<l> vaṭuvaṉṟu vēntaṉ ṟoḻil</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>In guarding his subjects (against injury from others), and in preserving them himself; to punish crime is not a fault in a king, but a duty.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

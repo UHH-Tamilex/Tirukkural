@@ -1,0 +1,128 @@
+# Transcription conventions
+
+## Sandhi
+
+- `~` inserted glide (y, v)
+- `+` geminated consonant
+- `*` or `'` elided overshort -u
+- `(i)` -u replaced with -i
+
+## Particles
+
+- `-amma`
+- `-arō`
+- `-ā`
+- `-ār`
+- `-āl`
+- `-ālamma`
+- `-āṟṟilla`
+- `-ikā`
+- `-um`
+- `-umār`
+- `-ē`
+- `-ō`
+- `-kol`
+- `-kollō`
+- `-kollē`
+- `-koṉ`
+- `koṉ-`
+- `-tilla`
+- `-tillamma`
+- `-teyya`
+- `maṟṟu-`, `maṟṟ*-`
+- `-maṟṟu`, `-maṟṟ*`
+- `-maṟṟē`
+- `-ōmaṟṟē`
+- `-maṟṟilla`
+- `-maṉ`
+- `-maṉṟilla`
+- `-maṉṉō`
+- `-maṉṉē`
+- `-maṉṉum`
+- `-maṉṟa`
+- `-maṉṟamma`
+- `-mātu`, `-māt*`
+- `-mātō`
+- `-māḷa`
+- `-yāḻa`
+- `yāḻa-`
+
+## Word-by-word gloss
+
+- `(1.)` - first person
+- `(2.)` - second person
+- `(3.)` - third person
+    - `(1.pl.)` - first person plural
+    - ...etc.
+- `(abs.)` - absolutive/viṉaiyeccam
+- `(acc.)` - accusative
+- `(adj.)` - adjective
+- `(adv.)` - adverb
+- `(comp.)` - comparative
+- `(conc.)` - concessive
+- `(dat.)` - dative
+- `(f.)` - feminine
+- `(f.v.)` - finite verb
+- `(gen.)` - genitive
+- `(h.)` - honorific
+    - `(h.acc.)` - honorific dative
+    - ...etc.
+- `(hab.fut.)` - habitual future
+- `(i.a.)` - imperfect aspect
+    - `(i.a.n.sg.)` - imperfect aspect neuter singular
+    - `(i.a.n.pl.)` - imperfect aspect neuter plural
+    - ...etc.
+- `(id.)` - ideophone
+- `(inf.)` - infinitive
+- `(inst.)` - instrumental
+- `(inter.pron.)` - interrogative pronoun
+- `(ipt.)` - imperative
+    - `(ipt.pl.)` - imperative plural
+    - ...etc.
+- `(loc.)` - locative
+- `(m.)` - masculine
+- `(muṟ.)` - muṟṟeccam
+- `(n.)` - noun
+- `(n.sg.)` - neuter singular
+- `(n.pl.)` - neuter plural
+- `(neg.)` - negative
+    - `(neg.abs.)` - negative absolutive
+    - `(neg.m.sg.)` - negative masculine singular
+    - ...etc.
+- `(obl.)` - oblique
+- `(opt.)` - optative
+- `(p.a.)` - perfective aspect
+    - `(p.a.n.sg.)` - perfective aspect neuter singular
+    - `(p.a.n.pl.)` - perfective aspect neuter plural
+    - ...etc.
+- `(p.n.)` - proper name
+- `(part.n.)` - participial noun
+- `(pey.)` - peyareccam
+- `(pey.i.a.)` - peyareccam imperfective aspect
+- `(pey.p.a.)` - peyareccam perfective aspect
+- `(pl.)` - plural
+- `(pl.dat.)` - plural
+- `(pl.obl.)` - plural oblique
+- `(pl.sub.)` - plural subjunctive
+- `(pron.n.)` - pronominalised noun
+    - `(pron.n.n.sg.)` - pronominalised noun neuter singular
+    - `(pron.n.n.pl.)` - pronominalised noun neuter plural
+    - ...etc.
+- `(r.n.)` - root noun
+- `(sg.)` - singular
+- `(soc.)` - sociative
+- `(sub.)` - subjuntive
+    - `(sub.2.sg.)` - subjuntive 2nd person singular
+    - `(sub.2.pl.)` - subjuntive 2nd person plural
+    - ...etc.
+- `(suff.)` - suffix
+- `(v.n.)` - verbal noun
+- `(v.r.)` - verbal root
+    - `(v.r.adj.)` - verbal root as adjective
+    - `(v.r.ger.)` - verbal root as gerundive
+    - `(v.r.imp.)` - verbal root as imperative
+    - `(v.r.inf.)` - verbal root as infinitive
+    - `(v.r.pey.)` - verbal root as peyareccam
+    - `(v.r.pey.p.a.)` - verbal root as peyareccam perfective aspect
+    - `(v.r.pey.i.a.)` - verbal root as peyareccam imperfective aspect
+- `(voc.)` - vocative

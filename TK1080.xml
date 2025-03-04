@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1080. <term xml:lang="ta">kayamai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1080">
+            <lg type="edition">
+<l>eṟṟiṟ kuriyar kayavaroṉ ṟuṟṟakkāl</l>
+<l>viṟṟaṟ kuriyar viraintu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>The base will hasten to sell themselves as soon as a calamity has befallen them. For what else are they fitted ?</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

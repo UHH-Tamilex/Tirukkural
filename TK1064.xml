@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1064. <term xml:lang="ta">iravu accam</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1064">
+            <lg type="edition">
+<l>iṭamellāṅ koḷḷāt takaittē iṭaṉillāk </l>
+<l>kālum miravollāc cālpu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Even the whole world cannot sufficiently praise the dignity that would not beg even in the midst of destitution.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

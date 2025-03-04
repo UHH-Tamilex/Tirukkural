@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 287. <term xml:lang="ta">kaḷḷāmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK287">
+            <lg type="edition">
+<l>kaḷaveṉṉuṅ kāraṟi vāṇmai yaḷaveṉṉu</l>
+<l>māṟṟal purintārka ṇil</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>That black-knowledge which is called fraud, is not in those who desire that greatness which is called rectitude.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

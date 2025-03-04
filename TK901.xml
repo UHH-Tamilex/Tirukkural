@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 901. <term xml:lang="ta">peṇvaḻic cēṟal</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK901">
+            <lg type="edition">
+<l>maṉaiviḻaivār māṇpaya ṉeytār viṉaiviḻaivār </l>
+<l> vēṇṭāp poruḷu matu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Those who lust after their wives will not attain the excellence of virtue and it is just this that is not desired by those who are bent on acquiring wealth.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 257. <term xml:lang="ta">pulāl maṟuttal</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK257">
+            <lg type="edition">
+<l>uṇṇāmai vēṇṭum pulālaip piṟitoṉṟiṉ</l>
+<l>puṇṇa tuṇarvārp peṟiṉ</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>If men should come to know that flesh is nothing but the unclean ulcer of a body, let them abstain from eating it.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

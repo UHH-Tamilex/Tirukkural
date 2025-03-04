@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 971. <term xml:lang="ta">perumai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK971">
+            <lg type="edition">
+<l>oḷiyoruvaṟ kuḷḷa veṟukkai yiḷiyoruvaṟku</l>
+<l>aḵtiṟantu vāḻu meṉal</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>One's light is the abundance of one's courage; one's darkness is the desire to live destitute of such (a state of mind.)</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 810. <term xml:lang="ta">paḻaimai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK810">
+            <lg type="edition">
+<l>viḻaiyār viḻaiyap paṭuvar paḻaiyārkaṭ</l>
+<l>paṇpiṉ ṟalaippiriyā tār</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Even enemies will love those who have never changed in their affection to their long-standingfriends.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

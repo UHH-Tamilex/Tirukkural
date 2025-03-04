@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 539. <term xml:lang="ta">poccāvāmai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK539">
+            <lg type="edition">
+<l>ikaḻcciyiṟ keṭṭārai yeṇṇuka tānta</l>
+<l> makiḻcciyiṉ maintuṟum pōḻtu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Let (a king) think of those who have been ruined by neglect, when his mind is elated with joy.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

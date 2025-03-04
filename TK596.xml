@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 596. <term xml:lang="ta">ūkkam uṭaimai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK596">
+            <lg type="edition">
+<l>uḷḷuva tellā muyarvuḷḷal maṟṟatu </l>
+<l> taḷḷiṉun taḷḷāmai tīrttu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>In all that a king thinks of, let him think of his greatness; and if it should be thrust from him (by fate), it will have the nature of not being thrust from him.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

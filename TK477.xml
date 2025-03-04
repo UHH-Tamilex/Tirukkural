@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 477. <term xml:lang="ta">vali aṟital</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK477">
+            <lg type="edition">
+<l>āṟṟi ṉaḷavaṟin tīka vatuporuḷ</l>
+<l> pōṟṟi vaḻaṅku neṟi</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Let a man know the measure of his ability (to give), and let him give accordingly; such giving is the way to preserve his property.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

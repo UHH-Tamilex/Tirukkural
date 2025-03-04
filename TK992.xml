@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 992. <term xml:lang="ta">paṇpu uṭaimai</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK992">
+            <lg type="edition">
+<l>aṉpuṭaimai yāṉṟa kuṭippiṟatta livviraṇṭum</l>
+<l>paṇpuṭaimai yeṉṉum vaḻakku</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Affectionateness and birth in a good family, these two constitute what is called a proper behaviour to all.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

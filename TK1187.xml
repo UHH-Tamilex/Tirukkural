@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1187. <term xml:lang="ta">pacappu uṟu paruvaral</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK1187">
+            <lg type="edition">
+<l>pullik kiṭantēṉ puṭaipeyarntē ṉavvaḷavi </l>
+<l>laḷḷikkoḷ vaṟṟē pacappu</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>I who was in close embrace just turned aside and the moment I did so, sallowness came on me like something to be seized on.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>

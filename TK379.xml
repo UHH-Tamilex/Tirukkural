@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">Tirukkuṟaḷ</title> 379. <term xml:lang="ta">ūḻ</term>.</title>
+        <editor role="translator">George Uglow Pope</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+        <div xml:id="TK379">
+            <lg type="edition">
+<l>naṉṟāmkā ṉallavāk kāṇpava raṉṟāṅkā</l>
+<l>lallaṟ paṭuva tevaṉ</l>            
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>How is it that those, who are pleased with good fortune, trouble themselves when evil comes, (since both are equally the decree of fate) ?</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+</TEI>
