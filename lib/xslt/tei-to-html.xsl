@@ -32,7 +32,7 @@
             <xsl:element name="link">
                 <xsl:attribute name="rel">icon</xsl:attribute>
                 <xsl:attribute name="type">image/png</xsl:attribute>
-                <xsl:attribute name="href">favicon-32.png</xsl:attribute>
+                <xsl:attribute name="href"><xsl:value-of select="$root"/>img/favicon-32.png</xsl:attribute>
             </xsl:element>
             <xsl:element name="link">
                 <xsl:attribute name="rel">stylesheet</xsl:attribute>

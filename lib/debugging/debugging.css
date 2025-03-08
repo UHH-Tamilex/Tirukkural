@@ -274,6 +274,19 @@ button.important {
     border-color: #eeee00;
     color: black;
 }
+button[disabled] {
+    opacity: 50%;
+}
+button[disabled]:hover {
+    background-color: rgb(240,202,121);
+    border-color: rgb(240,202,121);
+}
+button.important[disabled]:hover {
+    background-color: rgb(255,73,73);
+    border-color: rgb(240,202,121);
+    color: white;
+    font-weight: bold;
+}
 
 #button_savebutton, #button_wordsplitbutton, #button_editbutton {
     display: none;
