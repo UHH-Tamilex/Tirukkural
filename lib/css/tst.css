@@ -301,6 +301,17 @@ div.teitext {
     width: 87.5%;
 }
 
+#record-fat section > table.texttitle, #record-thin section > table.texttitle {
+    max-width: 100%;
+    width: 100%;
+    top: 0;
+    padding-bottom: 1rem;
+    position: sticky;
+    z-index: 2;
+    backdrop-filter: blur(2px);
+    background: linear-gradient(rgb(255,255,248) 60%, rgba(255,255,255,0));
+}
+
 #record-fat section > div.para.wide, #record-fat section > div.lg.wide {
     max-width: 100%;
     width: 87.5%;
