@@ -16,11 +16,11 @@ h4.mspart {
     hyphens: auto;
 }
 
-#summary :lang(sa) {
+#summary [lang^="sa"] {
     font-family: inherit;
 }
 
-.msItem :lang(sa) {
+.msItem [lang^="sa"] {
     font-family: inherit;
 }
 
@@ -32,7 +32,7 @@ h4.mspart {
     margin-bottom: 0;
 }
 
-#physDesc :lang(sa) {
+#physDesc [lang^="sa"] {
     font-family: inherit;
 }
 
@@ -44,7 +44,7 @@ h4.mspart {
    /* width: inherit;*/
 }
 
-#history :lang(sa) {
+#history [lang^="sa"] {
     font-family: inherit;
 }
 
@@ -85,7 +85,7 @@ span.list.numbered .item {
     width: 5rem;
 }
 
-em.title:lang(ta-Taml), em.title:lang(sa-Beng), em.title:lang(sa-Deva), em.title:lang(sa-Gran), em.title:lang(sa-Mlym), em.title:lang(sa-Nand), em.title:lang(sa-Newa), em.title:lang(sa-Shrd), em.title:lang(sa-Telu), .teitext em.title, .excerpt em.title {
+em.title[lang^="ta-Taml"], em.title[lang^="sa-Beng"], em.title[lang^="sa-Deva"], em.title[lang^="sa-Gran"], em.title[lang^="sa-Mlym"], em.title[lang^="sa-Nand"], em.title[lang^="sa-Newa"], em.title[lang^="sa-Shrd"], em.title[lang^="sa-Telu"], .teitext em.title, .excerpt em.title {
     font-style: normal;
 }
 /*
@@ -103,7 +103,7 @@ h1 {
     margin-right: 0.5rem;
 }
 
-h1 em.title.tamil, h1 em.title:lang(sa-Deva), h1 em.title:lang(sa-Telu) {
+h1 em.title[lang^="ta-Taml"], h1 em.title[lang^="sa-Deva"], h1 em.title[lang^="sa-Telu"] {
     line-height: 4rem;
 }
 

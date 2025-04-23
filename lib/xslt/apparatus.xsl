@@ -49,8 +49,9 @@
                 <xsl:value-of select="$msstring"/>
                 <xsl:text> </xsl:text>
              </xsl:variable>
+             <xsl:variable name="par" select="x:rdgGrp | ."/>
              <xsl:choose>
-                 <xsl:when test="./x:rdg[not(@type='main')][contains(concat(' ', normalize-space(@wit), ' '),$spacestring)]">
+                 <xsl:when test="$par/x:rdg[not(@type='main')][contains(concat(' ', normalize-space(@wit), ' '),$spacestring)]">
                     <xsl:attribute name="class">msid mshover</xsl:attribute>
                  </xsl:when>
                  <xsl:otherwise>
@@ -129,9 +130,12 @@
     <xsl:variable name="xmlid" select="@xml:id"/>
     <xsl:variable name="id"><xsl:text>#</xsl:text><xsl:value-of select="$xmlid"/></xsl:variable>
     <xsl:variable name="apparatus" select="//x:standOff[@type='apparatus' and @corresp=$id]"/>
-    <xsl:variable name="parallels" select="//x:standOff[@type='parallels' and @corresp=$id]"/>
+    <xsl:variable name="notes1" select="//x:standOff[@type='notes1' and @corresp=$id]"/>
+    <xsl:variable name="notes2" select="//x:standOff[@type='notes2' and @corresp=$id]"/>
+    <xsl:variable name="notes3" select="//x:standOff[@type='notes3' and @corresp=$id]"/>
+    <xsl:variable name="notes4" select="//x:standOff[@type='notes4' and @corresp=$id]"/>
     <xsl:choose>
-        <xsl:when test="$apparatus or $parallels">
+        <xsl:when test="$apparatus or $notes1 or $notes2 or notes3 or $notes4">
             <div class="lg wide">
                 <div>
                     <xsl:call-template name="lang"/>
@@ -142,8 +146,11 @@
                     <xsl:apply-templates/>
                 </div>
                 <xsl:call-template name="apparatus-standoff">
+                    <xsl:with-param name="notes1" select="$notes1"/>
                     <xsl:with-param name="apparatus" select="$apparatus"/>
-                    <xsl:with-param name="parallels" select="$parallels"/>
+                    <xsl:with-param name="notes2" select="$notes2"/>
+                    <xsl:with-param name="notes3" select="$notes3"/>
+                    <xsl:with-param name="notes4" select="$notes4"/>
                 </xsl:call-template>
             </div>
         </xsl:when>
@@ -207,9 +214,12 @@
     <xsl:variable name="xmlid" select="@xml:id"/>
     <xsl:variable name="id"><xsl:text>#</xsl:text><xsl:value-of select="$xmlid"/></xsl:variable>
     <xsl:variable name="apparatus" select="//x:standOff[@type='apparatus' and @corresp=$id]"/>
-    <xsl:variable name="parallels" select="//x:standOff[@type='parallels' and @corresp=$id]"/>
+    <xsl:variable name="notes1" select="//x:standOff[@type='notes1' and @corresp=$id]"/>
+    <xsl:variable name="notes2" select="//x:standOff[@type='notes2' and @corresp=$id]"/>
+    <xsl:variable name="notes3" select="//x:standOff[@type='notes3' and @corresp=$id]"/>
+    <xsl:variable name="notes4" select="//x:standOff[@type='notes4' and @corresp=$id]"/>
     <xsl:choose>
-        <xsl:when test="$apparatus or $parallels">
+        <xsl:when test="$apparatus or $notes1 or $notes2 or notes3 or $notes4">
             <div class="lg wide">
                 <div>
                     <xsl:call-template name="lang"/>
@@ -220,8 +230,11 @@
                     <xsl:apply-templates/>
                 </div>
                 <xsl:call-template name="apparatus-standoff">
+                    <xsl:with-param name="notes1" select="$notes1"/>
                     <xsl:with-param name="apparatus" select="$apparatus"/>
-                    <xsl:with-param name="parallels" select="$parallels"/>
+                    <xsl:with-param name="notes2" select="$notes2"/>
+                    <xsl:with-param name="notes3" select="$notes3"/>
+                    <xsl:with-param name="notes4" select="$notes4"/>
                 </xsl:call-template>
             </div>
         </xsl:when>
@@ -376,7 +389,7 @@
     <xsl:element name="span">
         <xsl:attribute name="class">app</xsl:attribute>
         <xsl:choose>
-            <xsl:when test="x:lem">
+            <xsl:when test="x:lem | x:rdgGrp[@type='lemma']">
                 <xsl:call-template name="lemma">
                     <xsl:with-param name="corresp" select="$corresp"/>
                 </xsl:call-template>
@@ -385,9 +398,9 @@
                 <span class="lem lem-anchor">*</span>
             </xsl:otherwise>
         </xsl:choose>
-        <xsl:if test="x:rdg | x:rdgGrp">
+        <xsl:if test="x:rdg | x:rdgGrp[not(@type='lemma')]">
             <span class="rdgs">
-                <xsl:for-each select="./x:rdg | ./x:rdgGrp">
+                <xsl:for-each select="./x:rdg | ./x:rdgGrp[not(@type='lemma')]">
                     <xsl:call-template name="reading">
                         <xsl:with-param name="corresp" select="$corresp"/>
                     </xsl:call-template>
@@ -407,19 +420,36 @@
     <!--xsl:variable name="corresp" select="ancestor::*[@corresp]/@corresp"/-->
     <xsl:element name="span">
         <xsl:attribute name="class">lem</xsl:attribute>
-        <xsl:attribute name="data-corresp"><xsl:value-of select="@corresp"/></xsl:attribute>
-        <xsl:attribute name="data-text"><xsl:value-of select="x:lem/text()"/></xsl:attribute>
-        <xsl:apply-templates select="x:lem/node()"/>
-    </xsl:element>
-    <xsl:if test="x:lem/@wit">
-        <span>
-            <xsl:attribute name="class">lem-wit</xsl:attribute>
-            <xsl:call-template name="splitwit">
-                <xsl:with-param name="mss" select="x:lem/@wit"/>
-                <xsl:with-param name="corresp" select="$corresp"/>
-            </xsl:call-template>
+        <xsl:attribute name="data-loc"><xsl:value-of select="@loc"/></xsl:attribute>
+        <!--xsl:attribute name="data-text"><xsl:value-of select="./x:lem/text() | ./x:rdgGrp[@type='lemma']/x:lem/text()"/></xsl:attribute-->
+        <span class="rdg-text">
+            <xsl:apply-templates select="./x:lem/node() | ./x:rdgGrp[@type='lemma']/x:lem/node()"/>
         </span>
-    </xsl:if>
+        <xsl:for-each select="./x:rdgGrp/x:rdg[@type='minor']">
+            <span class="rdg-alt">
+                <xsl:attribute name="data-wit">
+                    <xsl:value-of select="translate(@wit,'#','')"/>
+                </xsl:attribute>
+                <xsl:apply-templates select="./node()"/>
+            </span>
+        </xsl:for-each>
+        <xsl:choose>
+            <xsl:when test="./x:lem/@wit | ./x:rdgGrp[@type='lemma']/@select">
+                <span>
+                    <xsl:attribute name="class">lem-wit</xsl:attribute>
+                    <xsl:call-template name="splitwit">
+                        <xsl:with-param name="mss" select="x:lem/@wit | ./x:rdgGrp[@type='lemma']/@select"/>
+                        <xsl:with-param name="corresp" select="$corresp"/>
+                    </xsl:call-template>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:if test="//x:text[@type='edition']">
+                    <span class="lem-wit"><span class="editor" lang="en" data-anno="emendation">em.</span></span>
+                </xsl:if>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:element> 
     <xsl:text> </xsl:text>
 </xsl:template>
 
@@ -437,7 +467,7 @@
                     <xsl:apply-templates select="./node()"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <span lang="en">[om.]</span>
+                    <span class="editor" lang="en" data-anno="omission">om.</span>
                 </xsl:otherwise>
             </xsl:choose>
         </span>
@@ -478,12 +508,18 @@
         <xsl:apply-templates/>
         <xsl:variable name="id"><xsl:text>#</xsl:text><xsl:value-of select="$xmlid"/></xsl:variable>
         <xsl:variable name="apparatus" select="//x:standOff[@type='apparatus' and @corresp=$id]"/>
-        <xsl:variable name="parallels" select="//x:standOff[@type='parallels' and @corresp=$id]"/>
+        <xsl:variable name="notes1" select="//x:standOff[@type='notes1' and @corresp=$id]"/>
+        <xsl:variable name="notes2" select="//x:standOff[@type='notes2' and @corresp=$id]"/>
+        <xsl:variable name="notes3" select="//x:standOff[@type='notes3' and @corresp=$id]"/>
+        <xsl:variable name="notes4" select="//x:standOff[@type='notes4' and @corresp=$id]"/>
         <xsl:choose>
-            <xsl:when test="$apparatus or $parallels">
+            <xsl:when test="$apparatus or $notes1 or $notes2 or notes3 or $notes4">
                 <xsl:call-template name="apparatus-standoff">
                     <xsl:with-param name="apparatus" select="$apparatus"/>
-                    <xsl:with-param name="parallels" select="$parallels"/>
+                    <xsl:with-param name="notes1" select="$notes1"/>
+                    <xsl:with-param name="notes2" select="$notes2"/>
+                    <xsl:with-param name="notes3" select="$notes3"/>
+                    <xsl:with-param name="notes4" select="$notes4"/>
                 </xsl:call-template>
             </xsl:when>
             <xsl:when test=".//x:app">
@@ -527,8 +563,11 @@
     </xsl:element>
 </xsl:template>
 <xsl:template name="apparatus-standoff">
+    <xsl:param name="notes1"/>
     <xsl:param name="apparatus"/>
-    <xsl:param name="parallels"/>
+    <xsl:param name="notes2"/>
+    <xsl:param name="notes3"/>
+    <xsl:param name="notes4"/>
     <xsl:variable name="xmlid" select="./x:lg/@xml:id | ./x:p/@xml:id"/>
     <xsl:variable name="idname" select="concat('#',$xmlid)"/>
     <xsl:variable name="hideapp" select="./*[@type='translation'] or ./x:lg[@xml:lang] or ./x:p[@xml:lang]"/>
@@ -551,9 +590,24 @@
                 <xsl:call-template name="pointersvg"/>
             </xsl:element>
         </xsl:if>
-        <xsl:if test="$parallels">
+        <xsl:if test="$notes1">
             <xsl:call-template name="notesblock">
-                <xsl:with-param name="standOff" select="$parallels"/>
+                <xsl:with-param name="standOff" select="$notes1"/>
+            </xsl:call-template>
+        </xsl:if>
+        <xsl:if test="$notes2">
+            <xsl:call-template name="notesblock">
+                <xsl:with-param name="standOff" select="$notes2"/>
+            </xsl:call-template>
+        </xsl:if>
+        <xsl:if test="$notes3">
+            <xsl:call-template name="notesblock">
+                <xsl:with-param name="standOff" select="$notes3"/>
+            </xsl:call-template>
+        </xsl:if>
+        <xsl:if test="$notes4">
+            <xsl:call-template name="notesblock">
+                <xsl:with-param name="standOff" select="$notes4"/>
             </xsl:call-template>
         </xsl:if>
     </xsl:element>
@@ -605,6 +659,9 @@
 </xsl:template>
 
 <xsl:template match="x:standOff[@type='apparatus']"/>
-<xsl:template match="x:standOff[@type='parallels']"/>
+<xsl:template match="x:standOff[@type='notes1']"/>
+<xsl:template match="x:standOff[@type='notes2']"/>
+<xsl:template match="x:standOff[@type='notes3']"/>
+<xsl:template match="x:standOff[@type='notes4']"/>
 
 </xsl:stylesheet>

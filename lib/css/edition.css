@@ -65,7 +65,7 @@ div.edition div.l::before {
     font-size: 65%;
 }
 
-div.edition div.l:nth-child(5n)::before {
+div.edition div.l:nth-of-type(5n)::before {
     opacity: 1;
 }
 
@@ -192,7 +192,7 @@ span.invisible {
 #topbar {
     position: sticky;
     top: 1em;
-    margin-left: -3.5rem;
+    /*margin-left: -3.5rem;*/
     display: flex;
     flex-direction: column;
 }
@@ -211,7 +211,7 @@ span.invisible {
 }
 */
 #transbutton {
-    width: fit-content;
+    /*width: fit-content;*/
     position: relative;
     left: 0;
 }
@@ -355,5 +355,5 @@ span.invisible {
 }
 @keyframes backrotate {
   0% { transform: rotate(360deg) }
-  1000% { transform: rotate(0deg) }
+  100% { transform: rotate(0deg) }
 } 

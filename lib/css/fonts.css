@@ -3,14 +3,14 @@
     font-family: 'PedanticDevanagari';
     src: local('PedanticDevanagariLight'),
          url('../fonts/PedanticDevanagariLight.woff');
-    unicode-range: U+0900-097F, U+A8E0-A8FF, U+1CD0-1CF6, U+2E24, U+11B00-11B09;
+    unicode-range: U+200D, U+0900-097F, U+A8E0-A8FF, U+1CD0-1CF6, U+2E24, U+11B00-11B09;
 }
 
 @font-face {
     font-family: 'PedanticDevanagari';
     src: local('PedanticDevanagariBold'),
          url('../fonts/PedanticDevanagariBold.woff');
-    unicode-range: U+0900-097F, U+A8E0-A8FF, U+1CD0-1CF6, U+2E24, U+11B00-11B09;
+    unicode-range: U+200D, U+0900-097F, U+A8E0-A8FF, U+1CD0-1CF6, U+2E24, U+11B00-11B09;
     font-weight: bold;
 }
 
@@ -18,27 +18,27 @@
     font-family: 'PedanticMalayalam';
     src: url('../fonts/PedanticMalayalam.woff');
     size-adjust: 115%;
-    unicode-range: U+0D00-0D7F, U+25CC;
+    unicode-range: U+200D, U+0D00-0D7F, U+25CC;
 }
 
 @font-face {
     font-family: 'PedanticMalayalam';
     src: url('../fonts/PedanticMalayalamBold.woff');
     size-adjust: 115%;
-    unicode-range: U+0D00-0D7F, U+25CC;
+    unicode-range: U+200D, U+0D00-0D7F, U+25CC;
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'PedanticTelugu';
     src: url('../fonts/PedanticTelugu.woff');
-    unicode-range: U+0C00-0C7F;
+    unicode-range: U+200D, U+0C00-0C7F;
 }
 
 @font-face {
     font-family: 'PedanticTelugu';
     src: url('../fonts/PedanticTeluguBold.woff');
-    unicode-range: U+0C00-0C7F;
+    unicode-range: U+200D, U+0C00-0C7F;
     font-weight: bold;
 }
 
@@ -95,19 +95,19 @@
     font-family: 'Bangla';
     src: url('../fonts/Bangla-custom.woff');
     size-adjust: 130%;
-    unicode-range: U+0980-09FF;
+    unicode-range: U+200D, U+0980-09FF;
 }
 
 @font-face {
     font-family: 'Noto Sans Newa';
     src: url('../fonts/noto/NotoSansNewa-Regular-custom.otf');
-    unicode-range: U+11400-1147F;
+    unicode-range: U+200D, U+11400-1147F;
 }
 
 @font-face {
     font-family: 'Satisar Sharada';
     src: url('../fonts/Sharada.ttf');
-    unicode-range: U+11180-111DF;
+    unicode-range: U+200D, U+11180-111DF;
 }
 
 @font-face {
@@ -120,7 +120,7 @@
 @font-face {
     font-family: 'Noto Sans Nandinagari';
     src: url('../fonts/noto/NotoSansNandinagari-Regular.ttf');
-    unicode-range: U+119A0-119FF,U+0CE6-0CEF;
+    unicode-range: U+200D, U+119A0-119FF,U+0CE6-0CEF;
 }
 */
 .aalt {
@@ -131,6 +131,9 @@
     font-variant-ligatures: historical-ligatures;
 }
 
+.dlig {
+    font-variant-ligatures: discretionary-ligatures;
+}
 .cv00 {
     font-feature-settings: "cv00" 1;
 }
@@ -139,20 +142,24 @@
     font-feature-settings: "cv01" 1;
 }
 
+.cv02 {
+    font-feature-settings: "cv02" 1;
+}
+
 .trad {
     font-feature-settings: "trad" 1;
 }
 
-:lang(sa-Gran) {
+[lang^="sa-Gran"] {
     line-height: 2;
 }
 
-:lang(sa-Shrd) {
+[lang^="sa-Shrd"] {
     font-feature-settings: "ss01" 1;
 }
 
-:lang(ta-Taml) {
-    word-spacing: 150%;
+[lang^="ta-Taml"] {
+    word-spacing: 0.5em;
 }
 
 :lang(en) {
@@ -169,10 +176,10 @@ body {
     hyphens: auto;
 }
 
-p:lang(bo), p:lang(bod) {
+/*
+p:lang(bo-Tibt), p:lang(bod) {
     line-height: 3rem;
 }
-/*
 .teitext :lang(sa-Beng) {
     font-size: 1.8rem;
 }

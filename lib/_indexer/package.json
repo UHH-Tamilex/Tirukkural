@@ -13,5 +13,6 @@
     "todb": "node todb.mjs",
     "dbtohtml": "node dbtohtml.mjs",
     "pageindex": "node pageindex.mjs"
-  }
+  },
+  "dependencies": {}
 }

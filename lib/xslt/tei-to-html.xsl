@@ -139,6 +139,11 @@
             </xsl:element>
             <xsl:variable name="manifest" select="x:facsimile/x:graphic/@url"/>
             <xsl:if test="$manifest">
+                <div id="togglers">
+                    <div id="recordtoggle" class="toggle" title="hide text">&gt;</div>
+                    <div id="rotator" title="rotate">⟳</div>
+                    <div id="viewertoggle" class="toggle" title="hide images">&lt;</div>
+                </div>  
                 <xsl:element name="div">
                     <xsl:attribute name="id">viewer</xsl:attribute>
                     <xsl:attribute name="data-manifest">
