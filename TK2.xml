@@ -3,7 +3,7 @@
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 2. <term xml:lang="ta">kaṭavuḷ vāḻttu</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,12 +27,45 @@
 <l>ṉaṟṟā ṭoḻāa reṉiṉ</l>            
             </lg>
             <lg type="translation" xml:lang="en">
-<l>What Profit have those derived from learning, who worship not the good feet of Him who is possessed of pure knowledge ?</l>
+<l>What fruit comes of learning, pray?</l>
+<l>if they do not serve the good feet</l>
+<l>of the One of pure wisdom</l>
             </lg>
         </div>
     </body>
   </text>
-<standOff corresp="#TK2" type="wordsplit">
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK2-Pari1">
+          (i - l). ellā nūlkaḷaiyuṅ kaṟṟavark kakkalviyaṟivāṉāya payaṉ yātu, meyyuṇarviṉai
+          yuṭaiyāṉatu nalla tāḷkaḷait toḻārāyiṉ, (e-ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : For those who have studied all books, what fruit comes about through
+          that knowledge [gained by] learning, if they be not worshippers of the excellent feet of
+          the One Who has true understanding?
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK2-P2">
+          evaṉeṉṉum viṉāppeyar eṉṉeṉṟāy īṇṭiṉmai kuṟittu niṉṟatu. kolleṉpa tacainilai.
+          piṟavippiṇikku maruntākaliṉ ‘naṟṟāḷ’ eṉṟār ākama vaṟiviṟkuppayaṉ avaṉṟāḷait toḻutu piṟavi
+          yaṟuttaleṉpatu itaṉāṟ kūṟappaṭṭatu.
+        </p>
+        <p xml:lang="en">
+          [The interrogative base form?] "evaṉ," becoming the interrogative [pro]noun "eṉ," stands
+          here pointing to [the sense of] nonexistence. The [term] "pray" is [an expletive that
+          occupies] the space of a metrical part-foot (acai). [Tiruvaḷḷuvar] has said "good feet"
+          because [they] are the remedy for the fetter of birth. Through this [Kuṟaḷ?], it has been
+          stated that the fruit of the knowledge of scripture/tradition is the cutting-off of
+          [re]birth [subsequent to] serving His feet.
+        </p>
+      </div>
+    </body>
+  </text>
+          <standOff corresp="#TK2" type="wordsplit">
 <interp type="alignment" select="0">20MG13ML5ML9M,24MG25M</interp>
 <entry>
 <form>kaṟṟataṉāl</form>
