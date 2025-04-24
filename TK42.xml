@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,7 +11,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -24,12 +21,12 @@
   </teiHeader>
   <text xml:lang="ta" type="edition">
     <body>
-        <div xml:id="TK42">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="TK42">
 <l>tuṟantārkkut tuvvā tavarkku miṟantārkku</l>
 <l>milvāḻvā ṉeṉpāṉ ṟuṇai</l>            
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>He will be said to flourish in domestic virtue who aids the forsaken, the poor, and the dead.</l>
             </lg>
         </div>

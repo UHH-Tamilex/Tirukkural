@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,7 +11,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -24,12 +21,12 @@
   </teiHeader>
   <text xml:lang="ta" type="edition">
     <body>
-        <div xml:id="TK425">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="TK425">
 <l>ulakan taḻīiya toṭpa malartaluṅ</l>
 <l>kūmpalu milla taṟivu</l>            
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>To secure the friendship of the great is true wisdom; it is (also) wisdom to keep (that friendship unchanged, and) not opening and closing (like the lotus flower).</l>
             </lg>
         </div>

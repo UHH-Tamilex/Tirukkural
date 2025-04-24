@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,7 +11,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -24,12 +21,12 @@
   </teiHeader>
   <text xml:lang="ta" type="edition">
     <body>
-        <div xml:id="TK159">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="TK159">
 <l>tuṟantāriṟ tūymai yuṭaiyā riṟantārvā</l>
 <l>yiṉṉācco ṉōkkiṟ pavar</l>            
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>Those who bear with the uncourteous speech of the insolent are as pure as the ascetics.</l>
             </lg>
         </div>

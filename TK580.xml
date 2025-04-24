@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,7 +11,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -24,12 +21,12 @@
   </teiHeader>
   <text xml:lang="ta" type="edition">
     <body>
-        <div xml:id="TK580">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="TK580">
 <l>peyakkaṇṭu nañcuṇ ṭamaivar nayattakka </l>
 <l> nākarikam vēṇṭu pavar</l>            
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>Those who desire (to cultivate that degree of) urbanity which all shall love, even after swallowing the poison served to them by their friends, will be friendly with them.</l>
             </lg>
         </div>

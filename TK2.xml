@@ -21,12 +21,12 @@
   </teiHeader>
   <text xml:lang="ta" type="edition">
     <body>
-        <div xml:id="TK2">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="TK2">
 <l>kaṟṟataṉā lāya payaṉeṉkol, vālaṟiva</l>
 <l>ṉaṟṟā ṭoḻāa reṉiṉ</l>            
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>What fruit comes of learning, pray?</l>
 <l>if they do not serve the good feet</l>
 <l>of the One of pure wisdom</l>

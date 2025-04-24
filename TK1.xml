@@ -21,12 +21,12 @@
   </teiHeader>
   <text xml:lang="ta" type="edition">
     <body>
-        <div xml:id="TK1">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="TK1">
 <l>akara mutala veḻuttellā māti</l>
 <l>pakavaṉ mutaṟṟē yulaku</l>            
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>"A" is the first of all letters; the primordial</l>
 <l>Lord is the first in the world.</l>
             </lg>
