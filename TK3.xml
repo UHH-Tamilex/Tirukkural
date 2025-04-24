@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 3. <term xml:lang="ta">kaṭavuḷ vāḻttu</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,25 +29,96 @@
 <l>nilamicai nīṭuvāḻ vār</l>            
             </lg>
             <lg type="translation" xml:lang="en">
-<l>They who are united to the glorious feet of Him who passes swiftly over the flower of the mind, shall flourish long above all worlds.</l>
+<l>The One Who rushed upon blossoms,</l>
+<l>those united with His glorious feet</l>
+<l>live long above the world.</l>
             </lg>
         </div>
     </body>
   </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK3-P1">
+          (i-ḷ). malariṉkaṇṇē ceṉṟavaṉatu māṭcimaippaṭṭa aṭikaḷaic cērntār ellāvulakiṟku mēlāya vīṭṭulakiṉkaṇ aḻiviṉṟi vāḻvār, (e-ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : Those who have joined [themselves to] the feet, which are in [a state of] greatness, of
+          Him Who goes only upon blossoms, (will) live without perishing in heaven (lit. "the world
+          of liberation"), which is above all the world (or: above all worlds?).
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK3-P2">
+          aṉpāṉiṉaivāratu uḷḷakkamalattiṉkaṇ avar niṉainta vaṭivōṭu viraintu cēṟaliṉ ‘ēkiṉāṉ’ eṉa
+          iṟanta kālattāṟ kūṟiṉār; eṉṉai? “vārāk kālattu nikaḻuṅ kālattu, mōrāṅku varūum viṉaiccoṟ
+          kiḷavi, yiṟanta kālattuk kuṟippoṭu kiḷattal, viraintaporuḷa veṉmaṉār pulavar”. eṉpa
+          tōttākaliṉ. itaṉaip “pūmēṉaṭantāṉ” eṉpatōr peyarpaṟṟip piṟitōr kaṭavuṭ kēṟṟuvāru
+          muḷar. cērtal—iṭaiviṭātu niṉaittal.
+        </p>
+        <p xml:lang="en">
+          [In speaking?] of [His] going hastening over the lotuses that are the hearts (lit.
+          "heart-lotuses"—a rūpaka compound in the manner of Sanskrit poetry) of those who
+          contemplate Him with love
+          with the feet that they contemplate, he has expressed [himself] using the past tense [in
+          the verb] "hastened." Why? Because there is a chapter [of the Tolkāppiyam stating]: "The
+          learned hold that, [when] expressing verbal expressions that [could] likewise occur in the
+          future or in the present tense, with a [special] intention, [those expressions] have the
+          sense of hastening." There are also worshippers of a certain other divinity [i.e. the Jina
+          or Buddha?], who accept this—i.e.(?) "He Who walked upon flowers"—as one of his names. To
+          unite [here means] to contemplate uninterruptedly.
+        </p>
+      </div>
+    </body>
+  </text>
+  <text>
+    <body>
+      <head>Maṇakkuṭavar</head>
+      <div rend="parallel">
+        <p xml:id="TK3-M1">
+          i - ḷ:—malariṉmēl naṭantāṉatu māṭcimaippaṭṭa tiru vaṭiyaic cērntavaraṉrē, nilattiṉmēl neṭuṅkālam vāḻvār.
+        </p>
+        <p xml:lang="en">
+          The meaning ... : They who have united with the holy feet, which are in greatness, of Him
+          Who walked upon flowers—isn't it so!—live for a long time upon the world.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK3-M2">
+          nilameṉṟu potuppaṭak kūṟiyavataṉāṉ, ivvulakiṉkaṇṇum mēlulakiṉkaṇṇum eṉṟukoḷḷappaṭum.
+        </p>
+        <p xml:lang="en">
+          Because "world" has been said in a general way [i.e., without any further qualifier], one
+          takes it to mean both "in this world" and "in the world above [i.e., heaven]."
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK3-M3">
+          ‘toḻutāṟ payaṉ eṉṉai’ eṉṟārkkup pōkamnukartalum vīṭupeṟutalum eṉṟukūṟuvār, muṟpaṭap pōkam nukarvāreṉṟukūṟiṉar.
+        </p>
+        <p xml:lang="en">
+          To those who ask, "What fruit [is gained] by worship?", [Tiruvaḷḷuvar will?] say that [it
+          is] the enjoyment of experience (bhoga) and the obtainment of liberation; he has [here]
+          expressed the enjoyment of experience first.
+        </p>
+      </div>
+    </body>
+  </text>
 <standOff corresp="#TK3" type="wordsplit">
-<interp type="alignment" select="0">49M,49M</interp>
+<interp type="alignment" select="0">34MR15M,50M</interp>
 <entry>
 <form>malar</form>
 <def>blossom</def>
 <gramGrp>
-  <gram type="role">root noun</gram>
+  <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>micai</form>
-<def>elevation</def>
+<def>on</def>
 <gramGrp>
-  <gram type="role">noun</gram>
+  <gram type="role">postposition</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -60,9 +133,9 @@
 </entry>
 <entry>
 <form>māṇ</form>
-<def>glory</def>
+<def>glorious</def>
 <gramGrp>
-  <gram type="role">root noun</gram>
+  <gram type="role">verbal root as adjective</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -83,17 +156,18 @@
 </gramGrp>
 </entry>
 <entry>
-<form>nila</form>
+<form>nila<c type="uncertain">m</c></form>
 <def>Earth</def>
+<form type="sandhi">nilam</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>micai</form>
-<def>elevation</def>
+<def>above</def>
 <gramGrp>
-  <gram type="role">noun</gram>
+  <gram type="role">postposition</gram>
 </gramGrp>
 </entry>
 <entry>
