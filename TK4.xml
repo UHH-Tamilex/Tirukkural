@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 4. <term xml:lang="ta">kaṭavuḷ vāḻttu</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,203 @@
 <l>yāṇṭu miṭumpai yila</l>            
             </lg>
             <lg xml:lang="en">
-<l>To those who meditate the feet of Him who is void of desire or aversion, evil shall never come.</l>
+<l>To those united with the feet of Him for Whom there is neither</l>
+<l>liking nor dislike, pain never comes.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK4-P1">
+          (i-ḷ). oruporuḷaiyum viḻaitalum veṟuttalum illātava ṉaṭiyaic cērntārk kekkālattum piṟivit
+          tuṉpaṅkaḷ uḷavākā.
+        </p>
+        <p xml:lang="en">
+          The meaning ... : For those who have joined the feet of Him for Whom there is neither desiring nor hating
+          even a single thing, the sufferings [that are an inherent consequence] of birth do not exist
+          at any time.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK4-P2">
+          piṟivittuṉpaṅkaḷāvana:—taṉṉaippaṟṟi varuvaṉavum, piṟavuyirkaḷaippaṟṟi varuvaṉavum,
+          teyvattaippaṟṟi varuvaṉavum eṉa mūvakaiyāṉ varuntuṉpaṅkaḷ. aṭicērntārk kavviraṇṭu
+          miṉmaiyiṉ, avaikāraṇamākavaru mūvakaittuṉpaṅkaḷum ilavāyiṉa.
+        </p>
+        <p xml:lang="en">
+          The sufferings of birth are sufferings that come in three kinds—namely those that come as
+          a result of one's own constitution (lit. that come about oneself), those that come as a
+          result of other living beings, and those that come as a result of fate. Because those two
+          [namely desiring and hating?] do not exist for those who have joined the feet, the
+          sufferings of three kinds that come when those [two] exist [as their] cause(?) also cease
+          to exist.
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar (6)</head>
+      <div rend="parallel">
+        <lg xml:id="TK4-Mvar">
+          <l>vēṇṭutal vēṇṭāmai yilāṉaṭi cērntār</l>
+          <l>yāṇṭu miṭumpai yilar</l>
+        </lg>
+        <lg xml:lang="en">
+        <l>Those united with the feet of Him for Whom there is neither</l>
+        <l>liking nor dislike, have no pain.</l>
+        </lg>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK4-M1">
+          i - ḷ:—iṇpamum vekuḷiyum illātāṉatu tiruvaṭiyaic cērntavar evviṭattum tuṉpam illātavar.
+        </p>
+        <p xml:lang="en">
+          The meaning ... : They who have joined the holy feet of Him for Whom there is neither pleasure nor aversion are they who are without suffering in every [circumstance].
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK4-M2">
+          kāmamum kōpamum ākā eṉṟaṟku "vēṇṭutal vēṇṭāmaiyillāṉ" eṉṟu peyariṭṭār.
+        </p>
+        <p xml:lang="en">
+          To [express the idea?] that there is neither passion (kāma) nor anger (kopa) [for Him], [Tiruvaḷḷuvar] has christened [the deity] as "Him for Whom there is neither liking nor dislike."
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK4-M3">
+          itu, kaiyāṟu ketumeṉṟatu.
+        </p>
+        <p xml:lang="en">
+          This [verse amounts to saying?] that affliction perishes [for those who worship the deity?].
+        </p>
+      </div>
+    </body>
+  </text>
+<standOff corresp="#TK4" type="wordsplit">
+<interp type="alignment" select="0">51M,51M</interp>
+<entry>
+<form>vēṇṭutal</form>
+<def>liking</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṇṭāmai</form>
+<def>not-liking</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ilāṉ</form>
+<def>not-exist-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭi</form>
+<def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cērntārkku</form>
+<def>joined-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yāṇṭum</form>
+<def>always/everywhere</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭumpai</form>
+<def>suffering</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ila</form>
+<def>don't exist</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">imperfect aspect</gram>
+</gramGrp>
+</entry>
+</standOff><standOff corresp="#TK4-Mvar" type="wordsplit">
+<interp type="alignment" select="0">52M,52M</interp>
+<entry>
+<form>vēṇṭutal</form>
+<def>liking</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṇṭāmai</form>
+<def>not-liking</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ilāṉ</form>
+<def>not-exist-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭi</form>
+<def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cērntār</form>
+<def>joined-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yāṇṭum</form>
+<def>always/everywhere</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭumpai</form>
+<def>suffering</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ilar</form>
+<def>not-exist-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
