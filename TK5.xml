@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 5. <term xml:lang="ta">kaṭavuḷ vāḻttu</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,140 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK5">
-<l>iruḷcē riruviṉaiyuñ cērā viṟaivaṉ </l>
+<l>iruḷcē riruviṉaiyuñ cērā viṟaivaṉ</l>
 <l>poruḷcēr pukaḻpurintār māṭṭu</l>            
             </lg>
             <lg xml:lang="en">
-<l>The two-fold deeds that spring from darkness shall not adhere to those who delight in the true praise of God.</l>
+<l>The double action bound to nescience is never bound to those who offer</l>
+<l>ardent praise, bound with rich meaning, to the Lord.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK5-P1">
+          (i-ḷ). mayakkattaippaṟṟi varum nalviṉai tīviṉaiyeṉṉumiraṇṭu viṉaiyu muḷavākā, iṟaivaṉatu meymmai cērnta pukaḻai virumpiṉāriṭattu, (e-ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : The two [kinds of] action(/karma), namely good action and bad action, that come as a result of delusion, do not exist for (lit. in the place of) those who love praise of the Lord that is united to truth.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK5-P2">
+          iṉṉa taṉmaitteṉa oruvarāṉuṅ kūṟappaṭāmaiyiṉ aviccaiyai 'iruḷ' eṉṟum, nalviṉaiyum piṟattaṟ kētuvākalāṉ 'iruviṉaiyuñ cērā' eṉṟuṅ kūṟiṉār. iṟaimaik kuṇaṅkaḷilarāyiṉārai yuṭaiyareṉakkaruti aṟivilār kūṟukiṉṟa pukaḻkaḷ poruḷ cērāvākaliṉ, avai muṟṟumuṭaiya iṟaivaṉ pukaḻē 'poruḷcērpukaḻ' eṉappaṭṭatu. purital – eppoḻutuñ collutal.
+        </p>
+        <p xml:lang="en">
+          Because it has been said by some(?) that [this verse/passage] does not have this nature [i.e., as I have explained it], [there are those who?] who say that ignorance [rather than delusion] is the "darkness" [mentioned in the verse], and that "iruviṉaiyuñ cērā" [in the verse means "even the sitting action,"] because even good action is the cause of being born, [taking iru- to mean "sitting" (at/as the root of birth) rather than "two"]. Because praises are not united with meaning [when they are] spoken by those who, supposing that one who lacks the qualities of Lordliness (iṟaimai=aiśvarya?) possesses them, are without knowledge, only praise of the Lord Who has all of them is said to be "praise united with meaning." "To desire" [ardently here means] to speak on all occasions.
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar (7)</head>
+      <div rend="parallel">
+        <p xml:id="TK5-M1">
+          i – ḷ:—mayakkattaic cērnta nalviṉai tīviṉai yeṉṉum iraṇṭu viṉaikaḷum cērā, talaivaṉatākiya meypporuḷ cērnta pukaḻccic coṟkaḷaip poruntiṉār māṭṭu.
+        </p>
+        <p xml:lang="en">
+          The two actions—namely good action and bad action—united with delusion do not come to (lit. join) the place of those who love words of adulation, united with real meaning, for the Supreme One.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK5-M2">
+          itu, puṇṇiya pāvaṅkaḷ cērāveṉṟatu.
+        </p>
+        <p xml:lang="en">
+          This [verse amounts to saying] that merit and sins do not join [themselves to true devotees].
+        </p>
+      </div>
+    </body>
+  </text>
+<standOff corresp="#TK5" type="wordsplit">
+<interp type="alignment" select="0">56M,56M</interp>
+<entry>
+<form>iruḷ</form>
+<def>nescience</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cēr</form>
+<def>united</def>
+<gramGrp>
+  <gram type="role">verbal root as peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iru</form>
+<def>two/both</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṉai-um</form>
+<def>karma</def>
+<form type="simple">viṉai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>cērā</form>
+<def>don't adhere</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>iṟaivaṉ</form>
+<def>Lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poruḷ</form>
+<def>(true) meaning</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cēr</form>
+<def>united</def>
+<gramGrp>
+  <gram type="role">verbal root as peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukaḻ</form>
+<def>praise</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>purintār</form>
+<def>loved-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māṭṭu</form>
+<def>to</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
