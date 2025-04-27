@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,8 +29,8 @@
 <l>neṟiniṉṟār nīṭuvāḻ vār</l>            
             </lg>
             <lg xml:lang="en">
-<l>They who stay on the road of faultless conduct shown by the One</l>
-<l>Who cut off the senses' five paths, live long.</l>
+<l>They who stay on the road of faultless conduct [shown by] the One</l>
+<l>Who subdued the senses' five paths, live long.</l>
             </lg>
         </div>
     </body>
@@ -75,4 +77,87 @@
       </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK6" type="wordsplit">
+<interp type="alignment" select="0">13MG19MR20M,54M</interp>
+<entry>
+<form>poṟi</form>
+<def>sense-organ</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāyil</form>
+<def>path/sensation</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aint<c type="elided">u</c></form>
+<def>five</def>
+<form type="sandhi">aint</form>
+</entry>
+<entry>
+<form>avittāṉ</form>
+<def>subdued-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poy</form>
+<def>falsehood</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tīr</form>
+<def>free (of)</def>
+<gramGrp>
+  <gram type="role">verbal root as adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḻukka<c type="uncertain">m</c></form>
+<def>(good) conduct</def>
+<form type="sandhi">oḻukkan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neṟi</form>
+<def>way</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟār</form>
+<def>stood-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīṭu</form>
+<def>long</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻvār</form>
+<def>prosper</def>
+<gramGrp>
+  <gram type="role">imperfect aspect</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
