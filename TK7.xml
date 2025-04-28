@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 7. <term xml:lang="ta">kaṭavuḷ vāḻttu</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,147 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK7">
-<l>taṉakkuvamai yillātāṉ ṟāḷcērntārk kallāl</l>
-<l> maṉakkavalai māṟṟal laritu</l>            
+<l>taṉakkuvamai yillātāṉ ṟāḷcērntārk kallāṉ</l>
+<l>maṉakkavalai māṟṟa laritu</l>            
             </lg>
             <lg xml:lang="en">
-<l>Anxiety of mind cannot be removed, except from those who are united to the feet of Him who is incomparable.</l>
+<l>Except for those who come to the feet of the Incomparable One,</l>
+<l>to dispel the trouble of the mind is hard.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK7-P1">
+          (i-ḷ). oruvāṟṟāṉun taṉakku nikarillātavaṉatu tāḷaic cērntārk kallatu maṉattiṉkaṇikaḻun tuṉpaṅkaḷai nīkkuta luṇṭākātu, (e-ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : Removing the sorrows that occur in the mind is impossible (more lit. does not exist) except for those who have united with the feet of the One Who is lacks an equal to Himself in even a single way(?).
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK7-P2">
+        “uṟaṟpāla tīṇṭā viṭuta laritu” eṉṟāṟpōla īṇ ṭarumai iṉmaimēṉiṉṟatu. tāḷcērātār piṟivikkētuvākiya kāmavekuḷi mayakkaṅkaḷai māṟṟamāṭṭāmaiyiṉ piṟantiṟan tavaṟṟāṉ varuntuṉpaṅkaḷuḷ aḻuntuva reṉpatām.
+      </p>
+      <p xml:lang="en">
+        Here, as in [the quotation] "... being liberated is difficult," difficulty stands in the sense of impossibility (lit. absence). [This verse?] expresses that those who are not united with [His] feet, [being constantly re]born and dying because they are unable(?) to expel desire, aversion, and delusion, which are the causes of [re]birth, are immersed in the sufferings that come from (lit. through) them [i.e. desire, aversion, and delusion].
+      </p>
+    </div>
+  </body>
+</text>
+<text xml:lang="ta" type="edition">
+  <body>
+    <head>Maṇakkuṭavar (4)</head>
+    <div rend="parallel">
+      <p xml:id="TK7-M1">
+        i - ḷ:—taṉakku nikarillātāṉatu tiruvaṭiyaic cērntavark kallatu maṉattu uṇṭām kavalaiyai māṟṟutal aritu.
+      </p>
+      <p xml:lang="en">
+        The meaning ... : Apart from those who have united with the feet of Him Who lacks an equal to Himself, it is difficult to expel trouble that arises in the mind.
+      </p>
+    </div>
+    <div rend="parallel">
+      <p xml:id="TK7-M2">
+        vīṭupeṟalāvatu, avalak kavalaik kaiyāṟṟiṉ nīṅkip puṇṇiyapāva meṉṉum iraṇṭiṉaiyum cārāmal, cātalum piṟattalumillātatoru taṉmaiyai yeytutal.
+      </p>
+      <p xml:lang="en">
+        The attainment of liberation is (defined as) the attainment of a single nature, without death and rebirth, after one has left behind the helplessness of affliction(s) and(?) trouble(s), without involving oneself in the two, namely good and bad action.
+      </p>
+    </div>
+    <div rend="parallel">
+      <p xml:id="TK7-M3">
+        vīṭu peṟumeṉpār muṟpaṭak kavalai keṭumeṉṟār, ataṉāl ellāt tuṉpamum varumātaliṉ.
+      </p>
+      <p xml:lang="en">
+        [The author] will say [further on] that [the devotee?] with obtain liberation; first(?), he has said that [mental] trouble perishes [for him], because all sorrows come from (lit. through) it.
+      </p>
+    </div>
+  </body>
+</text>
+<standOff corresp="#TK7" type="wordsplit">
+<interp type="alignment" select="0">6MG26MG10MG18M,63M</interp>
+<entry>
+<form>taṉakk<c type="elided">u</c></form>
+<def>to Himself</def>
+<form type="sandhi">taṉakk</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uvamai</form>
+<def>comparison</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>illātāṉ</form>
+<def>not-exist-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāḷ</form>
+<def>foot</def>
+<form type="sandhi">ṟāḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cērntārkk<c type="elided">u</c></form>
+<def>joined-they</def>
+<form type="sandhi">cērntārkk</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>allāl</form>
+<def>except</def>
+<form type="sandhi">allāṉ</form>
+<gramGrp>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉam<c type="geminated"/></form>
+<def>mind</def>
+<form type="sandhi">maṉak<c type="geminated"/></form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kavalai</form>
+<def>trouble</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māṟṟal</form>
+<def>dispelling</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aritu</form>
+<def>difficult-it</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
