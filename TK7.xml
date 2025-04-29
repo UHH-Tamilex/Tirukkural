@@ -86,7 +86,7 @@
   </body>
 </text>
 <standOff corresp="#TK7" type="wordsplit">
-<interp type="alignment" select="0">6MG26MG10MG18M,63M</interp>
+<interp type="alignment" select="0">6MG26MG28M,62M</interp>
 <entry>
 <form>taṉakk<c type="elided">u</c></form>
 <def>to Himself</def>
@@ -139,9 +139,8 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṉam<c type="geminated"/></form>
+<form>maṉa<c type="geminated">k</c></form>
 <def>mind</def>
-<form type="sandhi">maṉak<c type="geminated"/></form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
