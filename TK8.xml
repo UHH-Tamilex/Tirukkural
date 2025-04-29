@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 8. <term xml:lang="ta">kaṭavuḷ vāḻttu</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,156 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK8">
-<l>aṟavāḻi yantaṇaṉ ṟāḷcērntārk kallāl</l>
-<l> piṟavāḻi nīnta laritu</l>            
+<l>aṟavāḻi yantaṇaṉ ṟāḷcērntārk kallāṟ</l>
+<l>piṟavāḻi nīnta laritu</l>            
             </lg>
             <lg xml:lang="en">
-<l>None can swim the sea of vice, but those who are united to the feet of that gracious Being who is a sea of virtue.</l>
+<l>Except for those who have come to the feet of the Gracious One, the ocean of Dharma,</l>
+<l>to cross the other ocean is hard.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<text xml:lang="ta" type="edition">
+  <body>
+    <head>Parimēlaḻakar</head>
+    <div rend="parallel">
+      <p xml:id="TK8-P1">
+        (i-ḷ). aṟakkaṭalākiya antaṇaṉatu tāḷākiya puṇaiyaic cērntārkkallatu ataṉiṟ piṟavākiya kaṭalkaḷai nīntal aritu, (e-ṟu).
+      </p>
+      <p xml:lang="en">
+        The meaning ... : Except those who have reached the boat that is the feet of the Gracious One(?) Who is an ocean of dharma (aṟam), it is difficult to cross the oceans that are different from that one.
+      </p>
+    </div>
+    <div rend="parallel">
+      <p xml:id="TK8-P2">
+          aṟam poru ḷiṉpameṉa uṭaṉeṇṇappaṭṭa mūṉṟaṉuḷ aṟattai muṉṉarppirittamaiyāṉ, ēṉaip poruḷum
+          iṉpamum ‘piṟa’ eṉappaṭṭaṉa. palavēṟu vakaippaṭṭa aṟaṅka ḷellāvaṟṟaiyun taṉakku vaṭivāka
+          uṭaiyaṉākaliṉ ‘aṟavāḻiyantaṇaṉ’ eṉṟār. ‘aṟavāḻi’ eṉpataṉait tarumacakkara mākki
+          ataṉaiyuṭaiya antaṇaṉeṉṟuraippāru muḷar. appuṇaiyaic cērātar karaikāṇā tavaṟṟuḷḷē
+          aḻuntuvarākaliṉ ‘nīntalaritu’ eṉṟār. iḵtēkatēca vuruvakam.
+      </p>
+      <p xml:lang="en">
+          Inasmuch as, among the three [goals of humanity] counted together as dharma (aṟam),
+          welfare (poruḷ), and pleasure (iṉpam), dharma has [here] been separated [and placed]
+          first, the rest, [namely] welfare and pleasure, have been called "other." Because He is
+          the One Who possesses all the dharmas of many different kinds as His Own body, [the poet]
+          has said, "the Gracious One, the ocean of dharma." There are also those who, making the
+          "ocean of dharma" the Wheel of Dharma, explain that the Gracious One [is he who] possesses
+          it. Because those who have not reached that boat drown in those ["oceans," namely the
+          search for wealth/welfare and pleasure] without [ever] seeing [the other] shore, he has
+          said, "to cross is hard." This is a partial rūpaka [because, on this reading, God has been
+          explicitly called an ocean of dharma, and the other two goals of humanity have also been
+          explicitly compared to an ocean; but the comparison of the feet to boats remains
+          implicit—though easy enough to detect in light of Sanskrit parallels].
+      </p>
+    </div>
+  </body>
+</text>
+<text xml:lang="ta" type="edition">
+  <body>
+    <head>Maṇakkuṭavar (5)</head>
+    <div rend="parallel">
+      <p xml:id="TK8-M1">
+        i - ḷ:—aṟamākiya kaṭalai yuṭaiya antaṇaṉatu tiruvaṭiyaic cērntavark kallatu (oḻinta pērkaḷukku) piṟa āḻiyai nīntal ākātu. avalam nīṅkappeṟutal aritu eṉṟavāṟu.
+      </p>
+      <p xml:lang="en">
+          The meaning is as follows: Apart from those who have come to the holy feet of the Gracious
+          One(?), Who has an ocean(/wheel?) that is dharma, it is impossible—for the rest of humanity (lit.
+          "names")—to swim the other ocean; [in other words?] it is difficult to obtain the
+          departure(?) of distress.
+      </p>
+    </div>
+    <div rend="parallel">
+      <p xml:id="TK8-M2">
+        itu, kāmamum poruḷum paṟṟivarum avalam keṭu meṉṟatu.
+      </p>
+      <p xml:lang="en">
+        This [verse] expresses that the distress that comes from [striving for one's] desires (iṉpam) and for wealth (poruḷ) perishes.
+      </p>
+    </div>
+  </body>
+</text>
+<standOff corresp="#TK8" type="wordsplit">
+<interp type="alignment" select="0">27MG24M,52M</interp>
+<entry>
+<form>aṟa</form>
+<def>dharma</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>āḻi</form>
+<def>ocean/cakra</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>antaṇaṉ</form>
+<def>gracious one/Brahman(?)</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāḷ</form>
+<def>foot</def>
+<form type="sandhi">ṟāḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cērntārkk<c type="elided">u</c></form>
+<def>joined-they</def>
+<form type="sandhi">cērntārkk</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>allāl</form>
+<def>except</def>
+<form type="sandhi">allāṟ</form>
+<gramGrp>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟa</form>
+<def>other</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>āḻi</form>
+<def>ocean</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīntal</form>
+<def>swimming/crossing</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aritu</form>
+<def>difficult-it</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
