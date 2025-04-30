@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,9 +29,141 @@
 <l>ṟāḷai vaṇaṅkāt talai</l>            
             </lg>
             <lg xml:lang="en">
-<l>The head that worships not the feet of Him who is possessed of eight attributes, is as useless as a sense without the power of sensation.</l>
+<l>Like senses that do not sense, heads that do not bow</l>
+<l>to the One of eight virtues are without virtue.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK9-P1">
+          (i-ḷ). tattamak kēṟṟa pulaṉkaḷaik koḷkaiyillāta poṟika<choice><sic>ḷa</sic><corr>ḷ</corr></choice> pōlap payaṉpaṭutaluṭaiyavalla, eṇvakaippaṭṭa kuṇaṅkaḷai yuṭaiyāṉatu tāḷai vaṇaṅkāta talaikaḷ, (e-ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : Like sense-organs unable to grasp the sense-objects proper to each one of them, they are useless, [those] heads that do not bow to the feet of the One Who possesses qualities/virtues of eight kinds.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK9-P2">
+          eṇkuṇaṅkaḷāvaṉa:—taṉvayattaṉātal, tūyavuṭampiṉaṉātal, iyaṟkaiyuṇarviṉaṉātal, muṟṟumuṇartal, iyalpākavē pācaṅkaḷi ṉīṅkutal, poruḷuṭaimai, muṭivi lāṟṟaluṭaimai, varampi liṉpamuṭaimai eṉa ivai. ivvāṟu caivākamattiṟ kūṟappaṭṭatu. aṇimāvai mutalākavuṭaiyaṉa veṉavum, kaṭaiyilā vaṟivai mutalākavuṭaiyaṉa veṉavum uraippāru muḷar. kāṇāta kaṇmutaliyaṉapōla vaṇaṅkāta talaikaḷ payaṉila veṉat talaimēl vaittuk kūṟiṉār; kūṟiṉārēṉum, iṉampaṟṟi vāḻttāta nākkaḷum avvāṟē payaṉila veṉpatūuṅ koḷka. ivai mūṉṟupāṭṭāṉum avaṉai niṉaittalum vāḻttalum vaṇaṅkalum ceyyāvaḻip patuṅ kuṟṟaṅ kūṟappaṭṭatu.
+        </p>
+        <p xml:lang="en">
+          The eight virtues are the following: being subject [only] to Himself, being of immaculate body, being of innate knowledge, knowing everything, being intrinsically free of fetters, possessing welfare, having infinite power, [and] having limitless pleasure. [The matter] has been taught in this way in Śaiva scripture, [but] there are also those who explain [that the eight virtues are] those [magical yogic powers] that have minuteness (aṇimā) as their first member, or those that have limitless knowledge as their first member. [In saying] that heads that do not bow are like eyes that do not see, etc., [the poet] has spoken [in such a way as to?] highlight(? lit. "place above") the head; [but,] even though he has spoken [thus], one should understand also that, [because the word "head" here] embraces the class [to which it belongs], tongues that do not praise are also fruitless in just the same way. With these three verses, the fault that arises when [one] does not contemplate, praise, and bow to Him has been expressed.
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar (10)</head>
+      <div rend="parallel">
+        <p xml:id="TK9-M1">
+          i - ḷ:—aṟivu illāta poṟikaḷaiyuṭaiya pāvaikaḷpōla oru kuṇamum uṭaiyaṉavalla, eṭṭuk kuṇattiṉai yuṭaiyavaṉ tiruvaṭiyiṉai vaṇaṅkāta talaiyiṉaiyuṭaiya utampukaḷ
+        </p>
+        <p xml:lang="en">
+          Like dolls that have [sculpted] sense-organs that cannot perceive, they do not have even a single virtue, [those] bodies that have heads that do not bow to the holy feet of the One Who has the eight qualities.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK9-M2">
+          avai uyiruṇṭākil vaṇaṅkum. avai vaṇaṅkāmaiyāl, avaṟṟai iḻittu uṭampuka ḷeṉṟār.
+        </p>
+        <p xml:lang="en">
+          If they were alive(?), they [would] bow. Because they do not bow, he has [effectively] called them "bodies" out of disdain.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK9-M3">
+          itu, vaṇaṅkāta uṭampukaḷ piṇaṅka ḷeṉṟatu.
+        </p>
+        <p xml:lang="en">
+          This [expresses] that bodies that do not bow are [mere] corpses.
+        </p>
+      </div>
+    </body>
+  </text>
+<standOff corresp="#TK9" type="wordsplit">
+<interp type="alignment" select="0">20MG31M,52M</interp>
+<entry>
+<form>kōḷ</form>
+<def>perception</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>il</form>
+<def>without</def>
+<gramGrp>
+  <gram type="role">verbal root as adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṟiyiṉ</form>
+<def>sense-organ</def>
+<form type="sandhi">poṟiyiṟ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">comparative</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṇam</form>
+<def>virtue</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ila-<c type="glide">v</c>ē</form>
+<def>not-they</def>
+<form type="simple">ila</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṇ</form>
+<def>eight</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṇattāṉ</form>
+<def>virtue/attribute-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāḷai</form>
+<def>foot</def>
+<form type="sandhi">ṟāḷai</form>
+<gramGrp>
+  <gram type="role">accusative</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇaṅkā<c type="geminated">t</c></form>
+<def>not bowing</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talai</form>
+<def>head</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
