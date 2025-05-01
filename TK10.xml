@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 10. <term xml:lang="ta">kaṭavuḷ vāḻttu</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,196 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK10">
-<l>piṟavip peruṅkaṭal nīntuvar nīntā</l>
-<l> riṟaivaṉaṭi cērā tavar</l>            
+<l>piṟavip peruṅkaṭa ṉīntuvar nīntā</l>
+<l>riṟaiva ṉaṭicērā tār</l>            
             </lg>
             <lg xml:lang="en">
-<l>None can swim the great sea of births but those who are united to the feet of God.</l>
+<l>They will cross the great ocean of birth. They do not cross</l>
+<l>without first coming to the feet of the Lord.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK10_P1">
+          (i-ḷ). iṟaiva ṉaṭiyeṉṉum puṇaiyaic cērntār piṟaviyākiya periyakaṭalai nīntuvar, ataṉaic cērātar nīntamāṭṭārāy ataṉu ḷaḻuntuvar, (e-ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : Those who have united with the boat called/known as the feet of the Lord will swim the great ocean that is birth; those who do not unite with them, being unable to swim, will drown in it.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK10_P2">
+          kāraṇa kāriyat toṭarcciyāyk karaiyiṉri varutaliṉ ‘piṟavip peruṅkaṭal’ eṉṟār. cērntā reṉpatu colleccam. ulakiyalpai niṉaiyātu iṟaivaṉaṭiyaiyē niṉaippārkkup piṟaviyaṟutalum avvāṟaṉṟi māṟi niṉaippārk kaḵtaṟāmaiyum ākiya iraṇṭum itaṉāl niyamikkappaṭṭaṉa.
+        </p>
+        <p xml:lang="en">
+          Because [rebirth], being(?) a constant succession of cause and effect, [keeps] coming without limit (lit. "shore"), [the poet] has said, "the great ocean of birth." "Those who have united" is a word to be supplied. Both [ideas?]—namely that [re]birth is cut off for those who, without thinking of worldly natures(?), think only of the feet of the Lord; and that for those who do not think that way, conversely(?), it is not cut off—have been determined by this [verse].
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar (9)</head>
+      <div rend="parallel">
+        <lg xml:id="TK10_M">
+          <l>piṟavip peruṅkaṭal nīntuvar nīntā</l>
+          <l>riṟaivaṉaṭi cērā tavar.</l>
+        </lg>
+        <lg xml:lang="en">
+          <l>They will swim the great ocean of birth. They cannot swim</l>
+          <l>without first coming to the feet of the Lord.</l>
+        </lg>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK10_M1">
+          (i - ḷ.) piṟaviyākiya periyakaṭalai nīnti yēṟuvar iṟaivaṉatu aṭiyaic cērntavar; cērātavar ataṉuḷ aḻuntuvar.
+        </p>
+        <p xml:lang="en">
+          They who have swum across the great ocean that is birth are they who have united with the feet of the Lord; they who do not unite [with them] will drown in it.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK10_M2">
+          itu, piṟavi illai yeṉṟatu.
+        </p>
+        <p xml:lang="en">
+          This [amounts to saying] that there is no [re]birth [for them].
+        </p>
+      </div>
+    </body>
+  </text>
+<standOff corresp="#TK10" type="wordsplit">
+<interp type="alignment" select="0">17ML30M,48M</interp>
+<entry>
+<form>piṟavi<c type="geminated">p</c></form>
+<def>birth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perum</form>
+<def>big</def>
+<form type="sandhi">peruṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭal</form>
+<def>ocean</def>
+<form type="sandhi">kaṭaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīntuvar</form>
+<def>(will) swim/cross</def>
+<form type="sandhi">ṉīntuvar</form>
+<gramGrp>
+  <gram type="role">imperfect aspect</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīntār</form>
+<def>do/can/will not swim/cross</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṟaivaṉ</form>
+<def>Lord</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭi</form>
+<def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cērātār</form>
+<def>not-join-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">negative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+</standOff><standOff corresp="#TK10_M" type="wordsplit">
+<interp type="alignment" select="0">51M,50MG</interp>
+<entry>
+<form>piṟavi<c type="geminated">p</c></form>
+<def>birth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perum</form>
+<def>big</def>
+<form type="sandhi">peruṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭal</form>
+<def>ocean</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīntuvar</form>
+<def>(will) swim/cross</def>
+<gramGrp>
+  <gram type="role">imperfect aspect</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīntār</form>
+<def>do/can/will not swim/cross</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṟaivaṉ</form>
+<def>Lord</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭi</form>
+<def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cērātavar</form>
+<def>not-join-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">negative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
