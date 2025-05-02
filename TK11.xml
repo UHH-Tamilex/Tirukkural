@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 11. <term xml:lang="ta">vāṉ ciṟappu</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,145 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK11">
-<l>vāṉiṉ ṟulakam vaḻaṅki varutalāṟ,</l>
-<l> ṟāṉamiḻta meṉṟuṇaraṟ pāṟṟu</l>            
+<l>vāṉiṉ ṟulakam vaḻaṅki varutalāṟ</l>
+<l>ṟāṉamiḻta meṉṟuṇaraṟ pāṟṟu</l>            
             </lg>
             <lg xml:lang="en">
-<l>By the continuance of rain the world is preserved in existence it is therefore worthy to be called ambrosia.</l>
+<l>Because, rain persisting, the world keeps going,</l>
+<l>it is thought to play the part of nectar.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK11_P0">
+          [vāṉciṟappu]—aḵtāvatu akkaṭavuḷa tāṇaiyāṉ ulakamum ataṟ kuṟutiyākiya aṟam poru ḷiṉpaṅkaḷum naṭattaṟ kētuvākiya maḻaiyiṉatu ciṟappukkūṟutal. atikāra muṟaimaiyum itaṉāṉē viḷaṅkum.
+        </p>
+        <p xml:lang="en">
+          [This section is called "The Greatness of Heaven/Rain"]—that is, a declaration of the greatness of rain, which is the [instrumental] cause of the course(s), [impelled] by command of the deity, of (the beings in) the world and of dharma, welfare, and pleasure, which are their goals; and the [logic of the] sequence of sections becomes clear through precisely this [consideration].
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK11_P1">
+          (i-ḷ). maḻai yiṭaiyaṟātu niṟpa ulakam nilaipeṟṟu varutalāṉ ammaḻai tāṉ ulakattiṟ kamiṟtameṉ ṟuṇarum pāṉmaiyai yuṭaittu. (e-ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : Because the world goes on enduring (more lit. comes having obtained stability) so long as(?) rain continues [to exist] uninterruptedly, that very rain enjoys ("has") the part [of] being considered nectar within the world.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK11_P2">
+          niṟpa veṉpatu niṉṟeṉat tirintu niṉṟatu. ulaka meṉṟatu īṇṭuyirkaḷai. avai nilaipeṟṟu varutalāvatu piṟappiṭaiyaṟāmaiyiṉ eññāṉṟu muṭampōṭu kāṇappaṭṭu varutal. amiḻta muṇṭār cāvātu nilaipeṟutaliṉ, ulakattai nilaipeṟuttukiṉṟavāṉai ‘amiḻtameṉ ṟuṇaraṟpāṟṟu’ eṉṟār.
+        </p>
+        <p xml:lang="en">
+          [The infinitive form] "so long as ... persists" (niṟpa) stands [in the verse, though it form has] changed(?) to [the "verbal complement" (viṉaiyeccam)] "persisting" (niṉṟu). [The word] "world" [in the verse refers?] to the living beings in this [world]. What their continuing to endure [means] is their continuing to constantly ecome visible(?) as (lit. with) a body through their uninterrupted [re]birth[s]. Because those who have drunk nectar perdure without dying, [the poet] has called rain, which causes the world to perdure, "[that] which has the part of being considered nectar."
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar (20)</head>
+      <div rend="parallel">
+        <p xml:id="TK11_M1">
+          i - ḷ:—maḻaivaḷam nilainiṟṟalāṉē ulakanaṭai tappātu varutalāṉ, ammaḻaitāṉ ulakattār amutameṉṟu uṇarum pakutiyatu.
+        </p>
+        <p xml:lang="en">
+          Because it is only so long as the fertility of rain continues to exist (more lit. "stands in its stead") that the course of the world goes on unerring, the lot [of] being thought of as nectar (amutam = amṛtam) by the [beings] in the world falls to that very rain.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK11_M2">
+          iḵtu, aṟam poruḷ iṉpaṅkaḷai uṇṭākkutalāṉum, pala vakaippaṭṭa uṇavukaḷai nilainiṟuttalāṉum, tāṉē uṇavātalāṉum maḻaiyiṉai maṟṟuḷḷa pūtamāttiraiyāka niṉaikkap paṭāteṉṟa nilaimai kūṟiṟṟu.
+        </p>
+        <p xml:lang="en">
+          In this [verse], the true character [of rain](?) has been declared, which is that one cannot think of rain as merely [one among] the different elements that exist(?), inasmuch as it brings dharma, welfare, and pleasure into existence; establishes the many kinds of sustenance; and is itself sustenance.
+        </p>
+      </div>
+    </body>
+  </text>
+<standOff corresp="#TK11" type="wordsplit">
+<interp type="alignment" select="0">3ML3MG35MG11M,55M</interp>
+<entry>
+<form>vāṉ</form>
+<def>rain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟ<c type="elided">u</c></form>
+<def>persisting</def>
+<form type="sandhi">ṉiṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulakam</form>
+<def>world/beings</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḻaṅki</form>
+<def>go/endure/exist</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varutalāl</form>
+<def>happening/abounding(?)</def>
+<form type="sandhi">varutalāṟ</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṉ</form>
+<def>it</def>
+<form type="sandhi">ṟāṉ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>amiḻtam</form>
+<def>nectar</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṟ<c type="elided">u</c></form>
+<def>quotative ("that")</def>
+<form type="sandhi">eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇaral</form>
+<def>considering</def>
+<form type="sandhi">uṇaraṟ</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṟṟu</form>
+<def>share/character-it</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
