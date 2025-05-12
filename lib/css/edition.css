@@ -1,4 +1,4 @@
-#record-fat section > table {
+.record.fat section > table {
     max-width: unset;
     width: 100%;
 }

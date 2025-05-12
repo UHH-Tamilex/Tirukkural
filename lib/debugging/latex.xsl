@@ -85,6 +85,15 @@
 \usepackage{xcolor}
 \usepackage[colorlinks,linkcolor=olive]{hyperref}
 
+\usepackage{fancyhdr}
+\makeatletter
+\@twosidetrue{}
+\makeatother
+\pagestyle{fancy}
+\fancyhf{} % clear all headers/footers
+\fancyhead[LO,RE]{\thepage} % page numbers top left odd right even
+\renewcommand{\headrulewidth}{0pt}
+
 \arrangementX[A]{paragraph}
 \arrangementX[B]{paragraph}
 \renewcommand*{\thefootnoteB}{\alph{footnoteB}}

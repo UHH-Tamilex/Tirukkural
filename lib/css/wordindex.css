@@ -13,7 +13,7 @@
 .dict-group div:first-child {
     flex-grow: 1;
 }
-#record-fat h2.dict-letter {
+.record.fat h2.dict-letter {
     position: sticky;
     height: min-content;
     width: min-content;

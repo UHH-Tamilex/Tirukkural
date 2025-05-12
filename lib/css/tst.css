@@ -30,7 +30,7 @@ body {
     margin-right: auto;
 }
 
-#record-thin, .record-thin {
+.record.thin {
     position: relative;
     /*padding-left: 12.5%;*/
     /*width: 120%;*/
@@ -39,7 +39,7 @@ body {
     margin: 0 auto;
 }
 
-#record-fat, .record-fat {
+.record.fat {
     position: relative;
     /*padding-left: 12.5%;
     width: 87.5%;*/
@@ -48,7 +48,7 @@ body {
     margin: 0 auto;
 }
 
-#record-thin h1, .record-thin h1 {
+.record.thin h1 {
     /*max-width: 55%;*/
     /*max-width: 550px;
     width: 87.5%;*/
@@ -57,7 +57,7 @@ body {
     width: 87.5%;
     font-size: 1.4rem;
 }
-#record-thin .teitext {
+.record.thin .teitext {
     width: unset;
     max-width: 800px;
     padding-right: 2rem;
@@ -316,7 +316,7 @@ section > p, section > div.lg, section > table {
     width: 87.5%;
 }
 
-#record-fat section > table.texttitle, #record-thin section > table.texttitle {
+.record section > table.texttitle {
     max-width: 100%;
     width: 100%;
     top: 0;
@@ -327,18 +327,15 @@ section > p, section > div.lg, section > table {
     background: linear-gradient(rgb(255,255,248) 60%, rgba(255,255,255,0));
 }
 
-#record-fat section > div.para.wide, #record-fat section > div.lg.wide {
+.record.fat section > div.para.wide, .record.fat section > div.lg.wide {
     max-width: 100%;
     width: 87.5%;
     padding-left: 0;
     margin-left: 1rem;
 }
 /*
-#record-thin h2, #record-thin h3, #record-thin h4, #record-thin .editionStmt,
-#record-thin section > p, #record-thin section > div.lg, #record-thin section > table,
-.record-thin h2, .record-thin h3, .record-thin h4, .record-thin .editionStmt,
-.record-thin section > p, .record-thin section > div.lg, .record-thin section > table {
-    /*max-width: 55%;*/
+.record.thin h2, .record.thin h3, .record.thin h4, .record.thin .editionStmt,
+.record.thin section > p, .record.thin section > div.lg, .record.thin section > table {
     max-width: 800px;
     width: 87.5%;
 }
@@ -445,7 +442,7 @@ hr {
     text-stroke: unset;
 }
 
-#record-thin hr {
+.record.thin hr {
     width: unset;
     margin-right: 2rem;
     max-width: 800px;
@@ -466,7 +463,7 @@ hr {
         flex-direction: column;
     }
     /*
-    #record-thin .teitext {
+    .record.thin .teitext {
         width: 95%;
     }
     */
