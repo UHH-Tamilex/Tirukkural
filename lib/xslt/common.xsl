@@ -130,6 +130,16 @@
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
         </xsl:if>
+        <xsl:if test="@n">
+            <xsl:attribute name="style">
+                <xsl:text>counter-reset: line-numb </xsl:text>
+                <xsl:value-of select="@n - 1"/>
+                <xsl:text>;</xsl:text>
+            </xsl:attribute>
+            <xsl:attribute name="data-offset">
+                <xsl:value-of select="@n mod 5"/>
+            </xsl:attribute>
+        </xsl:if>
         <xsl:if test="@corresp">
             <xsl:attribute name="data-corresp">
                 <xsl:value-of select="translate(@corresp,'#','')"/>

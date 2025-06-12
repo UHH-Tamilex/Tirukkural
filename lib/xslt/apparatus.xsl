@@ -227,6 +227,16 @@
                         <xsl:text>text-block lg edition</xsl:text>
                     </xsl:attribute>
                     <xsl:attribute name="id"><xsl:value-of select="$xmlid"/></xsl:attribute>
+                    <xsl:if test="@n">
+                        <xsl:attribute name="style">
+                            <xsl:text>counter-reset: line-numb </xsl:text>
+                            <xsl:value-of select="@n - 1"/>
+                            <xsl:text>;</xsl:text>
+                        </xsl:attribute>
+                        <xsl:attribute name="data-offset">
+                            <xsl:value-of select="@n mod 5"/>
+                        </xsl:attribute>
+                    </xsl:if>
                     <xsl:apply-templates/>
                 </div>
                 <xsl:call-template name="apparatus-standoff">
@@ -559,6 +569,16 @@
                 <xsl:otherwise><xsl:text>edition nolemmaunderline</xsl:text></xsl:otherwise>
             </xsl:choose>
         </xsl:attribute>
+            <xsl:if test="@n">
+                <xsl:attribute name="style">
+                    <xsl:text>counter-reset: line-numb </xsl:text>
+                    <xsl:value-of select="@n - 1"/>
+                    <xsl:text>;</xsl:text>
+                </xsl:attribute>
+                <xsl:attribute name="data-offset">
+                    <xsl:value-of select="@n mod 5"/>
+                </xsl:attribute>
+            </xsl:if>
         <xsl:apply-templates/>
     </xsl:element>
 </xsl:template>

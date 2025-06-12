@@ -64,11 +64,24 @@ div.edition div.l::before {
     text-align: right;
     font-size: 65%;
 }
-
-div.edition div.l:nth-of-type(5n)::before {
+div.edition:not([data-offset]) div.l:nth-of-type(5n)::before {
     opacity: 1;
 }
-
+div.edition[data-offset='0'] div.l:nth-of-type(5n + 1)::before {
+    opacity: 1;
+}
+div.edition[data-offset='1'] div.l:nth-of-type(5n + 5)::before {
+    opacity: 1;
+}
+div.edition[data-offset='2'] div.l:nth-of-type(5n + 4)::before {
+    opacity: 1;
+}
+div.edition[data-offset='3'] div.l:nth-of-type(5n + 3)::before {
+    opacity: 1;
+}
+div.edition[data-offset='4'] div.l:nth-of-type(5n + 2)::before {
+    opacity: 1;
+}
 div.edition div.l.linenumbered::before {
     color: rgb(168,81,16);
     opacity: 1;
@@ -199,6 +212,10 @@ span.invisible {
 
 #topbar > div {
     margin: 0 0 1rem 0;
+}
+
+#buttoncontainer > div {
+    background: rgb(255,255,248);
 }
 #buttoncontainer > div:hover {
     background: #ff9900;
