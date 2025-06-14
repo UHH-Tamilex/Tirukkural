@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,9 +29,130 @@
 <l>tuppāya tūu maḻai</l>            
             </lg>
             <lg xml:lang="en">
-<l>Rain produces good food, and is itself food.</l>
+<l>Rain—it fashions refreshing food for us to enjoy, and</l>
+<l>while we enjoy, becomes refreshment.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK12_P1">
+          (i-ḷ). uṇpārkku nalla vuṇavukaḷai yuḷavākki avaṟṟai yuṇkiṉṟārkkut tāṉumuṇavāya niṟpatūu maḻai, (e-ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : Rain—having brought into existence good aliments for those who eat and drink, it also becomes aliment itself for them while they are eating.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK12_P2">
+          tāṉu muṇavātalāvatu taṇṇīrā yuṇṇappaṭutal. ciṟappuṭaiya vuyartiṇaimēl vaittuk kūṟiṉamaiyiṉ, aḵṟiṇaikku miḵtokkum. ivvā ṟuyirkaḷatu paciyaiyum nīrvēṭkaiyaiyum nīkkutaliṉ, avai vaḻaṅkivaruta luṭaiyavāyiṉa eṉpatām.
+        </p>
+        <p xml:lang="en">
+          It also becomes aliment itself—that is, it is enjoyed as potable (lit. cool) water. Through expressing himself using (more lit. "placing at the top") the rational class [in "for those who eat" (uṇpārkku)], which has pride of place, [he implies that] this fits for the irrational class as well. In this way, [the verse] amounts to saying that [it is] through [rain's] removing living beings' hunger and desire for water [that] those [living beings] continue to exist.
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar</head>
+      <div rend="parallel">
+        <p xml:id="TK12_M1">
+          (i - ḷ) piṟitoṉṟuṇpārkku avaruṇṭaṟkāṉa uṇavukaḷaiyu muṇṭākkit, taṉṉai yuṇpārkkut tāṉē uṇavāvatum maḻai, (e - ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : Rain—for those who enjoy another [food or drink], it brings [that] nourishment into existence for their enjoyment, and is itself also nourishment for those who drink it.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK12_M2">
+          itu paciyaik keṭukku meṉṟatu.
+        </p>
+        <p xml:lang="en">
+          This [verse says] that it destroys thirst.
+        </p>
+      </div>
+    </body>
+  </text>
+<standOff corresp="#TK12" type="wordsplit">
+<interp type="alignment" select="0">14MG7MG19MG5MGMR5M,56M</interp>
+<entry>
+<form>tuppārkku<c type="geminated">t</c></form>
+<def>enjoy-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">imperfect aspect</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tupp<c type="elided">u</c></form>
+<def>enjoyment</def>
+<form type="sandhi">tupp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āya</form>
+<def>being</def>
+<gramGrp>
+  <gram type="role">imperfect aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tupp<c type="elided">u</c></form>
+<def>food (and drink)</def>
+<form type="sandhi">tupp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākki<c type="geminated">t</c></form>
+<def>having created</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuppārkku<c type="geminated">t</c></form>
+<def>enjoy-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">imperfect aspect</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tupp<c type="elided">u</c></form>
+<def>nourishment/refreshment</def>
+<form type="sandhi">tupp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āyatū-u<c type="uncertain">m</c></form>
+<def>is-it</def>
+<form type="sandhi">āyatūum</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maḻai</form>
+<def>rain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
