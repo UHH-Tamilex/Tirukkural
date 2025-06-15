@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,9 +29,122 @@
 <l>vāri vaḷaṅkuṉṟik kāl</l>            
             </lg>
             <lg xml:lang="en">
-<l>If the abundance of wealth imparting rain diminish, the labour of the plough must cease.</l>
+<l>The ploughmen will no longer scratch with their ploughs when</l>
+<l>the increase of that income we call rain wanes.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK14_P1">
+          (i-ḷ). uḻavar ērā ṉuḻutalaic ceyyār,maḻai yeṉṉum varuvāy taṉpayaṉ kuṉṟiṉ, (e-ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : Ploughmen will not do their ploughing with their ploughs, if the income known as rain/clouds diminishes [with respect to?] its fruit.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK14_P2">
+          kuṉṟiyakkāleṉpatu kuṟaintuniṉṟatu. uṇaviṉmaikkuk kāraṇaṅ kūṟiyavāṟu.
+        </p>
+        <p xml:lang="en">
+          "When it wanes" [means] its continuing to be wanting(?). [In this] way, the cause for the absence of nourishment [that was the topic of the preceding poem] has been stated.
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar (16/17)</head>
+      <div rend="parallel">
+        <p xml:id="TK14_M1">
+          (i - ḷ.) ēriṉuḻutalait tavirvāruḻavar ; puyalākiya vāriyiṉuṭaiya vaḷaṅ kuṟaintakālattu, (e - ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : The ploughmen desist from their ploughing with the plough at the time when the abundance of the profit that is rain/clouds has diminished.
+        </p>
+      </div>
+        <div rend="parallel">
+          <p xml:id="TK14_M2">
+            iḵtu uḻuva rillai yeṉṟatu.
+          </p>
+          <p xml:lang="en">
+            This [means] that there will be no ploughmen(?).
+          </p>
+        </div>
+      </body>
+    </text>
+<standOff corresp="#TK14" type="wordsplit">
+<interp type="alignment" select="0">43M,43M</interp>
+<entry>
+<form>ēriṉ</form>
+<def>with the plough</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḻāar</form>
+<def>will/do not plough</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḻavar</form>
+<def>ploughmen</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puyal</form>
+<def>rain/cloud</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉum</form>
+<def>called</def>
+<gramGrp>
+  <gram type="role">imperfect aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāri</form>
+<def>income/profit</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḷam</form>
+<def>growth/increase/abundance</def>
+<form type="sandhi">vaḷaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṉṟi<c type="geminated">k</c></form>
+<def>diminishing/lacking</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāl</form>
+<def>when</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
