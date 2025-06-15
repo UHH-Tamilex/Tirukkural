@@ -27,9 +27,52 @@
 <l>eṭuppatūu mellā maḻai</l>            
             </lg>
             <lg xml:lang="en">
-<l>Rain by its absence ruins men and by its existence restores them to fortune.</l>
+<l>Rain ruins all—and is the refuge for the ruined, in the same way</l>
+<l>raising everything again.</l>
             </lg>
         </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK15_P1">
+          (i-ḷ). pūmiyiṉkaṇ vāḻvāraip peyyātu niṉṟu keṭuppatūum avvāṟu keṭṭārkkut tuṇaiyāyp peytu muṉkeṭuttāṟpōla eṭuppatūum ivai yellām vallatu maḻai,(e-ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : It ruins, continuing not to pour, those who live upon the Earth; becoming the support of those who have been thus ruined when it pours, it raises [them up], just as [when] it ruined [them] before. Rain is capable of all this.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK15_P2">
+          maṟṟu viṉaimāṟṟiṉkaṇ vantatu. āṅ keṉpatu maṟutalait toḻi luvamattiṉkaṇ vantatu. kēṭum ākkamum eytutaṟ kuriyār makkaḷātaliṉ ‘keṭṭārkku’ eṉṟār. ‘ellām’ eṉṟatu am makkaṇ muyaṟci vēṟupāṭukaḷāṟ keṭuttal eṭuttalkaṭām palavātal nōkki. valla teṉpatu avāynilaiyāṉ vantatu. maḻaiyiṉ tāṟṟal kūṟiyavāṟu.
+        </p>
+        <p xml:lang="en">
+          [The particle] maṟṟu (here: "on the other hand"?) occurs [here] in the sense of [indicating] an alternation of verbs. [The particle] āṅku (lit. "there" or "then"; here "in the same way"?) occurs [here] in the sense of comparing contrary actions. Inasmuch as people are heir to both ruin and increase(?), [the poet] has said "for the ruined." He has said "everything" with a view to the many ruinations and restorations that come to be due to differences in the efforts of those people(?). "Capable of" because of the sentence's incompleteness [without it]. In this way, the power that belongs to rain has been proclaimed.
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar (18)</head>
+      <div rend="parallel">
+        <p xml:id="TK15_M1">
+          (i - ḷ.) peyyātu niṉṟu ellāpporuḷaiyuṅ keṭuppatum, avai keṭap paṭṭārkkut tuṇaiyāyt tāṉ peytu poruḷkaḷellāvaṟṟaiyum av viṭattē yuṇṭākkuvatum, maḻai, (e - ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : Rain, when for long it does not pour, ruins all wealth/things; it is also rain that becomes a support for those whose wealth has fallen into ruin(?) and cultivates all the wealth in that very same place.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK15_M2">
+          iḵtu iraṇṭiṉaiyuñ ceyyavaṟṟeṉṟavāṟu.
+        </p>
+        <p xml:lang="en">
+          In this way, [rain] is said to perform(?) both [actions].
+        </p>
+      </div>
     </body>
   </text>
 </TEI>
