@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,9 +29,136 @@
 <l>tuṇṇiṉ ṟuṭaṟṟum paci</l>            
             </lg>
             <lg xml:lang="en">
-<l>If the cloud, withholding rain, deceive (our hopes) hunger will long distress the sea-girt spacious world.</l>
+<l>Hunger—as long as clouds fail, so long will it plague us</l>
+<l>in this vast world of wide waters.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK13_P1">
+          (i-ḷ). maḻai vēṇṭuṅkālattup peyyātu poykku māyiṉ kaṭalāṟ cūḻappaṭṭa akaṉṟa vulakattiṉkaṇnilaipeṟ ṟuyirkaḷai varuttum paci, (e-ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : If clouds, during a time when [rain] is needed, fail and do not pour, hunger will become established in the extensive world surrounded by the ocean and torment the living beings in it.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK12_P2">
+          kaṭaluṭait tāyiṉu mataṉāṟ payaṉillai yeṉpār ‘virinīr viyaṉulakattuḷ’ eṉṟār. uṇaviṉmaiyiṉ paciyā ṉuyirka ḷiṟakkum eṉpatām.
+        </p>
+        <p xml:lang="en">
+          To express that, even if [the world] has the ocean, no fruit comes of it, [the poet] has said "in the vast world of wide waters." [The idea] is that, in the absence of sustenance, living beings will die from hunger.
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar (14)</head>
+      <div rend="parallel">
+        <p xml:id="TK13_M1">
+          vāṉamāṉatu nilainiṟkap poykkumāyiṉ, virinta nīriṉai yuṭaiya akaṉṟa vulakattiṭattē paciyāṉatu niṉṟu varuttāniṟkum; ellāvuyir kaḷaiyum, (e - ṟu).
+        </p>
+        <p xml:lang="en">
+          If clouds fail to be established(?), hunger will abide right in the midst of the extensive world and continue to torment all living beings(?).
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK13_M2">
+          poyttal - taṉṟoḻil maṟuttal. itu ‘paci’ eṉṟu potuppaṭak kūṟiyavataṉāṉ makkaḷum vilaṅkum, poruḷuṅ kāmamun tuykkalāṟṟātu tuṉpa, muṟumeṉṟu kūṟiṟṟu.
+        </p>
+        <p xml:lang="en">
+          To "fail" [means] to reject one's own (proper) function. [In] this [verse], by mentioning "hunger" as a generality, [the poet has effectively] said that people and animals, being unable to satisfy their [needs for] welfare and pleasure, will suffer.
+        </p>
+      </div>
+    </body>
+  </text>
+<standOff corresp="#TK13" type="wordsplit">
+<interp type="alignment" select="0">37ML3MG11M,53M</interp>
+<entry>
+<form>viṇ</form>
+<def>cloud/heaven/rain?</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟu</form>
+<def>persisting</def>
+<form type="sandhi">ṇiṉṟu</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poyppiṉ</form>
+<def>fail/cheat</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viri</form>
+<def>spreading</def>
+<gramGrp>
+  <gram type="role">verbal root as adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>water</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viyaṉ</form>
+<def>vastness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulakattu</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷ</form>
+<def>in</def>
+<form type="sandhi">ṇṇ</form>
+<gramGrp>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟ<c type="elided">u</c></form>
+<def>persisting</def>
+<form type="sandhi">ṇiṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaṟṟum</form>
+<def>shall torment</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">imperfect aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paci</form>
+<def>hunger/famine</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
