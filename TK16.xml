@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 16. <term xml:lang="ta">vāṉ ciṟappu</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,143 @@
 <l>pacumpuṟ ṟalaikāṇ paritu</l>            
             </lg>
             <lg xml:lang="en">
-<l>If no drop falls from the clouds, not even the green blade of grass will be seen.</l>
+<l>If drops stopped falling from heaven, it would soon</l>
+<l>be hard to see a speartip of green grass.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK16_P1">
+          (i-ḷ). mēkattiṟ ṟuḷivīḻiṟ kāṇpatallatu vīṟātāyiṉ appoḻutē pacumpulliṉatu talaiyaiyuṅ kāṇṭalaritu, (e-ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : Unless the raindrop is seen in its fall(??) from the cloud—[that is?], if it does not fall—at that very time, seeing even the tip of the green grass is scarcely possible.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK16_P2">
+          vicumpu — ākupeyar. maṟṟu viṉaimāṟṟiṉkaṇ vantatu. iḻiva ciṟappummai vikārattāṟ ṟokkatu. ōraṟi vuyirum illai yeṉpatām.
+        </p>
+        <p xml:lang="en">
+          "Vicumpu," [whose basic meaning is sky/heaven, is here] a noun used in a transferred sense[—namely, that of "cloud"]. "Maṟṟu" ["then"?] occurs in the sense of alternation of verbs. [In the phrase "the tip of green grass"], a particle -um [= "even"] conveying an extreme of lowliness has been elided [more lit. "contracted"] through [poetic] license. The [meaning of this phrase] is that there would no [longer] be even a single sentient being(?).
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar (15)</head>
+      <div rend="parallel">
+        <p xml:id="TK16_M1">
+          (i - ḷ.) vāṉiṉṟu tuḷivīḻiṉallatu avviṭattup pacutta pulliṉatu tōṟṟamuṅ kāṇṭal aritu, (e - ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : Unless raindrops fall from heaven(/clouds), even the breaking-through (lit. appearance) of the grass that had been green in that place can scarcely be seen.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK16_M2">
+          āṅkeṉpataṉai acaiyākkiṉu mamaiyum. ik̲tu ōraṟivuyiruṅ keṭumeṉṟatu.
+        </p>
+        <p xml:lang="en">
+          If one makes [i.e. interprets] the [word] āṅku ("in that place") as [a metrical filler for] a "half-foot" (acai), that also fits. This [poem] has said that every single sentient being(?) perishes [without rain].
+        </p>
+      </div>
+    </body>
+  </text>
+<standOff corresp="#TK16" type="wordsplit">
+<interp type="alignment" select="0">26MG3M2G18MG5M,56M</interp>
+<entry>
+<form>vicumpiṉ</form>
+<def>heaven/cloud</def>
+<form type="sandhi">vicumpiṟ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuḷi</form>
+<def>(rain)drop</def>
+<form type="sandhi">ṟuḷi</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vīḻiṉ</form>
+<def>fall-if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>allāl</form>
+<def>unless</def>
+<form type="sandhi">allāṉ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides/then(?)</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṅk<c type="elided">u</c>-ē</form>
+<def>there/then</def>
+<form type="simple">āṅku</form>
+<form type="sandhi">āṅk</form>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>pacum</form>
+<def>green</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pul</form>
+<def>grass</def>
+<form type="sandhi">puṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talai</form>
+<def>tip</def>
+<form type="sandhi">ṟalai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇp<c type="elided">u</c></form>
+<def>seeing</def>
+<form type="sandhi">kāṇp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aritu</form>
+<def>difficult-it</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
