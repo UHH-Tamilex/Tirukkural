@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 17. <term xml:lang="ta">vāṉ ciṟappu</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -24,12 +26,156 @@
         <div rend="parallel">
             <lg xml:id="TK17">
 <l>neṭuṅkaṭalun taṉṉīrmai kuṉṟun taṭinteḻili</l>
-<l>tāṉlkā tāki viṭiṉ</l>            
+<l>tāṉalkā tāki viṭiṉ</l>            
             </lg>
             <lg xml:lang="en">
-<l>Even the wealth of the wide sea will be diminished, if the cloud that has drawn (its waters) up gives them not back again (in rain).</l>
+<l>Even the boundless sea would lose its watery nature, if after reducing it</l>
+<l>the clouds stopped giving it back again.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK17_P1">
+          (i-ḷ). aḷavillātakaṭalun taṉṉiyalpu kuṟaiyum,mēkantāṉ ataṉaikkuṟait tataṉkaṭ peyyātu viṭumāyiṉ, (e-ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : The immeasurable ocean would be diminished in its own nature if clouds themselves stopped pouring [back] into it after drawing from it.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK17_P2">
+          ummai - ciṟappummai. taṉṉiyalpu kuṟaitalāvatu nīrvāḻuyirkaḷ piṟavāmaiyum maṇimutalāyiṉa paṭāmaiyumām. īṇṭuk kuṟaittaleṉṟatu mukattalai; atu “kaṭalkuṟai paṭuttanīr kalkuṟai paṭaveṟintu” eṉpataṉāṉu maṟika. maḻaikku mutalāya kaṭaṟkum maḻaivēṇṭu meṉpatām.
+        </p>
+        <p xml:lang="en">
+          The particle -um ["Even"] shows high degree/abundance. [By] the diminution of [the ocean]'s nature, [what is meant is that] beings that live in the water would no longer be born and [precious gems] such as pearls would no longer be produced. Here, [by] diminution, [the poet refers to?] the drawing-off [of water]; one should recognize this [usage] also in [the following quotation from the Paripāṭal]: "Casting the water produced by diminishing the sea so that it falls upon the stone mountain (?) ... " [The idea] is that even the ocean, which precedes rain, [also] needs rain.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK17_P3">
+          ivai yēḻu pāṭṭāṉum maḻai ulaka naṭakkaṟ kētuvātal kūṟappaṭṭatu.
+        </p>
+        <p xml:lang="en">
+          Through these seven poems, it has been proclaimed that rain is the cause of the continued existence (more lit. "going/course") of the world.
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar (16/17)</head>
+      <div rend="parallel">
+        <p xml:id="TK17_M1">
+          (i - ḷ.) nilamēyaṉṟi neṭiyakaṭalum taṉatu taṉmai kuṟaiyum; miṉṉi maḻaiyāṉatu peyyāviṭiṉ, (e - ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : Apart from the Earth, the wide sea, too, would have its own nature curtailed if clouds stopped thundering and pouring.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK17_M2">
+          taṭinteṉpataṟku, kūṟupaṭuttu eṉṟu poruḷuraippāru muḷar. itu nīruḷ vāḻvaṉavum paṭuvaṉavuṅ keṭumeṉṟatu. ivai nāṉkiṉāṉum poruṭ kēṭu kūṟiṉār; poruḷ keṭa iṉpaṅkeṭu meṉpataṉāl iṉpakkēṭu kūṟiṟṟilar.
+        </p>
+        <p xml:lang="en">
+          As for [the form] "taṭintu," there are also those who explain its meaning as "dividing" [i.e. "reducing"—rather than "striking," i.e. with lightning]. This [verse] says that beings that those things that live and are produced in water would be lost. With these four [preceding verses, the poet] has described the loss of material welfare; because happiness also is lost when welfare is lost, he has not described the loss of happiness.
+        </p>
+      </div>
+    </body>
+  </text>
+<standOff corresp="#TK17" type="wordsplit">
+<interp type="alignment" select="0">10MG23MG8ML5MG8M,58M</interp>
+<entry>
+<form>neṭum</form>
+<def>immense/long/wide</def>
+<form type="sandhi">neṭuṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭal-um</form>
+<def>sea</def>
+<form type="simple">kaṭal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>its own</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ṉīrmai</form>
+<def>nature/wateriness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṉṟum</form>
+<def>diminish</def>
+<form type="sandhi">kuṉṟun</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">imperfect aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṭint<c type="elided">u</c></form>
+<def>having reduced/drawn off</def>
+<form type="sandhi">taṭint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḻili</form>
+<def>cloud</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṉ</form>
+<def>themselves</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nalkāt<c type="elided">u</c></form>
+<def>grant-not</def>
+<form type="sandhi">ṉalkāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āki</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">auxiliary</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭiṉ</form>
+<def>let-go-if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+  <gram type="role">auxiliary</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
