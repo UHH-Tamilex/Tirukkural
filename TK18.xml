@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,9 +29,109 @@
 <l>vaṟakkumēl vāṉōrkku mīṇṭu</l>            
             </lg>
             <lg xml:lang="en">
-<l>If the heaven dry up, neither yearly festivals, nor daily worship will be offered in this world, to the celestials.</l>
+<l>The worship and great things done here won't reach</l>
+<l>those in heaven, if heaven dry up.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK18_P1">
+          (i-ḷ). tēvarkaṭku mivvulakiṉkaṇ makkaḷāṟ ceyyappaṭum viḻavoṭukūṭiya pūcai naṭavātu, maḻai peyyātāyiṉ, (e-ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : For the gods, also, the worship done by people in this world, which comes along with festivals, would not happen(/come), if rain did not pour.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK18_P2">
+          naimittikattōṭu kūṭiya nittiya meṉṟārākaliṉ ‘cellātu’ eṉṟār. ummai ciṟappummai. nittiyattiṟ ṟāḻvu tīracceyvatu naimittika mātaliṉ ataṉai muṟkūṟiṉār.
+        </p>
+        <p xml:lang="en">
+          Because he has said that daily worship is accompanied by [festivals, i.e.] occasional worship, [the poet] has said "does not go"(???). The particle -um ("even") shows high degree. [I.e., "even" the gods will suffer from want of rain on Earth]. Because the occasional worship puts an end to the exhaustion(?) [produced by] daily worship, [the poet] has mentioned it first.
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar (11)</head>
+      <div rend="parallel">
+        <p xml:id="TK18_M1">
+          (i - ḷ.) ciṟappuc ceyyappaṭukiṉṟa viḻavu pūcaṉai naṭavātu; vāṉam pularumākil tēvarkaḷukkum ivvulakiṉkaṇ, (e - ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : Festive worship that is made excellent, if rain dried up, would also not make its way to the gods, in this world.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK18_M2">
+          maḻaipeyyākkāl varuṅ kuṟṟaṅ kūṟuvār muṟpaṭa nāṉkuvakaippaṭṭa aṟaṅkaḷil pūcai keṭumeṉṟār.
+        </p>
+        <p xml:lang="en">
+          Being about to describe [in this section](?) the distress that comes about when rain does not pour, [the poet] has said that, among the four kinds of dharma [mentioned] in the previous [section?], worship would disappear.
+        </p>
+      </div>
+    </body>
+  </text>
+<standOff corresp="#TK18" type="wordsplit">
+<interp type="alignment" select="0">45M2G6M,53M</interp>
+<entry>
+<form>ciṟappoṭu</form>
+<def>with excellence/festivals</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pūcaṉai</form>
+<def>worship</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cellātu</form>
+<def>go-not</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṉam</form>
+<def>sky/heaven/rain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṟakkumēl</form>
+<def>dry up/wither-if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṉōrkk<c type="elided">u</c>-um</form>
+<def>gods</def>
+<form type="simple">vāṉōrkku</form>
+<form type="sandhi">vāṉōrkk</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>īṇṭu</form>
+<def>here/in this world</def>
+<gramGrp>
+</gramGrp>
+</entry>
+</standOff></TEI>
