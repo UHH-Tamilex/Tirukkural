@@ -134,10 +134,11 @@
 </entry>
 <entry>
 <form>vaḻaṅkāt<c type="elided">u</c></form>
-<def>proceed/be given(?)</def>
+<def>proceed/be given(?)-not</def>
 <form type="sandhi">vaḻaṅkāt</form>
 <gramGrp>
   <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
 </gramGrp>
 </entry>
 <entry>
