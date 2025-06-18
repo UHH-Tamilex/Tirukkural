@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 19. <term xml:lang="ta">vāṉ ciṟappu</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,123 @@
 <l>vāṉam vaḻaṅkā teṉiṉ</l>            
             </lg>
             <lg xml:lang="en">
-<l>If rain fall not, penance and alms-deeds will not dwell within this spacious world.</l>
+<l>The two, giving and austerity, would disappear in the wide world</l>
+<l>if heaven stopped doing what it does.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK19_P1">
+          (i-ḷ). akaṉṟa vulakiṉkaṇ tāṉamun tavamumākiya viraṇṭaṟamum uḷavākā, maḻai peyyātāyiṉ, (e - ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : The two dharmas, namely donation and austerity, would not exist on the extensive Earth if rain did not pour.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK19_P2">
+          tāṉamāva taṟaneṟiyāṉ vanta poruḷkaḷait takkārkkuvakaiyōṭuṅkoṭuttal. tavamāvatu maṉam poṟivaḻi pōkātu niṟṟaṟporuṭṭu virataṅkaḷā ṉuṇṭicurukkal mutalāyiṉa. perumpāṉmaipaṟṟittāṉam illaṟattiṉmēlum tavam tuṟavaṟattiṉ mēlum niṉṟaṉa.
+        </p>
+        <p xml:lang="en">
+          Donation means giving articles of wealth that have come [to one] through moral means to worthy [recipients] in every way(?). Austerity means the halting of the mind without its going [out] through [the portals of] the senses, vows concerning(?) possessions, the curtailment of food, etc. For (more lit. "concerning") the majority, donation has been established within [the realm of] the dharma of the house[holder], while austerity [has been established] within [the realm of] renunciation.
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar (12)</head>
+      <div rend="parallel">
+        <p xml:id="TK19-M1">
+          (i - ḷ.) tāṉamun tavamumākiya viraṇṭaṟamu muḷavākā; akaṉṟa vulakattukkaṇ maḻai peyyātāyiṉ, (e - ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : The two dharmas, namely donation and austerity, would not exist if rain did not pour upon the extensive Earth.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK19-M2">
+          itu tāṉamun tavamuṅ keṭumeṉṟatu.
+        </p>
+        <p xml:lang="en">
+          This means that donation and austerity would perish.
+        </p>
+      </div>
+    </body>
+  </text>
+<standOff corresp="#TK19" type="wordsplit">
+<interp type="alignment" select="0">15M2G31MG4M,53M</interp>
+<entry>
+<form>tāṉam</form>
+<def>giving (dānam)</def>
+<form type="sandhi">tāṉan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tavam</form>
+<def>austerity (tapaḥ)</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iraṇṭ<c type="elided">u</c>-um</form>
+<def>two-it</def>
+<form type="simple">iraṇṭu</form>
+<form type="sandhi">iraṇṭ</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>taṅkā</form>
+<def>stay-not</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viyaṉ</form>
+<def>width</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulakam</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṉam</form>
+<def>sky/heaven/rain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḻaṅkāt<c type="elided">u</c></form>
+<def>proceed/be given(?)</def>
+<form type="sandhi">vaḻaṅkāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉiṉ</form>
+<def>if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+  <gram type="role">auxiliary</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
