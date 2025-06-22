@@ -270,7 +270,7 @@ blockquote > .cb.diplo:first-child::after {
       text-decoration: none !important;
 }
 
-.text-block {
+.teitext {
     counter-reset: footnote 0;
 }
 

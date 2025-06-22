@@ -161,7 +161,7 @@ div.lg div.l.indent9 {
 }
 
 rt { padding-bottom: 0.5rem;}
-rt:hover, span.word:not(.nolookup):hover { background-color: yellow; cursor: pointer; }
+rt:hover, span.word:not(.nolookup):hover { background-color: yellow; /*cursor: pointer;*/ }
 #tooltip { font-size: 1.1rem; }
 
 .standOff {
@@ -175,6 +175,9 @@ rt:hover, span.word:not(.nolookup):hover { background-color: yellow; cursor: poi
 
 span.word.split {
     margin-right: 0.5rem;
+}
+span.word.split:last-child {
+    margin-right: 0;
 }
 
 .animation span.word.split {
