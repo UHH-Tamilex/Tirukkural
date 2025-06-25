@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 20. <term xml:lang="ta">vāṉ ciṟappu</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,147 @@
 <l>vāṉiṉ ṟamaiyā toḻukku</l>            
             </lg>
             <lg xml:lang="en">
-<l>If it be said that the duties of life cannot be discharged by any person without water, so without rain there cannot be the flowing of water.</l>
+<l>If the world could not go on without water, the constant course</l>
+<l>for all people could not go on without rain.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK20_P1">
+          (i-ḷ). evvakai mēmpāṭṭārkkum nīrai yiṉṟi ulakiyal amaiyātāyiṉ, annīr iṭaiyaṟā toḻukum oḻukkum vāṉai yiṉṟi yamaiyātu, (e - ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : If [it is true that], without water, the worldly conduct (more lit. "course(s) of the world") of all kinds of eminent people would not go on, [it is equally true that], without rain(/heaven), the uninterruptedly flowing flow of that water, too, would not go on.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK20_P2">
+          poruḷiṉpaṅkaḷai ulakiyal eṉṟār; avai immaikkaṇṇavākaliṉ. iṭaiyaṟātoḻukutal ekkālattumevviṭattu muḷatātal. nīriṉṟamaiyā tulakeṉpatu ellārāṉun teḷiyap paṭutaliṉ atu pōla oḻukkum vāṉiṉ ṟamaiyāmai teḷiyappaṭumeṉpār, ‘nīriṉṟamaiyā tulakeṉiṉ’ eṉṟār. itaṉai nīraiyiṉṟiyamaiyā tulakāyiṉ ettiṟattārkkum maḻaiyaiyiṉṟi yoḻukkam nirampāteṉavuraippārumuḷar.
+        </p>
+        <p xml:lang="en">
+          [The poet] has called [the human goals of] welfare and pleasure "(the course of) the world," because they are things [that are pursued] in this world. Uninterrupted flowing [here means] being present in every time and place. [The poet] has said "If the world could not go on without water" while intending to say(?) that, because the fact that the world would no longer exist without water is clearly apparent to all, the fact that the flow [of that water] would no longer exist without rain(/heaven) is equally (lit. "like that") apparent. There are also those who say that [the meaning is as follows]: If [it is true that] the world could not go on without water, [it is equally true that] the conduct appropriate to each kind of person could not be fulfilled without rain.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK20_P3">
+          ivaimūṉṟu pāṭṭāṉum maḻai aṟam poruḷiṉpaṅkaḷ naṭattaṟ kētuvātal kūṟappaṭṭatu.
+        </p>
+        <p xml:lang="en">
+          Through these three verses, it has been stated that rain is the cause for the continued existence of dharma, welfare, and pleasure.
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar (13)</head>
+      <div rend="parallel">
+        <p xml:id="TK20_M1">
+          (i - ḷ.) nīraiyiṉṟi yulakam amaiyātāyiṉ, yāvarkkum maḻaiyai yiṉṟi oḻukkam uṇṭākātu, (e - ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : If [it is true that] the world would not remain without water, [then] the [good] conduct of everyone would be inexistent without rain.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK20_M2">
+          oḻukkam - viratam. ik̲tu ācāraṅkeṭumeṉṟatu. ivai mūṉṟiṉāṉum nāṉkaṟamuṅ keṭumeṉṟu kūṟiṉār.
+        </p>
+        <p xml:lang="en">
+          "Activities" refer to [religious] vows. This [means] that [religio-moral] conduct would perish. Through these three [verses, Vaḷḷuvar] has said that the four dharmas [i.e. those of the four varṇas] would perish.
+        </p>
+      </div>
+    </body>
+  </text>
+<standOff corresp="#TK20" type="wordsplit">
+<interp type="alignment" select="0">6MG7MG4MG12M2G8MG7MG6M,57M</interp>
+<entry>
+<form>nīr</form>
+<def>water</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṟ<c type="elided">u</c></form>
+<def>without</def>
+<form type="sandhi">iṉṟ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>amaiyāt<c type="elided">u</c></form>
+<def>does not continue</def>
+<form type="sandhi">amaiyāt</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulak<c type="elided">u</c></form>
+<def>world</def>
+<form type="sandhi">ulak</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉiṉ</form>
+<def>say if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+  <gram type="role">auxiliary</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yāryārkk<c type="elided">u</c>-um</form>
+<def>each/everyone</def>
+<form type="simple">yāryārkku</form>
+<form type="sandhi">yāryārkk</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vāṉ</form>
+<def>rain/heaven</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṟ<c type="elided">u</c></form>
+<def>without</def>
+<form type="sandhi">iṉṟ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>amaiyāt<c type="elided">u</c></form>
+<def>does not continue</def>
+<form type="sandhi">amaiyāt</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḻukku</form>
+<def>course/conduct</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
