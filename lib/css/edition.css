@@ -60,7 +60,7 @@ div.edition div.l::before {
     counter-increment: line-numb +1;
     opacity: 0;
     position: absolute;
-    left: -5px;
+    left: -10px;
     text-align: right;
     font-size: 65%;
 }
@@ -179,6 +179,9 @@ span.word.split {
 span.word.split:last-child {
     margin-right: 0;
 }
+.choiceseg span.word.split:last-child {
+    margin-right: 0.5rem;
+}
 
 .animation span.word.split {
     animation-duration: 0.5s;
@@ -211,6 +214,7 @@ span.invisible {
     /*margin-left: -3.5rem;*/
     display: flex;
     flex-direction: column;
+    z-index: 2;
 }
 
 #topbar > div {
