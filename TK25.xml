@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 25. <term xml:lang="ta">nīttār perumai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,94 @@
 <l>ṉintiraṉē cāluṅ kari</l>            
             </lg>
             <lg xml:lang="en">
-<l>Indra, the king of the inhabitants of the spacious heaven, is himself, a sufficient proof of the strength of him who has subdued his five senses.</l>
+<l>For the might of one who cut off the five cravings, the king of those</l>
+<l>who dwell in wide Heaven—Indra himself—is fitting witness.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK25" type="wordsplit">
+<interp type="alignment" select="0">4MG22MG16MG10M,55M</interp>
+<entry>
+<form>aint<c type="elided">u</c></form>
+<def>five</def>
+<form type="sandhi">aint</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avittāṉ</form>
+<def>subdued-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṟṟal</form>
+<def>might</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>akal</form>
+<def>wide</def>
+<gramGrp>
+  <gram type="role">verbal root as adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vicump<c type="elided">u</c></form>
+<def>heaven</def>
+<form type="sandhi">vicump</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷār</form>
+<def>in-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōmāṉ</form>
+<def>king</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>intiraṉ-ē</form>
+<def>Indra</def>
+<form type="simple">intiraṉ</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>cālum</form>
+<def>fitting/worthy/ample</def>
+<form type="sandhi">cāluṅ</form>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kari</form>
+<def>witness/evidence/testimony</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
