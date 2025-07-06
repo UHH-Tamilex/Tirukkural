@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 21. <term xml:lang="ta">nīttār perumai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,133 @@
 <l>vēṇṭum paṉuvaṟ ṟuṇivu</l>            
             </lg>
             <lg xml:lang="en">
-<l>The end and aim of all treatise is to extol beyond all other excellence, the greatness of those who, while abiding in the rule of conduct peculiar to their state, have abandoned all desire.</l>
+<l>The clear resolve of treatises solicits, beyond [all other] sublimity,</l>
+<l>the greatness of renunciants of true conduct.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK21_P0">
+          [nīttārperumai —] ak̲tāvatu muṟṟattuṟanta muṉivaratu perumai kūṟutal. avvaṟa mutaṟporuḷkaḷai ulakiṟ kuḷḷavā ṟuṇarttuvār avarākaliṉ itu vāṉciṟappiṉ piṉ vaikkappaṭṭatu.
+        </p>
+        <p xml:lang="en">
+          [The name of this section, i.e. "The Greatness of Renunciants,"] means speaking of the greatness of sages who have completely left behind [worldly desires, etc]. Because it is they who teach those [human] goals—[namely] dharma, etc., [which were just discussed in the previous section]—as they exist(?) for (people in) the world, this [section] has been placed [immediately] after "The Excellence of Rain."
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK21_P1">
+          (i-ḷ). tamakkuriya voḻukkattiṉ kaṇṇē niṉṟu tuṟantāratu perumaiyai viḻumiya poruḷkaḷ palavaṟṟuḷḷum ituvē viḻumiteṉa virumpum nūlkaḷatu tuṇivu, (e-ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : The certain resolve of [all] treatises desires the greatness of those who have renounced while persisting in the conduct fitting to each one of them, [saying?] that, even among the many sublime things, this alone, this is sublime(?).
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK21_P2">
+          tamakkuriya voḻukkattiṉ kaṇṇē niṉṟu tuṟattalāvatu:—tattam varuṇattiṟkum nilaikkum uriya voḻukkaṅkaḷil vaḻuvā toḻuka aṟamvaḷarum, aṟamvaḷarap pāvantēyum, pāvantēya aṟiyāmai nīṅkum, aṟiyāmai nīṅka nitta anittaṅkaḷatu vērupāṭṭuṇarvum aḻitaṉ mālaiya vāya immai maṟumai yiṉpaṅkaḷiṉ uvarppum piṟavit tuṉpaṅkaḷun tōṉṟum, avaitōṉṟa vīṭṭiṉkaṇ ācaiyuṇṭām, ak̲tuṇṭākap piṟavikkuk kāraṇamākiya payaṉil muyaṟcikaḷellām nīṅki vīṭṭiṟkuk kāraṇamākiya yōkamuyaṟci yuṇṭām, ak̲tuṇṭāka meyyuṇarvu piṟantu puṟappaṟṟākiya eṉa teṉpatum akappaṟṟākiya yāṉeṉpatum viṭum; ākalāṉ, ivviraṇṭu paṟṟaiyum immuṟaiyē uvarttuviṭutaleṉak koḷka. paṉuvaleṉap potuppaṭak kūṟiyavataṉāṉ, oṉṟaiyoṉ ṟovvāta camaya nūlkaḷellāvaṟṟiṟkum ik̲totta tuṇiveṉpatu peṟṟām. ceytāratu tuṇivu paṉuvaṉmē lēṟṟappaṭṭatu.
+        </p>
+        <p xml:lang="en">
+          As for "renouncing while persisting in the conduct fitting to each one," one should take it [in the following way]: While [people] conduct themselves unerringly in [accordance with the forms of] conduct appropriate to their respective varṇas and conditions [in life], [their] "good karma" (aṟam = dharma = puṇya) waxes; as their "good karma" waxes, their "bad karma" (pāvam) wanes; as their "bad karma" wanes, nescience leaves [them]; as nescience leaves them, they reflect on the difference between eternal and ephemeral and feel disgust towards the pleasures of [both] this world and the next (i.e. Heaven, etc.), which are [marked by] the blemish(?) that is [the fact of their] coming to and end, and the sorrows of birth appear [clearly to them]; when they appear, the desire for liberation arises [in them]; when that arises, all the fruitless efforts that are the cause of [re]birth pass away, and yogic effort, which is the cause of liberation, arises; when that arises, the cognition of [ultimate] reality is born, and the grasp[ing obsession] with [both] the external, in the form of "mine," and what is internal, in the form of "I," departs; inasmuch as this is so(?), it is in precisely this sequence that they [grow to] despise these two grasp[ingnesse]s and are liberated. Since "treatises" have been mentioned as a generality, one understands that this is the common (more lit. "concordant") resolve of all sectarian(?) tracts, [however much] each one differs from the other. [That is to say,] the clear resolve of the authors has been transferred to (more lit. "raised onto"?) the treatises [themselves].
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar</head>
+      <div rend="parallel">
+        <p xml:id="TK21_M0-1">
+          nīttār perumaiyāvatu tuṟanta muṉivaratu perumaiyaik kūṟal
+        </p>
+        <p xml:lang="en">
+          [The name of this section, i.e. "The Greatness of Renunciants,"] means speaking of the greatness of sages who have renounced.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK21_M0-2">
+          itu kaṭavuḷarai vaṇaṅkiṉāṟpōl muṉivaraiyum vaṇaṅkavēṇṭumeṉpataṉāṉum avar atai yaṭakkattakkavareṉṟa karuttiṉāṉum avaiyiṟṟiṉpiṟ kūṟappaṭṭatu.
+        </p>
+        <p xml:lang="en">
+          This [topic] has been discussed after God and rain because [of the thought] that, just as with the obeisance to God(s), it is also necessary to pay obeisance to sages; and because of the notion that those [sages?] are able to control that [rain; and hence the praise of rain helps to magnify the praise of sages even further(?)].
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK21_M1">
+          (i - ḷ.) oḻukkattiṉ poruṭṭu ellāp poruḷaiyun tuṟantāratu perumaiyai nūlkaḷiṉ tuṇivu viḻuppattiṉ poruṭṭu vēṇṭum, (e-ṟu).
+        </p>
+        <p xml:lang="en">
+          The meaning ... : For the sake of (or: "because of"?) sublimity, the certain resolve of [all] treatises desires(/requires?) the greatness of those who, for the sake of virtuous conduct, have renounced all wealth.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK21_M2">
+          yātāṉumoru poyyaic collum nūlum taṉṉaiyellāruṅ koṇṭāṭutaṟkākat tuṟantār perumaiyai naṉku matittuk kūṟum; ataṉāṉē yāṉuñ collukiṉṟēṉeṉpatu.
+        </p>
+        <p xml:lang="en">
+          —
+        </p>
+      </div>
+    </body>
+  </text>
+<standOff corresp="#TK21" type="wordsplit">
+<interp type="alignment" select="0">51M,51M</interp>
+<entry>
+<form>oḻukkattu</form>
+<def>conduct</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīttār</form>
+<def>renunciants</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perumai</form>
+<def>greatness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viḻuppattu</form>
+<def>greatness/excellence</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṇṭum</form>
+<def>desires/solicits</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṉuval</form>
+<def>treatise/book</def>
+<form type="sandhi">paṉuvaṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṇivu</form>
+<def>resolution/certainty</def>
+<form type="sandhi">ṟuṇivu</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
