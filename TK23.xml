@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 23. <term xml:lang="ta">nīttār perumai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,83 @@
 <l>perumai piṟaṅkiṟ ṟulaku</l>            
             </lg>
             <lg xml:lang="en">
-<l>The greatness of those who have discovered the properties of both states of being, and renounced the world, shines forth on earth (beyond all others).</l>
+<l>The greatness of those who have understood the two states, and in this life</l>
+<l>have taken on dharma, is the [one] exalted thing in the world.</l>
+<l>(Alternative understanding not suggested by commentators:</l>
+<l>"By the greatness of those who have understood the two states, and in this</l>
+<l>life have taken on dharma, the world is uplifted.")</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK23" type="wordsplit">
+<interp type="alignment" select="0">17MG3MG26MG5M,54M</interp>
+<entry>
+<form>irumai</form>
+<def>pair/duality</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vakai</form>
+<def>division</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>terint<c type="elided">u</c></form>
+<def>understood/investigated</def>
+<form type="sandhi">terint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īṇṭ<c type="elided">u</c></form>
+<def>here)</def>
+<form type="sandhi">īṇṭ</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟam</form>
+<def>dharma</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pūṇṭār</form>
+<def>undertaken-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perumai</form>
+<def>greatness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟaṅkiṟṟ<c type="elided">u</c></form>
+<def>exalted-it</def>
+<form type="sandhi">piṟaṅkiṟṟ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulaku</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
