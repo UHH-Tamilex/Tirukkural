@@ -66,8 +66,6 @@
 <form>īṇṭ<c type="elided">u</c></form>
 <def>here)</def>
 <form type="sandhi">īṇṭ</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>aṟam</form>
@@ -80,7 +78,7 @@
 <form>pūṇṭār</form>
 <def>undertaken-they</def>
 <gramGrp>
-  <gram type="role">pronominalised noun</gram>
+  <gram type="role">participial noun</gram>
   <gram type="role">perfective aspect</gram>
   <gram type="role">plural</gram>
 </gramGrp>
@@ -97,7 +95,7 @@
 <def>exalted-it</def>
 <form type="sandhi">piṟaṅkiṟṟ</form>
 <gramGrp>
-  <gram type="role">pronominalised noun</gram>
+  <gram type="role">participial noun</gram>
   <gram type="role">neuter singular</gram>
 </gramGrp>
 </entry>
