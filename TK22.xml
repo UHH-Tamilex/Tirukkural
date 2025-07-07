@@ -29,8 +29,8 @@
 <l>tiṟantārai yeṇṇikkoṇ ṭaṟṟu</l>            
             </lg>
             <lg xml:lang="en">
-<l>If one were to measure the greatness of ascetics, it would be like</l>
-<l>counting all those who've passed upon the Earth.</l>
+<l>If one were to measure the greatness of ascetics, it would be</l>
+<l>like counting all those who've passed upon the Earth.</l>
             </lg>
         </div>
     </body>
@@ -94,7 +94,7 @@
 </entry>
 <entry>
 <form>koṇṭ<c type="elided">u</c></form>
-<def>taking</def>
+<def>undertaking</def>
 <form type="sandhi">koṇṭ</form>
 <gramGrp>
   <gram type="role">absolutive</gram>
@@ -105,6 +105,7 @@
 <form>aṟṟu</form>
 <def>like-it</def>
 <gramGrp>
+  <gram type="role">pronominalised noun</gram>
   <gram type="role">neuter singular</gram>
 </gramGrp>
 </entry>
