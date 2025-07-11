@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 30. <term xml:lang="ta">nīttār perumai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,94 @@
 <l>centaṇmai pūṇṭoḻuka lāṉ</l>            
             </lg>
             <lg xml:lang="en">
-<l>The virtuous are truly called Anthanar because in their conduct towards all creatures they are clothed in kindness.</l>
+<l>Men of dharma are called "Your Grace," for towards all living beings</l>
+<l>they conduct themselves with rich cooling grace.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK30" type="wordsplit">
+<interp type="alignment" select="0">22MG9M2G15MG8M,58M</interp>
+<entry>
+<form>antaṇar</form>
+<def>"[Your] Grace"/Brahmin</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpōr</form>
+<def>called-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟavōr</form>
+<def>dharma-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>for/because</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>e<c type="geminated">v</c></form>
+<def>all</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uyirkk<c type="elided">u</c>-um</form>
+<def>living being</def>
+<form type="simple">uyirkku</form>
+<form type="sandhi"><c type="glide">v</c>uyirkk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>cem</form>
+<def>beautiful/pure</def>
+<form type="sandhi">cen</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṇmai</form>
+<def>coolness/grace</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pūṇṭ<c type="elided">u</c></form>
+<def>undertaking/putting on</def>
+<form type="sandhi">pūṇṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḻukalāṉ</form>
+<def>(virtuous) self-conduct</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
