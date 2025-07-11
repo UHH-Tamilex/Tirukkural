@@ -36,13 +36,33 @@
     </body>
   </text>
 <standOff corresp="#TK30" type="wordsplit">
-<interp type="alignment" select="0">22MG9M2G15MG8M,58M</interp>
-<entry>
+<interp type="alignment" select="0">7M5G15MG9M2G15MG8M,63M</interp>
+<superEntry type="ambiguous">
+<entry><entry>
 <form>antaṇar</form>
-<def>"[Your] Grace"/Brahmin</def>
+<def>Brahmins</def>
 <gramGrp>
   <gram type="role">plural</gram>
   <gram type="role">noun</gram>
+</gramGrp>
+</entry></entry>
+<entry><entry>
+<form>am</form>
+<def>beautiful</def>
+<form type="sandhi">an</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry></entry>
+</superEntry>
+<entry>
+<form>taṇar</form>
+<def>cool-they</def>
+<form type="sandhi"/>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -50,7 +70,6 @@
 <def>called-they</def>
 <gramGrp>
   <gram type="role">participial noun</gram>
-  <gram type="role">imperfective aspect</gram>
   <gram type="role">plural</gram>
   <gram type="role">third person</gram>
 </gramGrp>
@@ -59,7 +78,7 @@
 <form>aṟavōr</form>
 <def>dharma-they</def>
 <gramGrp>
-  <gram type="role">pronominalised noun</gram>
+  <gram type="role">participial noun</gram>
   <gram type="role">plural</gram>
   <gram type="role">third person</gram>
 </gramGrp>
@@ -98,14 +117,14 @@
 </entry>
 <entry>
 <form>taṇmai</form>
-<def>coolness/grace</def>
+<def>coolness</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>pūṇṭ<c type="elided">u</c></form>
-<def>undertaking/putting on</def>
+<def>taking on/undertaking</def>
 <form type="sandhi">pūṇṭ</form>
 <gramGrp>
   <gram type="role">absolutive</gram>
@@ -113,7 +132,7 @@
 </entry>
 <entry>
 <form>oḻukalāṉ</form>
-<def>(virtuous) self-conduct</def>
+<def>(virtuous) conduct</def>
 <gramGrp>
   <gram type="role">verbal noun</gram>
   <gram type="role">instrumental</gram>

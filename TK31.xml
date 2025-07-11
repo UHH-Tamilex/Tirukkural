@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 31. <term xml:lang="ta">aṟaṉ valiyuṟuttal</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,88 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK31">
-<l>ciṟappīṉum celvamu mīṉu maṟattiṉūuṅ</l>
+<l>ciṟappīṉuñ celvamu mīṉu maṟattiṉūuṅ</l>
 <l>kākka mevaṉō vuyirkku</l>            
             </lg>
             <lg xml:lang="en">
-<l>Virtue will confer heaven and wealth what greater source of happiness can man possess ?</l>
+<l>What greater profit is there for the living soul than dharma,</l>
+<l>which yields grandeur and prosperity?</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK31" type="wordsplit">
+<interp type="alignment" select="0">6MG10MG17MG9MG9M,55M</interp>
+<entry>
+<form>ciṟapp<c type="elided">u</c></form>
+<def>preeminence(/liberation?)</def>
+<form type="sandhi">ciṟapp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īṉum</form>
+<def>producing</def>
+<form type="sandhi">īṉuñ</form>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>celvam-um</form>
+<def>prosperity</def>
+<form type="simple">celvam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>īṉum</form>
+<def>producing</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟattiṉ</form>
+<def>dharma</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūuṅk<c type="elided">u</c></form>
+<def>superior (thing)</def>
+<form type="sandhi">ūuṅk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākkam</form>
+<def>gain/achievement</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>evaṉ-ō</form>
+<def>what?</def>
+<form type="simple">evaṉ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uyirkku</form>
+<def>living being</def>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
