@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 28. <term xml:lang="ta">nīttār perumai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,77 @@
 <l>maṟaimoḻi kāṭṭi viṭum</l>            
             </lg>
             <lg xml:lang="en">
-<l>The hidden words of the men whose words are full of effect, will shew their greatness to the world.</l>
+<l>Their secret mantras will surely show before the world</l>
+<l>the greatness of those men of pregnant words.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK28" type="wordsplit">
+<interp type="alignment" select="0">48M,48M</interp>
+<entry>
+<form>niṟai</form>
+<def>full</def>
+<gramGrp>
+  <gram type="role">verbal root as adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>moḻi</form>
+<def>word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māntar</form>
+<def>people</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perumai</form>
+<def>greatness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nilattu</form>
+<def>world/Earth</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟai</form>
+<def>secret</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>moḻi</form>
+<def>word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṭṭi</form>
+<def>showing</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭum</form>
+<def>ends up</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+  <gram type="role">auxiliary</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
