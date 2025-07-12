@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 32. <term xml:lang="ta">aṟaṉ valiyuṟuttal</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,188 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK32">
-<l>aṟattiṉūūṅ kākkamu millai yataṉai</l>
-<l> maṟattali ṉūṅkillai kēṭu</l>            
+<l>aṟattiṉūuṅ kākkamu millai yataṉai</l>
+<l>maṟattali ṉūṅkillai kēṭu</l>            
             </lg>
             <lg xml:lang="en">
-<l>There can be no greater source of good than (the practice of) virtue there can be no greater source of evil than the forgetfulness of it.</l>
+<l>There is no greater profit than dharma; than forgetting it</l>
+<l>there is no greater ruin.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar (38)</head>
+      <div rend="parallel">
+        <lg xml:id="TK32-M">
+          <l>aṟattiṉūuṅ kākkamu millai yataṉai</l>
+          <l>maṟattaliṉūṅ killaiyāṅ kēṭu</l>
+        </lg>
+        <lg xml:lang="en">
+          <l>There is no greater profit than dharma; than forgetting it</l>
+          <l>no greater ruin exists.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+          <standOff corresp="#TK32" type="wordsplit">
+<interp type="alignment" select="0">11MG5MG27MG9M,55M</interp>
+<entry>
+<form>aṟattiṉ</form>
+<def>dharma</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūuṅk<c type="elided">u</c></form>
+<def>superior (thing)</def>
+<form type="sandhi">ūuṅk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākkam-um</form>
+<def>gain</def>
+<form type="simple">ākkam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>illai</form>
+<def>does not exist</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ataṉai</form>
+<def>that</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">pronoun</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟattaliṉ</form>
+<def>forgetting/neglecting</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūṅk<c type="elided">u</c></form>
+<def>superior (thing)</def>
+<form type="sandhi">ūṅk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>illai</form>
+<def>does not exist</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēṭu</form>
+<def>ruin</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff><standOff corresp="#TK32-M" type="wordsplit">
+<interp type="alignment" select="0">11MG5MG27MG12M,58M</interp>
+<entry>
+<form>aṟattiṉ</form>
+<def>dharma</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūuṅk<c type="elided">u</c></form>
+<def>superior (thing)</def>
+<form type="sandhi">ūuṅk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākkam-um</form>
+<def>gain</def>
+<form type="simple">ākkam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>illai</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ataṉai</form>
+<def>that</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">pronoun</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟattaliṉ</form>
+<def>forgetting/neglecting</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūṅk<c type="elided">u</c></form>
+<def>superior (thing)</def>
+<form type="sandhi">ūṅk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>illai</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ām</form>
+<def>exist</def>
+<form type="sandhi"><c type="glide">y</c>āṅ</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēṭu</form>
+<def>loss</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
