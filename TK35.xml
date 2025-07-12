@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 35. <term xml:lang="ta">aṟaṉ valiyuṟuttal</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,92 @@
 <l>miḻukkā viyaṉṟa taṟam</l>            
             </lg>
             <lg xml:lang="en">
-<l>That conduct is virtue which is free from these four things, viz, malice, desire, anger and bitter speech.</l>
+<l>Dharma is what goes about shunning four things:</l>
+<l>envy, jealousy, hate and bitter words.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK35" type="wordsplit">
+<interp type="alignment" select="0">7MG22M2G16MG4M,53M</interp>
+<entry>
+<form>aḻukkāṟ<c type="elided">u</c></form>
+<def>envy</def>
+<form type="sandhi">aḻukkāṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avā</form>
+<def>jealousy</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vekuḷi</form>
+<def>resentment</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iṉṉā</form>
+<def>sweet/pleasing-not</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">c</c>col</form>
+<def>speech</def>
+<form type="sandhi"><c type="geminated">c</c>coṉ</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṉk<c type="elided">u</c>-um</form>
+<def>four</def>
+<form type="simple">nāṉku</form>
+<form type="sandhi">ṉāṉk</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>iḻukkā</form>
+<def>avoiding/shunning</def>
+</entry>
+<superEntry type="ambiguous">
+<entry><entry>
+<form><c type="glide">v</c>iyaṉṟat<c type="elided">u</c></form>
+<def>has gone about</def>
+<form type="sandhi"><c type="glide">v</c>iyaṉṟat</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry></entry>
+<entry><entry>
+<form><c type="glide">v</c>iyaṉṟat<c type="elided">u</c></form>
+<def>abided</def>
+<form type="sandhi"><c type="glide">v</c>iyaṉṟat</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry></entry>
+</superEntry>
+<entry>
+<form>aṟam</form>
+<def>dharma/virtue</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
