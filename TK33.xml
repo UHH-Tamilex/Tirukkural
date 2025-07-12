@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 33. <term xml:lang="ta">aṟaṉ valiyuṟuttal</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,82 @@
 <l>cellumvā yellāñ ceyal</l>            
             </lg>
             <lg xml:lang="en">
-<l>As much as possible, in every way, incessantly practise virtue.</l>
+<l>Do the work of dharma unremittingly, in every fitting way</l>
+<l>and on all suitable occasions.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK33" type="wordsplit">
+<interp type="alignment" select="0">16MG10M2G20M,49M</interp>
+<entry>
+<form>ollum</form>
+<def>fitting/becoming</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vakaiyāṉ</form>
+<def>manner</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟa<c type="uncertain">m</c></form>
+<def>dharma/duty/virtue</def>
+<form type="sandhi">aṟa</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṉai</form>
+<def>work/action</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ōvāt<c type="elided">u</c>-ē</form>
+<def>without stopping</def>
+<form type="simple">ōvātu</form>
+<form type="sandhi"><c type="glide">y</c>ōvāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>cellum</form>
+<def>being suitable/occurring</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāy</form>
+<def>place/means</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ellām</form>
+<def>all</def>
+<form type="sandhi">ellāñ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyal</form>
+<def>doing</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
