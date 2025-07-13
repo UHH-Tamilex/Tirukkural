@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 36. <term xml:lang="ta">aṟaṉ valiyuṟuttal</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,104 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK36">
-<l>aṉṟaṟivā meṉṉā taṟamceyka maṟṟatu</l>
+<l>aṉṟaṟivā meṉṉā taṟañceyka maṟṟatu</l>
 <l>poṉṟuṅkāṟ poṉṟāt tuṇai</l>            
             </lg>
             <lg xml:lang="en">
-<l>Defer not virtue to another day receive her now and at the dying hour she will be your undying friend.</l>
+<l>Don't say "we'll know it when we get there." Do dharma! and it</l>
+<l>will be an undying aid even at time of death.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK36" type="wordsplit">
+<interp type="alignment" select="0">3MG11MG13MG23M,53M</interp>
+<entry>
+<form>aṉṟ<c type="elided">u</c></form>
+<def>that day/then</def>
+<form type="sandhi">aṉṟ</form>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟivām</form>
+<def>we will know</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉāt<c type="elided">u</c></form>
+<def>not thinking/saying</def>
+<form type="sandhi">eṉṉāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟam</form>
+<def>dharma/duty</def>
+<form type="sandhi">aṟañ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyka</form>
+<def>one should do</def>
+<gramGrp>
+  <gram type="role">optative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>and/then</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>atu</form>
+<def>that</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṉṟum</form>
+<def>perishing</def>
+<form type="sandhi">poṉṟuṅ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāl</form>
+<def>time</def>
+<form type="sandhi">kāṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṉṟā<c type="geminated">t</c></form>
+<def>unperishing</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṇai</form>
+<def>support/help/friend</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
