@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -24,12 +26,88 @@
         <div rend="parallel">
             <lg xml:id="TK37">
 <l>aṟattā ṟituveṉa vēṇṭā civikai</l>
-<l>poṟuttāṉō ṭūrntā viṭai</l>            
+<l>poṟuttāṉō ṭūrntā ṉiṭai</l>            
             </lg>
             <lg xml:lang="en">
-<l>The fruit of virtue need not be described in books it may be inferred from seeing the bearer of a palanquin and the rider therein.</l>
+<l>No need to spell it out—that this is dharma's way—about him</l>
+<l>who bore the palanquin and him who rode it.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK37" type="wordsplit">
+<interp type="alignment" select="0">5MG2MG29MG10M,49M</interp>
+<entry>
+<form>aṟatt<c type="elided">u</c></form>
+<def>dharma</def>
+<form type="sandhi">aṟatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṟ<c type="elided">u</c></form>
+<def>way</def>
+<form type="sandhi">āṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>itu</form>
+<def>this</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eṉa</form>
+<def>to say</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṇṭā</form>
+<def>is not necessary</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>civikai</form>
+<def>palanquin/śibikā</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṟuttāṉōṭ<c type="elided">u</c></form>
+<def>bore-he</def>
+<form type="sandhi">poṟuttāṉōṭ</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūrntāṉ</form>
+<def>rode-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭai</form>
+<def>about/in presence of/between?</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
