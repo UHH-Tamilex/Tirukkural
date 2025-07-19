@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 40. <term xml:lang="ta">aṟaṉ valiyuṟuttal</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,88 @@
 <l>kuyaṟpāla tōrum paḻi</l>            
             </lg>
             <lg xml:lang="en">
-<l>That is virtue which each ought to do, and that is vice which each should shun.</l>
+<l>That whose share is to be done alone is one's dharma;</l>
+<l>that whose share is rejection alone is one's shame.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK40" type="wordsplit">
+<interp type="alignment" select="0">10MG2MG6MG9MG9MG2MG6M,50M</interp>
+<entry>
+<form>ceyal</form>
+<def>doing</def>
+<form type="sandhi">ceyaṟ</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pālat<c type="elided">u</c></form>
+<def>share/fitness-it</def>
+<form type="sandhi">pālat</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōr-um</form>
+<def>one</def>
+<form type="simple">ōr</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>aṟaṉ-ē</form>
+<def>dharma/duty</def>
+<form type="simple">aṟaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>oruvaṟk<c type="elided">u</c></form>
+<def>one-he</def>
+<form type="sandhi"><c type="glide">y</c>oruvaṟk</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uyal</form>
+<def>rejecting(?)/escaping/dispelling</def>
+<form type="sandhi">uyaṟ</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pālat<c type="elided">u</c></form>
+<def>share/fitness-it</def>
+<form type="sandhi">pālat</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōr-um</form>
+<def>one</def>
+<form type="simple">ōr</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>paḻi</form>
+<def>blame/misdeed/sin</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
