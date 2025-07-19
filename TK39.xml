@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 39. <term xml:lang="ta">aṟaṉ valiyuṟuttal</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,79 @@
 <l>puṟatta pukaḻu mila</l>            
             </lg>
             <lg xml:lang="en">
-<l>Only that pleasure which flows from domestic virtue is pleasure; all else is not pleasure, and it is without praise.</l>
+<l>Happiness is what comes along with dharma; all else is</l>
+<l>on the other side, and praiseless.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK39" type="wordsplit">
+<interp type="alignment" select="0">14M2G6MR4MG17MG5M,51M</interp>
+<entry>
+<form>aṟattāṉ</form>
+<def>dharma/virtue</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varuvat<c type="elided">u</c>-ē</form>
+<def>come-it</def>
+<form type="simple">varuvatu</form>
+<form type="sandhi">varuvat</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iṉpa<c type="uncertain">m</c></form>
+<def>pleasure/happiness</def>
+<form type="sandhi"><c type="glide">y</c>iṉpam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>else</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ellām</form>
+<def>all</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṟatta</form>
+<def>outside/opposite-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukaḻ-um</form>
+<def>praise</def>
+<form type="simple">pukaḻ</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ila</form>
+<def>without-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
