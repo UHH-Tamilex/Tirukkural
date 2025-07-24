@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 45. <term xml:lang="ta">ilvāḻkkai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,87 @@
 <l>paṇpum payaṉu matu</l>            
             </lg>
             <lg xml:lang="en">
-<l>If the married life possess love and virtue, these will be both its duty and reward.</l>
+<l>If his household life abound in love and in dharma,</l>
+<l>it is both his virtue and reward.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK45" type="wordsplit">
+<interp type="alignment" select="0">3M2G6MG8MG17M2G7MG5M,53M</interp>
+<entry>
+<form>aṉp<c type="elided">u</c>-um</form>
+<def>love</def>
+<form type="simple">aṉpu</form>
+<form type="sandhi">aṉp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>aṟaṉ-um</form>
+<def>dharma/virtue</def>
+<form type="simple">aṟaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>uṭaitt<c type="elided">u</c></form>
+<def>possess-it</def>
+<form type="sandhi">uṭaitt</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āyiṉ</form>
+<def>if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>il</form>
+<def>house(hold)</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻkkai</form>
+<def>life(style)</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṇp<c type="elided">u</c>-um</form>
+<def>quality</def>
+<form type="simple">paṇpu</form>
+<form type="sandhi">paṇp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>payaṉ-um</form>
+<def>fruit</def>
+<form type="simple">payaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>atu</form>
+<def>that</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
