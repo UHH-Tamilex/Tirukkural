@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 48. <term xml:lang="ta">ilvāḻkkai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,85 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK48">
-<l>āṟṟi ṉoḻukki yaṟaṉiḻukkā ilvāḻkkai</l>
+<l>āṟṟi ṉoḻukki yaṟaṉiḻukkā vilvāḻkkai</l>
 <l>nōṟpāri ṉōṉmai yuṭaittu</l>            
             </lg>
             <lg xml:lang="en">
-<l>The householder who, not swerving from virtue, helps the ascetic in his way, endures more than those who endure penance.</l>
+<l>Setting others on their path without letting dharma slip, household life</l>
+<l>takes more endurance than the life of endurers.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK48" type="wordsplit">
+<interp type="alignment" select="0">40ML13M,54M</interp>
+<entry>
+<form>āṟṟiṉ</form>
+<def>way</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḻukki</form>
+<def>making proceed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṟaṉ</form>
+<def>dharma/duty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḻukkā</form>
+<def>slip/grow lax/forget/shun</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>il</form>
+<def>house(hold)</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻkkai</form>
+<def>life</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nōṟpāriṉ</form>
+<def>endure/do penance-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nōṉmai</form>
+<def>endurance/strength</def>
+<form type="sandhi">ṉōṉmai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṭaittu</form>
+<def>possess-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
