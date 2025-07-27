@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 54. <term xml:lang="ta">vāḻkkaittuṇai nalam</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,103 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK54">
-<l>peṇṇiṟ peruntakka yāvuḷa kaṟpeṉṉum</l>
+<l>peṇṇiṟ peruntakka yāvuḷa kaṟpeṉṉun</l>
 <l>tiṇmaiyuṇ ṭākap peṟiṉ</l>            
             </lg>
             <lg xml:lang="en">
-<l>What is more excellent than a wife, if she possess the stability of chastity ?</l>
+<l>What is more greatly fitting than a woman, if she possess</l>
+<l>the strength called chastity?</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK54" type="wordsplit">
+<interp type="alignment" select="0">26MG15MG9M,52M</interp>
+<entry>
+<form>peṇṇiṉ</form>
+<def>woman</def>
+<form type="sandhi">peṇṇiṟ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perum</form>
+<def>great</def>
+<form type="sandhi">perun</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>takka</form>
+<def>fit-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yā</form>
+<def>what?</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uḷa</form>
+<def>exist</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṟp<c type="elided">u</c></form>
+<def>wifely virtue</def>
+<form type="sandhi">kaṟp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉum</form>
+<def>called</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṇmai</form>
+<def>firm virtue</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṇṭ<c type="elided">u</c></form>
+<def>exist-it</def>
+<form type="sandhi"><c type="glide">y</c>uṇṭ</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āka<c type="geminated">p</c></form>
+<def>be</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟiṉ</form>
+<def>possess-if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
