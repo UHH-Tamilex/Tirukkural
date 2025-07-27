@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 53. <term xml:lang="ta">vāḻkkaittuṇai nalam</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,93 @@
 <l>ṉillavaṇ māṇāk kaṭai</l>            
             </lg>
             <lg xml:lang="en">
-<l>If his wife be eminent (in virtue), what does (that man) not possess ? If she be without excellence, what does (he) possess ?</l>
+<l>What does he lack, if his wife has virtue? What does he have</l>
+<l>when his wife lacks virtue?</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK53" type="wordsplit">
+<interp type="alignment" select="0">5MG13MG9MG19M,49M</interp>
+<entry>
+<form>illat<c type="elided">u</c></form>
+<def>not exist-it</def>
+<form type="sandhi">illat</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>what?</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>illavaḷ</form>
+<def>house-she</def>
+<form type="sandhi">illavaṇ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">feminine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māṇp<c type="elided">u</c></form>
+<def>glory/virtue/excellence</def>
+<form type="sandhi">māṇp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṉāl</form>
+<def>if there be</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷḷat<c type="elided">u</c></form>
+<def>exist-it</def>
+<form type="sandhi">uḷḷat</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>what?</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>illavaḷ</form>
+<def>house-she</def>
+<form type="sandhi">illavaṇ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">feminine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māṇā<c type="geminated">k</c></form>
+<def>be-glorious-not</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭai</form>
+<def>at the time of</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
