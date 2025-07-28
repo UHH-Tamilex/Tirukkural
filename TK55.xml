@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 55. <term xml:lang="ta">vāḻkkaittuṇai nalam</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,84 @@
 <l>peyyeṉap peyyu maḻai.</l>            
             </lg>
             <lg xml:lang="en">
-<l>If she, who does not worship God, but who rising worships her husband, say, "let it rain," it will rain.</l>
+<l>When she who does not worship God, but rises worshiping her husband,</l>
+<l>says "rain!"—it rains.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK55" type="wordsplit">
+<interp type="alignment" select="0">24MG20ML5M,50MG</interp>
+<entry>
+<form>teyvam</form>
+<def>god</def>
+<form type="sandhi">teyvan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toḻāaḷ</form>
+<def>not worship-she</def>
+<gramGrp>
+  <gram type="role">feminine singular</gram>
+  <gram type="role">muṟṟeccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koḻunaṉ</form>
+<def>husband</def>
+<form type="sandhi">koḻunaṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toḻut<c type="elided">u</c></form>
+<def>worshiping</def>
+<form type="sandhi">ṟoḻut</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḻuvāḷ</form>
+<def>get up-she</def>
+<gramGrp>
+  <gram type="role">feminine singular</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">muṟṟeccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pey<c type="geminated">y</c></form>
+<def>rain!</def>
+<gramGrp>
+  <gram type="role">verbal root as imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉa<c type="geminated">p</c></form>
+<def>say</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peyyum</form>
+<def>rains</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maḻai</form>
+<def>rain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
