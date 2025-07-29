@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 58. <term xml:lang="ta">vāḻkkaittuṇai nalam</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,172 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK58">
-<l>peṟṟārp peṟiṟpeṟuvar peṇṭir peruñciṟappup</l>
+<l>peṟṟāṟ peṟiṟpeṟuvar peṇṭir peruñciṟappup</l>
 <l>puttēḷir vāḻu mulaku</l>            
             </lg>
             <lg xml:lang="en">
-<l>If women shew reverence to their husbands, they will obtain great excellence in the world where the gods flourish.</l>
+<l>If they receive him who received them, women will receive the most excellent</l>
+<l>world where the gods live.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar (59)</head>
+      <div rend="parallel">
+        <lg xml:id="TK58_M">
+<l>peṟṟārp peṟiṟpeṟuvar peṇṭir peruñciṟappup</l>
+<l>puttēḷir vāḻu mulaku</l>
+        </lg>
+        <lg xml:lang="en">
+<l>If they receive them who received them, women will receive the most excellent</l>
+<l>world where the gods live.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+<standOff corresp="#TK58" type="wordsplit">
+<interp type="alignment" select="0">55M,55M</interp>
+<entry>
+<form>peṟṟāṉ</form>
+<def>obtained-he</def>
+<form type="sandhi">peṟṟāṟ</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟiṉ</form>
+<def>obtain-if</def>
+<form type="sandhi">peṟiṟ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟuvar</form>
+<def>they will obtain</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṇṭir</form>
+<def>women</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">feminine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perum</form>
+<def>great</def>
+<form type="sandhi">peruñ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ciṟappu<c type="geminated">p</c></form>
+<def>excellence</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puttēḷir</form>
+<def>gods</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻum</form>
+<def>living</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulaku</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff><standOff corresp="#TK58_M" type="wordsplit">
+<interp type="alignment" select="0">56M,56M</interp>
+<entry>
+<form>peṟṟār<c type="geminated">p</c></form>
+<def>obtained-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟiṉ</form>
+<def>obtain-if</def>
+<form type="sandhi">peṟiṟ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟuvar</form>
+<def>they will obtain</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṇṭir</form>
+<def>women</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">feminine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perum</form>
+<def>great</def>
+<form type="sandhi">peruñ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ciṟappu<c type="geminated">p</c></form>
+<def>excellence</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puttēḷir</form>
+<def>gods</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻum</form>
+<def>living</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulaku</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
