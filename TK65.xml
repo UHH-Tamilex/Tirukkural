@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 65. <term xml:lang="ta">putalvaraip peṟutal</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,99 @@
 <l>coṟkēṭṭa liṉpañ cevikku</l>            
             </lg>
             <lg xml:lang="en">
-<l>The touch of children gives pleasure to the body, and the hearing of their words, pleasure to the ear.</l>
+<l>To feel the bodies of one's children is sweet to the body; to hear</l>
+<l>their speech is sweet to the ear.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK65" type="wordsplit">
+<interp type="alignment" select="0">20MG4MR4MG25M,56M</interp>
+<entry>
+<form>makkaḷ</form>
+<def>children</def>
+<form type="sandhi">makkaṇ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mey</form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tīṇṭal</form>
+<def>touching</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaṟk<c type="elided">u</c></form>
+<def>body</def>
+<form type="sandhi">uṭaṟk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉpa<c type="uncertain">m</c></form>
+<def>pleasure</def>
+<form type="sandhi">iṉpam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avar</form>
+<def>they</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>word</def>
+<form type="sandhi">coṟ</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēṭṭal</form>
+<def>hearing</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉpam</form>
+<def>pleasure</def>
+<form type="sandhi">iṉpañ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cevikku</form>
+<def>ear</def>
+<gramGrp>
+  <gram type="role">dative</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
