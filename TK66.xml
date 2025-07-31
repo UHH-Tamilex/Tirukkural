@@ -30,13 +30,13 @@
             </lg>
             <lg xml:lang="en">
 <l>"The pipe is sweet," "the lute is sweet"—say they who have not heard</l>
-<l>their own children's prattling words.</l>
+<l>their children's prattling words.</l>
             </lg>
         </div>
     </body>
   </text>
 <standOff corresp="#TK66" type="wordsplit">
-<interp type="alignment" select="0">9MG8MG33M,52M</interp>
+<interp type="alignment" select="0">17MG33M,51M</interp>
 <entry>
 <form>kuḻal</form>
 <def>flute</def>
@@ -45,16 +45,16 @@
 </gramGrp>
 </entry>
 <entry>
-<form>iṉit<c type="elided">u</c></form>
+<form>iṉitu</form>
 <def>pleasant-it</def>
-<form type="sandhi">iṉit</form>
+<form type="sandhi">iṉiti</form>
 <gramGrp>
   <gram type="role">pronominalised noun</gram>
   <gram type="role">neuter singular</gram>
 </gramGrp>
 </entry>
 <entry>
-<form><c type="inserted">i</c>yāḻ</form>
+<form>yāḻ</form>
 <def>lute/vīṇā</def>
 <gramGrp>
   <gram type="role">noun</gram>
