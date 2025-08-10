@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 73. <term xml:lang="ta">aṉpu uṭaimai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,85 @@
 <l>keṉpō ṭiyainta toṭarpu</l>            
             </lg>
             <lg xml:lang="en">
-<l>They say that the union of soul and body in man is the fruit of the union of love and virtue (in a former birth).</l>
+<l>Along the path that's joined with love comes, they say, the bonds</l>
+<l>by which we may join these bones with rare souls.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK73" type="wordsplit">
+<interp type="alignment" select="0">5MG13MG13MG5MG14M,54M</interp>
+<entry>
+<form>aṉpōṭ<c type="elided">u</c></form>
+<def>love</def>
+<form type="sandhi">aṉpōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iyainta</form>
+<def>connected/replete</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḻakk<c type="elided">u</c></form>
+<def>path/(virtuous) conduct</def>
+<form type="sandhi">vaḻakk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpa</form>
+<def>they say</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ār</form>
+<def>rare/excellent</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uyirkk<c type="elided">u</c></form>
+<def>soul/living being</def>
+<form type="sandhi">uyirkk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpōṭ<c type="elided">u</c></form>
+<def>bones/body</def>
+<form type="sandhi">eṉpōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iyainta</form>
+<def>connected/harmonized</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toṭarpu</form>
+<def>relationship/bond</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
