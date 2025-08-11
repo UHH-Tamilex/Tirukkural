@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 74. <term xml:lang="ta">aṉpu uṭaimai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,94 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK74">
-<l>aṉpīṉu mārva muṭamai yatuvīṉu</l>
+<l>aṉpīṉu mārva muṭaimai yatuvīṉu</l>
 <l>naṇpeṉṉu nāṭāc ciṟappu</l>            
             </lg>
             <lg xml:lang="en">
-<l>Love begets desire: and that (desire) begets the immeasureable excellence of friendship.</l>
+<l>Love yields desire in abundance, which yields in turn</l>
+<l>friendship, that incomprehensible excellence.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK74" type="wordsplit">
+<interp type="alignment" select="0">3MG12MG11MR4MG4MR12M,51M</interp>
+<entry>
+<form>aṉp<c type="elided">u</c></form>
+<def>love</def>
+<form type="sandhi">aṉp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īṉum</form>
+<def>yields</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ārvam</form>
+<def>desire/affection</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaimai</form>
+<def>possession</def>
+<form type="sandhi">uṭamai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>atu</form>
+<def>that</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>īṉum</form>
+<def>yields</def>
+<form type="sandhi"><c type="glide">v</c>īṉun</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṇp<c type="elided">u</c></form>
+<def>affection/friendship</def>
+<form type="sandhi">naṇp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉum</form>
+<def>called</def>
+<form type="sandhi">eṉṉun</form>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṭā<c type="geminated">c</c></form>
+<def>immeasurable/unknowable</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ciṟappu</form>
+<def>excellence</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
