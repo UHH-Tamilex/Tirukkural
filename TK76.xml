@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 76. <term xml:lang="ta">aṉpu uṭaimai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,85 @@
 <l>maṟattiṟku maḵtē tuṇai</l>            
             </lg>
             <lg xml:lang="en">
-<l>The ignorant say that love is an ally to virtue only, but it is also a help to get out of vice.</l>
+<l>Know-nothings say that love is an aid to good alone;</l>
+<l>it is also a match for hatred.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK76" type="wordsplit">
+<interp type="alignment" select="0">8M2G10MG20M2G5M2G6M,56M</interp>
+<entry>
+<form>aṟattiṟk<c type="elided">u</c>-ē</form>
+<def>dharma/virtue</def>
+<form type="simple">aṟattiṟku</form>
+<form type="sandhi">aṟattiṟk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṉpu</form>
+<def>love</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cārp<c type="elided">u</c></form>
+<def>support/auxiliary</def>
+<form type="sandhi">cārp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpa</form>
+<def>they say</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṟiyār</form>
+<def>know-not-they</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟattiṟk<c type="elided">u</c>-um</form>
+<def>enmity/hatred</def>
+<form type="simple">maṟattiṟku</form>
+<form type="sandhi">maṟattiṟk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>aḵt<c type="elided">u</c>-ē</form>
+<def>that</def>
+<form type="simple">aḵtu</form>
+<form type="sandhi">aḵt</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>tuṇai</form>
+<def>aid/support/companion</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
