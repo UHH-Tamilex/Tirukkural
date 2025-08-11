@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 78. <term xml:lang="ta">aṉpu uṭaimai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,219 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK78">
-<l>aṉpakat tillā vuyirvāḻkkai vaṉpārkkaṇ</l>
+<l>aṉpakat tillā vuyirvāḻkkai vaṉpāṟkaṇ</l>
 <l>vaṟṟaṉ marantaḷirt taṟṟu</l>            
             </lg>
             <lg xml:lang="en">
-<l>The domestic state of that man whose mind is without love is like the flourishing of a withered tree upon the parched desert.</l>
+<l>The life of a soul that lacks in love is like the sprouting</l>
+<l>of a withered tree in hard earth.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar (72)</head>
+        <div rend="parallel">
+            <lg xml:id="TK78_M">
+<l>aṉpakat tillā vuyirvāḻkkai vaṉpārkkaṇ</l>
+<l>vaṟṟaṉ marantaḷirt taṟṟu</l>            
+            </lg>
+            <lg xml:lang="en">
+<l>[No difference in meaning.]</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+<standOff corresp="#TK78" type="wordsplit">
+<interp type="alignment" select="0">3MG5MG43MG4M,58M</interp>
+<entry>
+<form>aṉp<c type="elided">u</c></form>
+<def>love</def>
+<form type="sandhi">aṉp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>akatt<c type="elided">u</c></form>
+<def>interior</def>
+<form type="sandhi">akatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>illā</form>
+<def>without</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uyir</form>
+<def>soul/creature</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻkkai</form>
+<def>life(style)</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>val</form>
+<def>hard</def>
+<form type="sandhi">vaṉ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāl</form>
+<def>place/lot</def>
+<form type="sandhi">pāṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ</form>
+<def>in/on</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṟṟal</form>
+<def>drying-up</def>
+<form type="sandhi">vaṟṟaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maram</form>
+<def>tree</def>
+<form type="sandhi">maran</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taḷirtt<c type="elided">u</c></form>
+<def>sprouting</def>
+<form type="sandhi">taḷirtt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟṟu</form>
+<def>like-it</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff><standOff corresp="#TK78_M" type="wordsplit">
+<interp type="alignment" select="0">3MG5MG44MG4M,59M</interp>
+<entry>
+<form>aṉp<c type="elided">u</c></form>
+<def>love</def>
+<form type="sandhi">aṉp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>akatt<c type="elided">u</c></form>
+<def>interior</def>
+<form type="sandhi">akatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>illā</form>
+<def>without</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uyir</form>
+<def>soul/creature</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻkkai</form>
+<def>life(style)</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>val</form>
+<def>hard</def>
+<form type="sandhi">vaṉ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pār<c type="geminated">k</c></form>
+<def>expanse/ground</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ</form>
+<def>in/on</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṟṟal</form>
+<def>drying-up</def>
+<form type="sandhi">vaṟṟaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maram</form>
+<def>tree</def>
+<form type="sandhi">maran</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taḷirtt<c type="elided">u</c></form>
+<def>sprouting</def>
+<form type="sandhi">taḷirtt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟṟu</form>
+<def>like-it</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
