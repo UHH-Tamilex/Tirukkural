@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 80. <term xml:lang="ta">aṉpu uṭaimai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,90 @@
 <l>keṉputōl pōrtta vuṭampu</l>            
             </lg>
             <lg xml:lang="en">
-<l>That body alone which is inspired with love contains a living soul: if void of it, (the body) is bone overlaid with skin.</l>
+<l>The seat of the soul is what lies on the path of love; for those who lack it,</l>
+<l>the body merely covers bones with skin.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK80" type="wordsplit">
+<interp type="alignment" select="0">12MG13MG6MG20M,54M</interp>
+<entry>
+<form>aṉpiṉ</form>
+<def>love</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḻiyat<c type="elided">u</c></form>
+<def>way-it</def>
+<form type="sandhi">vaḻiyat</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uyir</form>
+<def>soul/life</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nilai</form>
+<def>stead</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aḵt<c type="elided">u</c></form>
+<def>that</def>
+<form type="sandhi"><c type="glide">y</c>aḵt</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilārkk<c type="elided">u</c></form>
+<def>without-they</def>
+<form type="sandhi">ilārkk</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpu</form>
+<def>bone</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōl</form>
+<def>skin</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōrtta</form>
+<def>covered</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uṭampu</form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
