@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 77. <term xml:lang="ta">aṉpu uṭaimai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,78 @@
 <l>yaṉpi lataṉai yaṟam</l>            
             </lg>
             <lg xml:lang="en">
-<l>Virtue will burn up the soul which is without love, even as the sun burns up the creature which is without bone, i.e. worms.</l>
+<l>Just as sunheat burns the boneless creature, so</l>
+<l>does dharma burn the loveless one.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK77" type="wordsplit">
+<interp type="alignment" select="0">3MG23MG5MG13M,47M</interp>
+<entry>
+<form>eṉp<c type="elided">u</c></form>
+<def>bone</def>
+<form type="sandhi">eṉp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilataṉai</form>
+<def>without-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veyil</form>
+<def>heat of the Sun</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōla<c type="geminated">k</c></form>
+<def>like</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāyum-ē</form>
+<def>burns</def>
+<form type="simple">kāyum</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṉp<c type="elided">u</c></form>
+<def>love</def>
+<form type="sandhi"><c type="glide">y</c>aṉp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilataṉai</form>
+<def>without-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṟam</form>
+<def>dharma (as god)</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
