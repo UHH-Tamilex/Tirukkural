@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 81. <term xml:lang="ta">viruntu ōmpal</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,95 @@
 <l>vēḷāṇmai ceytaṟ poruṭṭu</l>            
             </lg>
             <lg xml:lang="en">
-<l>The whole design of living in the domestic state and laying up (property) is (to be able) to exercise the benevolence of hospitality.</l>
+<l>Settling down, keeping up—all household life is for keeping up</l>
+<l>and showing magnanimity to guests.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK81" type="wordsplit">
+<interp type="alignment" select="0">5MG13MG11MG25M,57M</interp>
+<entry>
+<form>irunt<c type="elided">u</c></form>
+<def>settling</def>
+<form type="sandhi">irunt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōmpi</form>
+<def>protecting/maintaining</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>il</form>
+<def>house(hold)</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḻvat<c type="elided">u</c></form>
+<def>live-it</def>
+<form type="sandhi">vāḻvat</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ellām</form>
+<def>all</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>virunt<c type="elided">u</c></form>
+<def>guest</def>
+<form type="sandhi">virunt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōmpi</form>
+<def>cherishing/maintaining</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēḷ</form>
+<def>sacrificing(?)</def>
+<gramGrp>
+  <gram type="role">verbal root as adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṇmai</form>
+<def>manliness/lordliness(?)</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceytal</form>
+<def>doing</def>
+<form type="sandhi">ceytaṟ</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poruṭṭu</form>
+<def>for the sake of</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
