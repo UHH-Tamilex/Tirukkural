@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 89. <term xml:lang="ta">viruntu ōmpal</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,95 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK89">
-<l>uṭamaiyu ḷiṉmai viruntōmpa lōmpā</l>
+<l>uṭaimaiyu ḷiṉmai viruntōmpa lōmpā</l>
 <l>maṭamai maṭavārka ṇuṇṭu</l>            
             </lg>
             <lg xml:lang="en">
-<l>That stupidity which excercises no hospitality is poverty in the midst of wealth. It is the property of the stupid.</l>
+<l>The folly that cares nothing for caring for guests—that want</l>
+<l>in midst of wealth—belongs to fools.</l>
+<l>(Alternative interpretation not mentioned by commentators:</l>
+<l>The folly that, in midst of wealth, cares nothing for caring for guests in need</l>
+<l>belongs to fools.)</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK89" type="wordsplit">
+<interp type="alignment" select="0">21MG30M,52M</interp>
+<entry>
+<form>uṭaimai</form>
+<def>prosperity</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uḷ</form>
+<def>in/at the time of</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉmai</form>
+<def>poverty/want</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>virunt<c type="elided">u</c></form>
+<def>guest(s)</def>
+<form type="sandhi">virunt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōmpal</form>
+<def>taking care of</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōmpā</form>
+<def>honoring-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṭamai</form>
+<def>stupidity</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṭavār</form>
+<def>stupid-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ</form>
+<def>among</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇṭu</form>
+<def>exists</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
