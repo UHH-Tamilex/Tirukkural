@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 88. <term xml:lang="ta">viruntu ōmpal</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,176 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK88">
-<l>parintōmpip paṟṟaṟṟō meṉpar viruntōmpi</l>
+<l>parintōmpip paṟṟaṟṟē meṉpar viruntōmpi</l>
 <l>vēḷvi talaippaṭā tār</l>            
             </lg>
             <lg xml:lang="en">
-<l>Those who have taken no part in the benevolence of hospitality shall (at length lament) saying, "we have laboured and laid up wealth and are now without support."</l>
+<l>"Having jealously guarded [wealth], we are without support!" they'll say,</l>
+<l>who have not made the sacrifice of looking after guests.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar</head>
+        <div rend="parallel">
+            <lg xml:id="TK88_M">
+<l>parintōmpip paṟṟaṟṟō meṉpar viruntōmpi</l>
+<l>vēḷvi talaippaṭā tār</l>            
+            </lg>
+            <lg xml:lang="en">
+<l>[No difference in meaning.]</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+<standOff corresp="#TK88" type="wordsplit">
+<interp type="alignment" select="0">6MG9MG16MG22M,56M</interp>
+<entry>
+<form>parint<c type="elided">u</c></form>
+<def>being jealous</def>
+<form type="sandhi">parint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōmpi<c type="geminated">p</c></form>
+<def>protected</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṟṟ<c type="elided">u</c></form>
+<def>support(?)</def>
+<form type="sandhi">paṟṟ</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟṟēm</form>
+<def>not-such-we</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpar</form>
+<def>they will say</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>virunt<c type="elided">u</c></form>
+<def>guest(s)</def>
+<form type="sandhi">virunt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōmpi</form>
+<def>taken care of</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēḷvi</form>
+<def>sacrifice/duty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talaippaṭātār</form>
+<def>undertake/accomplish-not-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">negative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+</standOff><standOff corresp="#TK88_M" type="wordsplit">
+<interp type="alignment" select="0">6MG9MG16MG22M,56M</interp>
+<entry>
+<form>parint<c type="elided">u</c></form>
+<def>being jealous</def>
+<form type="sandhi">parint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōmpi<c type="geminated">p</c></form>
+<def>protected</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṟṟ<c type="elided">u</c></form>
+<def>support(?)</def>
+<form type="sandhi">paṟṟ</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟṟōm</form>
+<def>not-such-we</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpar</form>
+<def>they will say</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>virunt<c type="elided">u</c></form>
+<def>guest(s)</def>
+<form type="sandhi">virunt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōmpi</form>
+<def>taken care of</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēḷvi</form>
+<def>sacrifice</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talaippaṭātār</form>
+<def>undertake/accomplish-not-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">negative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
