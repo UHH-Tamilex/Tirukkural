@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 91. <term xml:lang="ta">iṉiyavai kūṟal</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,123 @@
 <l>cemporuḷ kaṇṭārvāyc col</l>            
             </lg>
             <lg xml:lang="en">
-<l>Sweet words are those which imbued with love and free from deceit flow from the mouth of the virtuous.</l>
+<l>Sweet words indeed are the true words of those who've seen the real truth,</l>
+<l>mingled with mercy, free of falsehood.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK91" type="wordsplit">
+<interp type="alignment" select="0">5MG17MG27M,51M</interp>
+<entry>
+<form>iṉ</form>
+<def>sweet/agreeable</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<superEntry type="ambiguous">
+<entry><entry>
+<form>col-āl</form>
+<def>word</def>
+<form type="simple">col</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">āl</m></gramGrp>
+</entry></entry>
+<entry><entry>
+<form>colāl</form>
+<def>word</def>
+<form type="sandhi">colā</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry></entry>
+</superEntry>
+<entry>
+<form>īram</form>
+<def>grace/freshness/coolness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷaii<c type="geminated">p</c></form>
+<def>mingled</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭiṟ<c type="elided">u</c></form>
+<def>deceit</def>
+<form type="sandhi">paṭiṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ila</form>
+<def>without-they</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<superEntry type="ambiguous">
+<entry><entry>
+<form><c type="glide">v</c>ām</form>
+<def>being</def>
+<form type="sandhi"><c type="glide">v</c>āñ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry></entry>
+<entry><entry>
+<form>ām</form>
+<def>are</def>
+<form type="sandhi">vā</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry></entry>
+</superEntry>
+<entry>
+<form>cem</form>
+<def>rich/true/good</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poruḷ</form>
+<def>meaning/goal</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṭār</form>
+<def>seen-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāy<c type="geminated">c</c></form>
+<def>mouth/truth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
