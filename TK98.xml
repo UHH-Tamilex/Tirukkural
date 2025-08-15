@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 98. <term xml:lang="ta">iṉiyavai kūṟal</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -24,12 +26,87 @@
         <div rend="parallel">
             <lg xml:id="TK98">
 <l>ciṟumaiyu ṇīṅkiya viṉcoṉ maṟumaiyu</l>
-<l>mimmaiyum miṉpan tarum</l>            
+<l>mimmaiyu miṉpan tarum</l>            
             </lg>
             <lg xml:lang="en">
-<l>Sweet speech, free from harm to others, will give pleasure both in this world and in the next.</l>
+<l>Sweet speech that stays apart from meanness will in the next world,</l>
+<l>and in this, give bliss.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK98" type="wordsplit">
+<interp type="alignment" select="0">10ML19MG8MG14M,43MG10M</interp>
+<entry>
+<form>ciṟumai</form>
+<def>meanness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uḷ</form>
+<def>from (within?)</def>
+<form type="sandhi"><c type="glide">y</c>uṇ</form>
+<gramGrp>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīṅkiya</form>
+<def>having left</def>
+<form type="sandhi">ṇīṅkiya</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>iṉ</form>
+<def>sweet/pleasant</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>words</def>
+<form type="sandhi">coṉ</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟumai-<c type="glide">y</c>um</form>
+<def>next birth</def>
+<form type="simple">maṟumai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>immai-<c type="glide">y</c>um</form>
+<def>this birth</def>
+<form type="simple">immai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>iṉpam</form>
+<def>happiness</def>
+<form type="sandhi">iṉpan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tarum</form>
+<def>will give</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
