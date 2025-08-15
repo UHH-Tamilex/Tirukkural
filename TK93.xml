@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 93. <term xml:lang="ta">iṉiyavai kūṟal</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,84 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK93">
-<l>mukattā ṉamarntiṉitu nōkki yakattāṉā</l>
+<l>mukattā ṉamarntiṉitu nōkki yakattāṉu</l>
 <l>miṉco liṉatē yaṟam</l>            
             </lg>
             <lg xml:lang="en">
-<l>Sweet speech, flowing from the heart (uttered) with a cheerful countenance and a sweet look, is true virtue.</l>
+<l>Sweet words said sweetly looking with cheerful mien and with</l>
+<l>true mind—this is dharma.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK93" type="wordsplit">
+<interp type="alignment" select="0">14MG18MG11M2G6M,53M</interp>
+<entry>
+<form>mukattāṉ</form>
+<def>face/countenance</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>amarnt<c type="elided">u</c></form>
+<def>being cheerful/composed</def>
+<form type="sandhi">amarnt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉitu</form>
+<def>pleasantly</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nōkki</form>
+<def>looking</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>akattāṉ-um</form>
+<def>interior</def>
+<form type="simple">akattāṉ</form>
+<form type="sandhi"><c type="glide">y</c>akattāṉ</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>iṉ</form>
+<def>sweet/pleasant</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>coliṉat<c type="elided">u</c>-ē</form>
+<def>word-it</def>
+<form type="simple">coliṉatu</form>
+<form type="sandhi">coliṉat</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṟam</form>
+<def>dharma/virtue</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
