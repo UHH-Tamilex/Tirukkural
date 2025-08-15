@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 95. <term xml:lang="ta">iṉiyavai kūṟal</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,91 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK95">
-<l>paṇivuṭaiya ṉiṉcola ṉātal oruvaṟku</l>
+<l>paṇivuṭaiya ṉiṉcola ṉātal oruvaṟk</l>
 <l>aṇiyalla maṟṟup piṟa</l>            
             </lg>
             <lg xml:lang="en">
-<l>Humility and sweetness of speech are the ornaments of man all others are not (ornaments).</l>
+<l>To be humble and possessed of sweet speech is one's</l>
+<l>ornament—not anything else.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK95" type="wordsplit">
+<interp type="alignment" select="0">5MG25MG18M,50M</interp>
+<entry>
+<form>paṇiv<c type="elided">u</c></form>
+<def>humility</def>
+<form type="sandhi">paṇiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaiyaṉ</form>
+<def>possess-he</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉ</form>
+<def>sweet/pleasant</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>colaṉ</form>
+<def>word-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ātal</form>
+<def>being</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oruvaṟk<c type="elided">u</c></form>
+<def>one-he</def>
+<form type="sandhi">oruvaṟk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇi</form>
+<def>ornament</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>alla</form>
+<def>not-so-they</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟṟu<c type="geminated">p</c></form>
+<def>on the other hand</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟa</form>
+<def>other-they</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
