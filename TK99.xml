@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 99. <term xml:lang="ta">iṉiyavai kūṟal</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,85 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK99">
-<l>iṉcolā liṉitīṉṟal kāṇpā ṉevaṉkolō</l>
+<l>iṉco liṉitīṉṟal kāṇpā ṉevaṉkolō</l>
 <l>vaṉcol vaḻaṅku vatu</l>            
             </lg>
             <lg xml:lang="en">
-<l>Why does he use harsh words, who sees the pleasure which sweet speech yields ?</l>
+<l>He who sees what sweet it is that sweet words bring—why, pray!</l>
+<l>would he use harsh words?</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK99" type="wordsplit">
+<interp type="alignment" select="0">9MG15MG21M,47M</interp>
+<entry>
+<form>iṉ</form>
+<def>sweet/pleasant</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>words</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉit<c type="elided">u</c></form>
+<def>sweet-it</def>
+<form type="sandhi">iṉit</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īṉṟal</form>
+<def>yielding</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇpāṉ</form>
+<def>see-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>evaṉ-kolō</form>
+<def>why?</def>
+<form type="simple">evaṉ</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">kolō</m></gramGrp>
+</entry>
+<entry>
+<form>vaṉ</form>
+<def>hard/forceful</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>words</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḻaṅkuvatu</form>
+<def>employ-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
