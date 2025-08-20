@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 103. <term xml:lang="ta">ceynnaṉṟi aṟital</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,83 @@
 <l>ṉaṉmai kaṭaliṟ peritu</l>            
             </lg>
             <lg xml:lang="en">
-<l>If we weigh the excellence of a benefit which is conferred without weighing the return, it is larger than the sea.</l>
+<l>If one weigh the goodness of the help those do who do not weigh results,</l>
+<l>it is an excellence far greater than the sea.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK103" type="wordsplit">
+<interp type="alignment" select="0">33ML18M,52M</interp>
+<entry>
+<form>payaṉ</form>
+<def>gain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tūkkār</form>
+<def>not-weigh-they</def>
+<form type="sandhi">ṟūkkār</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">negative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyta</form>
+<def>done</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>utavi</form>
+<def>help</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nayaṉ</form>
+<def>goodness/courtesy/grace</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tūkkiṉ</form>
+<def>weigh-if</def>
+<form type="sandhi">ṟūkkiṉ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṉmai</form>
+<def>goodness</def>
+<form type="sandhi">ṉaṉmai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭaliṉ</form>
+<def>sea</def>
+<form type="sandhi">kaṭaliṟ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peritu</form>
+<def>big-it</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
