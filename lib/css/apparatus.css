@@ -126,7 +126,10 @@ section div.wide {
 }
 
 .mshover {
-    border-bottom: 2px dotted rgb(168,81,16);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgb(168,81,16);
 }
 
 .rdg:not(:last-child) .rdg-wit::after, .lem-wit::after {

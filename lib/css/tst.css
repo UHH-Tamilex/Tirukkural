@@ -24,7 +24,7 @@ body {
     overflow-y: scroll;
     width: 100%;
     padding-left: 0;
-    flex: 50%;
+    flex: 1 0 50%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -335,7 +335,7 @@ div.teitext {
     font-size: 2rem;
 }
 
-h2, h3, h4, .editionStmt,
+#recordcontainer h2, #recordcontainer h3, #recordcontainer h4, .editionStmt,
 section > p, section > div.lg, section > table {
     max-width: 800px;
     width: 87.5%;
