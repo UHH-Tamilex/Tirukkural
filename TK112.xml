@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 112. <term xml:lang="ta">naṭuvu nilaimai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,73 @@
 <l>yeccattiṟ kēmāp puṭaittu</l>            
             </lg>
             <lg xml:lang="en">
-<l>The wealth of the man of rectitude will not perish, but will bring happiness also to his posterity.</l>
+<l>The wealth of a man of rectitude does not go to waste,</l>
+<l>but gives protection to those he leaves behind.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK112" type="wordsplit">
+<interp type="alignment" select="0">26MG14MG5MG7M,55M</interp>
+<entry>
+<form>ceppam</form>
+<def>uprightness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaiyavaṉ</form>
+<def>possess-he</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākkam</form>
+<def>wealth</def>
+<form type="sandhi">ākkañ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>citaiv<c type="elided">u</c></form>
+<def>waste</def>
+<form type="sandhi">citaiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṟi</form>
+<def>without</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eccattiṟk<c type="elided">u</c></form>
+<def>posterity</def>
+<form type="sandhi"><c type="glide">y</c>eccattiṟk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēmāpp<c type="elided">u</c></form>
+<def>security</def>
+<form type="sandhi">ēmāpp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaittu</form>
+<def>possess-it</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
