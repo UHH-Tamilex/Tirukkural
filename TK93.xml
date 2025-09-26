@@ -25,29 +25,30 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK93">
-<l>mukattā ṉamarntiṉitu nōkki yakattāṉu</l>
+<l>mukattā ṉamarntiṉitu nōkki yakattāṉā</l>
 <l>miṉco liṉatē yaṟam</l>            
             </lg>
             <lg xml:lang="en">
-<l>Sweet words said sweetly looking with cheerful mien and with</l>
-<l>true mind—this is dharma.</l>
+<l>Said with feeling, sweet glance and cheerful mien—</l>
+<l>of such sweet words is dharma made.</l>
             </lg>
         </div>
     </body>
   </text>
 <standOff corresp="#TK93" type="wordsplit">
-<interp type="alignment" select="0">14MG18MG11M2G6M,53M</interp>
+<interp type="alignment" select="0">14MG29M2G6M,52M</interp>
 <entry>
 <form>mukattāṉ</form>
-<def>face/countenance</def>
+<def>face</def>
 <gramGrp>
+  <gram type="role">singular</gram>
   <gram type="role">instrumental</gram>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>amarnt<c type="elided">u</c></form>
-<def>being cheerful/composed</def>
+<def>being composed/cheerful</def>
 <form type="sandhi">amarnt</form>
 <gramGrp>
   <gram type="role">absolutive</gram>
@@ -70,19 +71,25 @@
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">y</c>akattāṉ-um</form>
+<form><c type="glide">y</c>akattāṉ</form>
 <def>interior</def>
-<form type="simple">akattāṉ</form>
-<form type="sandhi"><c type="glide">y</c>akattāṉ</form>
 <gramGrp>
   <gram type="role">instrumental</gram>
+  <gram type="role">singular</gram>
   <gram type="role">noun</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ām</form>
+<def>being</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>iṉ</form>
-<def>sweet/pleasant</def>
+<def>pleasant</def>
 <gramGrp>
   <gram type="role">adjective</gram>
 </gramGrp>
@@ -100,7 +107,7 @@
 </entry>
 <entry>
 <form><c type="glide">y</c>aṟam</form>
-<def>dharma/virtue</def>
+<def>dharma/duty</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>

@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 104. <term xml:lang="ta">ceynnaṉṟi aṟital</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,90 @@
 <l>koḷvar payaṉṟeri vār</l>            
             </lg>
             <lg xml:lang="en">
-<l>Though the benefit conferred be as small as a millet seed, those who know its advantage will consider it as large as a palmyra fruit.</l>
+<l>Even if one do a favor small as a millet grain, they who know the fruit</l>
+<l>will deem it great as a palmyra tree.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK104" type="wordsplit">
+<interp type="alignment" select="0">21MG34M,56M</interp>
+<entry>
+<form>tiṉai<c type="geminated">t</c></form>
+<def>millet</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṇai</form>
+<def>match/measure</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṉṟi</form>
+<def>kindness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyiṉ-um</form>
+<def>do-if</def>
+<form type="simple">ceyiṉ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>paṉai<c type="geminated">t</c></form>
+<def>Palmyra</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṇai</form>
+<def>match/measure</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ā<c type="geminated">k</c></form>
+<def>be</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koḷvar</form>
+<def>deem</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>payaṉ</form>
+<def>fruit</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>terivār</form>
+<def>know-they</def>
+<form type="sandhi">ṟerivār</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
