@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 110. <term xml:lang="ta">ceynnaṉṟi aṟital</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,100 @@
 <l>ceynnaṉṟi koṉṟa makaṟku</l>            
             </lg>
             <lg xml:lang="en">
-<l>He who has killed every virtue may yet escape there is no escape for him who has killed a benefit.</l>
+<l>Even for those who've killed every good thing, there is liberation—but not</l>
+<l>for a son who's killed the good things done for him.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK110" type="wordsplit">
+<interp type="alignment" select="0">15M2G5MG3MG5MG26M,59M</interp>
+<entry>
+<form>e<c type="geminated">n</c></form>
+<def>what-</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>naṉṟi</form>
+<def>goodness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṉṟārkk<c type="elided">u</c>-um</form>
+<def>killed/destroyed-they</def>
+<form type="simple">koṉṟārkku</form>
+<form type="sandhi">koṉṟārkk</form>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>uyv<c type="elided">u</c></form>
+<def>liberation/escape</def>
+<form type="sandhi">uyv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇṭ<c type="elided">u</c></form>
+<def>exist-it</def>
+<form type="sandhi">uṇṭ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ām</form>
+<def>is</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uyv<c type="elided">u</c></form>
+<def>liberation/escape</def>
+<form type="sandhi">uyv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>illai</form>
+<def>does not exist</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cey<c type="geminated">n</c></form>
+<def>done</def>
+<gramGrp>
+  <gram type="role">verbal root as peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṉṟi</form>
+<def>kindness/favor</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṉṟa</form>
+<def>killed/destroyed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>makaṟku</form>
+<def>son/man</def>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
