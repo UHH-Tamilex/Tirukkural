@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 113. <term xml:lang="ta">naṭuvu nilaimai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,90 @@
 <l>yaṉṟē yoḻiya viṭal</l>            
             </lg>
             <lg xml:lang="en">
-<l>Forsake in the very moment (of acquisition) that gain which, though it should bring advantage, is without equity.</l>
+<l>Even if it gives great things, wealth that comes in breach of justice</l>
+<l>one must give up immediately.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK113" type="wordsplit">
+<interp type="alignment" select="0">4M2G6MGMR5MG5MG14M2G12M,55M</interp>
+<entry>
+<form>naṉṟ<c type="elided">u</c>-ē</form>
+<def>good-it</def>
+<form type="simple">naṉṟu</form>
+<form type="sandhi">naṉṟ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>tariṉ-um</form>
+<def>give-if</def>
+<form type="simple">tariṉ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>naṭuv<c type="elided">u</c></form>
+<def>impartiality/justice</def>
+<form type="sandhi">naṭuv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ikant<c type="elided">u</c></form>
+<def>transgressing</def>
+<form type="sandhi">ikant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ām</form>
+<def>coming into being</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākkattai</form>
+<def>wealth</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṉṟ<c type="elided">u</c>-ē</form>
+<def>then</def>
+<form type="simple">aṉṟu</form>
+<form type="sandhi"><c type="glide">y</c>aṉṟ</form>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>oḻiya</form>
+<def>stay-behind</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭal</form>
+<def>letting-go</def>
+<gramGrp>
+  <gram type="role">optative</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
