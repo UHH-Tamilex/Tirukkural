@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 124. <term xml:lang="ta">aṭakkam uṭaimai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,71 @@
 <l>malaiyiṉu māṇap peritu</l>            
             </lg>
             <lg xml:lang="en">
-<l>More lofty than a mountain will be the greatness of that man who without swerving from his domestic state, controls himself.</l>
+<l>The figure of one who shows restraint without departing from his station</l>
+<l>is even bigger than a mountain.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK124" type="wordsplit">
+<interp type="alignment" select="0">15MG15ML7MG2ML10M,53M</interp>
+<entry>
+<form>nilaiyiṉ</form>
+<def>proper place</def>
+<form type="sandhi">nilaiyiṟ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiriyāt<c type="elided">u</c></form>
+<def>wander/change-not</def>
+<form type="sandhi">ṟiriyāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭaṅkiyāṉ</form>
+<def>restrained-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōṟṟam</form>
+<def>figure/personage</def>
+<form type="sandhi">ṟōṟṟam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malaiyiṉ-um</form>
+<def>mountain</def>
+<form type="simple">malaiyiṉ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>māṇa<c type="geminated">p</c></form>
+<def>be glorious</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peritu</form>
+<def>big-it</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
