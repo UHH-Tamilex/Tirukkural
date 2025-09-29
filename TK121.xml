@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 121. <term xml:lang="ta">aṭakkam uṭaimai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jaosn Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,88 @@
 <l>yāriru ḷuyttu viṭum</l>            
             </lg>
             <lg xml:lang="en">
-<l>Self-control will place (a man) among the Gods the want of it will drive (him) into the thickest darkness (of hell).</l>
+<l>Restraint will send you to the gods; lack of restraint</l>
+<l>will leave you in deep darkness.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK121" type="wordsplit">
+<interp type="alignment" select="0">47M,47M</interp>
+<entry>
+<form>aṭakkam</form>
+<def>restraint</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>amarar</form>
+<def>immortals</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷ</form>
+<def>among</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uykkum</form>
+<def>send</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭaṅkāmai</form>
+<def>lack of restraint</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<superEntry type="ambiguous">
+<entry><entry>
+<form><c type="glide">y</c>ār</form>
+<def>hard</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry></entry>
+<entry><entry>
+<form>ār</form>
+<def>harsh</def>
+<form type="sandhi">yā</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry></entry>
+</superEntry>
+<entry>
+<form>iruḷ</form>
+<def>darkness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uyttu</form>
+<def>sent</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭum</form>
+<def>leave</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
