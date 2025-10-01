@@ -112,6 +112,7 @@
 <def>happens</def>
 <gramGrp>
   <gram type="role">habitual future</gram>
+  <gram type="role">auxiliary</gram>
 </gramGrp>
 </entry>
 </standOff></TEI>
