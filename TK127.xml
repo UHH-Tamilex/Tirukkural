@@ -56,9 +56,10 @@
 </entry>
 <entry>
 <form>āyiṉ-um</form>
-<def>if</def>
+<def>if-even</def>
 <form type="simple">āyiṉ</form>
 <gramGrp>
+  <gram type="role">concessive</gram>
   <gram type="role">conditional</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>

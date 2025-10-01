@@ -50,9 +50,10 @@
 </entry>
 <entry>
 <form>tariṉ-um</form>
-<def>give-if</def>
+<def>give-if-even</def>
 <form type="simple">tariṉ</form>
 <gramGrp>
+  <gram type="role">concessive</gram>
   <gram type="role">conditional</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
