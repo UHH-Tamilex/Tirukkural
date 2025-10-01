@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 133. <term xml:lang="ta">oḻukkam uṭaimai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,75 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK133">
-<l>oḻukka muṭaimai kuṭimai yiḻukkam</l>
+<l>oḻukka muṭaimai kuṭimai yiḻukka</l>
 <l>miḻinta piṟappāy viṭum</l>            
             </lg>
             <lg xml:lang="en">
-<l>Propriety of conduct is true greatness of birth, and impropriety will sink into a mean birth.</l>
+<l>Possession of right conduct is nobility; transgression</l>
+<l>soon becomes low birth.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK133" type="wordsplit">
+<interp type="alignment" select="0">41MG7M,49M</interp>
+<entry>
+<form>oḻukkam</form>
+<def>(good) conduct</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaimai</form>
+<def>possession</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṭimai</form>
+<def>nobility/high birth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iḻukkam</form>
+<def>transgression/disgrace</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḻinta</form>
+<def>fallen</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟapp<c type="elided">u</c></form>
+<def>birth</def>
+<form type="sandhi">piṟapp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āy</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭum</form>
+<def>leaves</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+  <gram type="role">auxiliary</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
