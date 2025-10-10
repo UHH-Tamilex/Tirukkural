@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 143. <term xml:lang="ta">piṟaṉ il viḻaiyāmai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,86 @@
 <l>ṟīmai purintoḻuku vār</l>            
             </lg>
             <lg xml:lang="en">
-<l>Certainly they are no better than dead men who desire evil towards the wife of those who undoubtingly confide in them.</l>
+<l>They are no different from the dead! they who go about coveting</l>
+<l>the home of those who have clear conscience.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK143" type="wordsplit">
+<interp type="alignment" select="0">13MG5MG26MG8M,55M</interp>
+<entry>
+<form>viḷintāriṉ</form>
+<def>deceased-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">comparative</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṟ<c type="elided">u</c></form>
+<def>different</def>
+<form type="sandhi">vēṟ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>allar-maṉṟa</form>
+<def>not-so-they</def>
+<form type="simple">allar</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">maṉṟa</m></gramGrp>
+</entry>
+<entry>
+<form>teḷintār</form>
+<def>clear-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>il</form>
+<def>house/wife</def>
+<form type="sandhi">iṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tīmai</form>
+<def>harm</def>
+<form type="sandhi">ṟīmai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>purint<c type="elided">u</c></form>
+<def>desired</def>
+<form type="sandhi">purint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḻukuvār</form>
+<def>conduct-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
