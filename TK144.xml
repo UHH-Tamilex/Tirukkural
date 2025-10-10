@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 144. <term xml:lang="ta">piṟaṉ il viḻaiyāmai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,9 +29,103 @@
 <l>tērāṉ piṟaṉil pukal</l>            
             </lg>
             <lg xml:lang="en">
-<l>However great one may be, what does it avail if, without at all considering his guilt, he goes unto the wife of another ?</l>
+<l>However great they may be, what's the use? if, thoughtlessly, one enter</l>
+<l>even as far as a millet grain into the "house" of another man</l>
+<l>(Alternative interpretation not mentioned by commentators:</l>
+<l>"However great they may be, what's the use? if they enter unawares</l>
+<l>even as far as a millet grain into the "house" of another man)</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK144" type="wordsplit">
+<interp type="alignment" select="0">17MG18MG20M,57M</interp>
+<entry>
+<form>eṉai<c type="geminated">t</c></form>
+<def>however much</def>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṇaiyar</form>
+<def>measure-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āyiṉ-um</form>
+<def>if-even</def>
+<form type="simple">āyiṉ</form>
+<gramGrp>
+  <gram type="role">concessive</gram>
+  <gram type="role">conditional</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>what?</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>ām</form>
+<def>is</def>
+<form type="sandhi"><c type="geminated">ṉ</c>ān</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṉai<c type="geminated">t</c></form>
+<def>millet</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṇai-<c type="glide">y</c>um</form>
+<def>measure</def>
+<form type="simple">tuṇai</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tērāṉ</form>
+<def>understand-not-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟaṉ</form>
+<def>other-he</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>il</form>
+<def>house/wife</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukal</form>
+<def>entering</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
