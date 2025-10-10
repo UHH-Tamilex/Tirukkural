@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 141. <term xml:lang="ta">piṟaṉ il viḻaiyāmai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,103 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK141">
-<l>piṟaṉporuḷāṭ peṭṭuoḻukum pētaimai ñālat </l>
+<l>piṟaṉporuḷāṭ peṭṭoḻukum pētaimai ñālat</l>
 <l>taṟamporuḷ kaṇṭārka ṇil</l>            
             </lg>
             <lg xml:lang="en">
-<l>The folly of desiring her who is the property of another will not be found in those who know (the attributes of) virtue and (the rights of) property.</l>
+<l>The folly of desiring her who is the property of another, is never seen</l>
+<l>among those who see what's good and good for them on Earth.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK141" type="wordsplit">
+<interp type="alignment" select="0">16MG20MG20M,58M</interp>
+<entry>
+<form>piṟaṉ</form>
+<def>other-he</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poruḷāḷ</form>
+<def>property-she</def>
+<form type="sandhi">poruḷāṭ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">feminine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṭṭ<c type="elided">u</c></form>
+<def>coveted</def>
+<form type="sandhi">peṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḻukum</form>
+<def>going on</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pētaimai</form>
+<def>folly</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ñālatt<c type="elided">u</c></form>
+<def>world</def>
+<form type="sandhi">ñālatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟam</form>
+<def>duty/dharma</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poruḷ</form>
+<def>(how to acquire) wealth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṭār</form>
+<def>seen-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ</form>
+<def>among</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>il</form>
+<def>is not</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
