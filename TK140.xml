@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 140. <term xml:lang="ta">oḻukkam uṭaimai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,82 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK140">
-<l>ulakattōṭu ṭoṭṭa voḻukal palakaṟṟuṅ</l>
-<l> kallā raṟivilā tār</l>            
+<l>ulakattō ṭoṭṭa voḻukal palakaṟṟuṅ</l>
+<l>kallā raṟivilā tār</l>            
             </lg>
             <lg xml:lang="en">
-<l>Those who know not how to act agreeably to the world, though they have learnt many things, are still ignorant.</l>
+<l>Those who have not studied conduct as connected with the world,</l>
+<l>though they've studied much, are ignorant.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK140" type="wordsplit">
+<interp type="alignment" select="0">9MG19M2G12MG6M,50M</interp>
+<entry>
+<form>ulakattōṭ<c type="elided">u</c></form>
+<def>world</def>
+<form type="sandhi">ulakattōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oṭṭa</form>
+<def>adhere</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>oḻukal</form>
+<def>conducting</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pala</form>
+<def>many (things)</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṟṟ<c type="elided">u</c>-um</form>
+<def>studied</def>
+<form type="simple">kaṟṟu</form>
+<form type="sandhi">kaṟṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kallār</form>
+<def>know-not-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟiv<c type="elided">u</c></form>
+<def>knowledge</def>
+<form type="sandhi">aṟiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilātār</form>
+<def>without-they</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
