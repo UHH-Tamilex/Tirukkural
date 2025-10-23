@@ -280,6 +280,7 @@ th.superEntry {
     border-radius: 0.3rem;
     color: black;
     height: fit-content;
+    width: fit-content;
     font-size: 1.1rem;
     padding: 0.2rem 0.4rem 0.2rem 0.4rem;
 }
@@ -352,4 +353,13 @@ button.pressed, button:active {
     margin-bottom: 5px;
     margin-left: -5px;
     padding-left: 5px;
+}
+.alignedit {
+    font-size: 0.8rem;
+    left: 0.1rem;
+    top: 0.1rem;
+    height: 1.4rem;
+    width: 1.2rem;
+    border-radius: 0.3rem;
+    padding: 0;
 }
