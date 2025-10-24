@@ -184,12 +184,12 @@
                         </div>
                         <div class="boxen">
                             <div>
-                                <label>Tamil wordsplit</label><textarea spellcheck="false"></textarea>
+                                <label>Tamil wordsplit</label><textarea data-mode="metrical" spellcheck="false"></textarea>
                             </div>
                             <div>
                                 <label>Word-by-word translation</label>
                                 <div id="wbwbox">
-                                    <textarea id="engsplit" spellcheck="false"></textarea>
+                                    <textarea id="engsplit" data-mode="wordsplit" spellcheck="false"></textarea>
                                     <textarea class="notes" spellcheck="false"></textarea>
                                     <div class="switcher" id="notesswitcher">
                                         <div class="selected">Splits</div>
