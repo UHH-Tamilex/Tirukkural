@@ -1,9 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 152. <term xml:lang="ta">poṟai uṭaimai</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Jason Cannon-Silber</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -23,13 +25,70 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK152">
-<l>poṟutta liṟappiṉai yeṉṟum mataṉai</l>
-<l>maṟatta lataṉiṉṟu naṉṟu</l>            
+<l>poṟutta liṟappiṉai yeṉṟu mataṉai</l>
+<l>maṟatta lataṉiṉu naṉṟu</l>            
             </lg>
             <lg xml:lang="en">
-<l>Bear with reproach even when you can retaliate but to forget it will be still better than that.</l>
+<l>To tolerate transgression is always good;</l>
+<l>to forget is even better.</l>
             </lg>
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK152" type="wordsplit">
+<interp type="alignment" select="0">43MGMR5M,51M</interp>
+<entry>
+<form>poṟuttal</form>
+<def>bearing/tolerating</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṟappiṉai</form>
+<def>transgression</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉṟum</form>
+<def>always</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ataṉai</form>
+<def>that</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟattal</form>
+<def>forgetting</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ataṉiṉ-um</form>
+<def>that</def>
+<form type="simple">ataṉiṉ</form>
+<gramGrp>
+  <gram type="role">comparative</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>naṉṟu</form>
+<def>good-it</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
