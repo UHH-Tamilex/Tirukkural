@@ -32,4 +32,64 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1293" type="wordsplit">
+<interp type="alignment" select="0">35MG16M,52M</interp>
+<entry>
+<form>keṭṭārkku</form>
+<def>ruined-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṭṭāril</form>
+</entry>
+<entry>
+<form>eṉpatō</form>
+</entry>
+<entry>
+<form>neñcē</form>
+<def>heart</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nī</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṭṭa</form>
+<def>desired</def>
+<form type="sandhi">peṭṭā</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṅku</form>
+<def>thus</def>
+<form type="sandhi">ṅku</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>kavarpiṉ</form>
+</entry>
+<entry>
+<form>celal</form>
+<def>going</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
