@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,75 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1082" type="wordsplit">
+<interp type="alignment" select="0">8ML3MG12ML3MG28M,58M</interp>
+<entry>
+<form>nōkkiṉāḷ</form>
+<def>glance</def>
+<form type="sandhi">nōkkiṉāṇ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">feminine</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nōkk<c type="elided">u</c></form>
+<def>glance</def>
+<form type="sandhi">ṇōkk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>etir</form>
+<def>opposite</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nōkkutal</form>
+<def>looking-at</def>
+<form type="sandhi">nōkkutaṟ</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tākk<c type="elided">u</c></form>
+<def>attack</def>
+<form type="sandhi">ṟākk</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇaṅku</form>
+<def>female spirit</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṉai<c type="geminated">k</c></form>
+<def>army</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭaṉṉa</form>
+<def>taken-like</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṭaittu</form>
+<def>wiped-out</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
