@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,67 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1085" type="wordsplit">
+<interp type="alignment" select="0">6MG4MG7MG11ML11M2G10M,55M</interp>
+<entry>
+<form>kūṟṟam-ō</form>
+<def>Death</def>
+<form type="simple">kūṟṟam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>kaṇ-<c type="geminated">ṇ</c>ō</form>
+<def>eye</def>
+<form type="simple">kaṇ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>piṇai-<c type="glide">y</c>ō</form>
+<def>doe</def>
+<form type="simple">piṇai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>maṭavaral</form>
+<def>simple woman</def>
+<form type="sandhi">maṭavaraṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nōkkam</form>
+<def>look</def>
+<form type="sandhi">ṉōkkam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>i<c type="geminated">m</c></form>
+<def>this-</def>
+</entry>
+<entry>
+<form>mūṉṟ<c type="elided">u</c>-um</form>
+<def>three</def>
+<form type="simple">mūṉṟu</form>
+<form type="sandhi">mūṉṟ</form>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">m</c>uṭaittu</form>
+<def>possess-it</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
