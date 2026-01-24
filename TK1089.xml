@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,84 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1089" type="wordsplit">
+<interp type="alignment" select="0">12MR4M2GMR13MG8MG13M,56MG</interp>
+<entry>
+<form>piṇai</form>
+<def>doe</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ēr</form>
+<def>resemble</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṭam</form>
+<def>inexperience</def>
+<form type="sandhi">maṭan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nōkk<c type="elided">u</c>-um</form>
+<def>look</def>
+<form type="simple">nōkku</form>
+<form type="sandhi">nōkk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>nāṇum</form>
+<def>shyness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaiyāṭk<c type="elided">u</c></form>
+<def>possess-she</def>
+<form type="sandhi">uṭaiyāṭk</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">feminine singular</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇi</form>
+<def>adornment</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>evaṉ-ō</form>
+<def>what</def>
+<form type="simple">evaṉ</form>
+<form type="sandhi"><c type="glide">y</c>evaṉ</form>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ētila</form>
+<def>other-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tantu</form>
+<def>given</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
