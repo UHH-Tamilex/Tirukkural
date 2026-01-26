@@ -35,24 +35,21 @@
     </body>
   </text>
 <standOff corresp="#TK1108" type="wordsplit">
-<interp type="alignment" select="0">3MG10MG4M2G27M,48M</interp>
+<interp type="alignment" select="0">13MG4M2G27M,47M</interp>
 <entry>
-<form>vīḻ-um</form>
-<def>desire</def>
-<form type="simple">vīḻ</form>
+<form>vīḻum</form>
+<def>desiring</def>
 <gramGrp>
-  <gram type="role">noun</gram>
+  <gram type="role">peyareccam</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form>iruvarkk<c type="elided">u</c></form>
-<def>be-they</def>
+<def>two-they</def>
 <form type="sandhi">iruvarkk</form>
 <gramGrp>
   <gram type="role">pronominalised noun</gram>
   <gram type="role">dative</gram>
-  <gram type="role">perfective aspect</gram>
   <gram type="role">honorific</gram>
   <gram type="role">third person</gram>
 </gramGrp>
