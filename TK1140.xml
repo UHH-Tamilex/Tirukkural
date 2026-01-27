@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,94 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1140" type="wordsplit">
+<interp type="alignment" select="0">24MG24M,49M</interp>
+<entry>
+<form>yām</form>
+<def>we</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṇiṉ</form>
+<def>eye</def>
+<form type="sandhi">kaṇṇiṟ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇa</form>
+<def>see</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nakupa</form>
+<def>they smile</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṟiv<c type="elided">u</c></form>
+<def>knowledge</def>
+<form type="sandhi"><c type="glide">v</c>aṟiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>illār</form>
+<def>not-they</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yām</form>
+<def>we</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭṭa</form>
+<def>happened</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tām</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭā</form>
+<def>happen-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>āṟu</form>
+<def>way</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
