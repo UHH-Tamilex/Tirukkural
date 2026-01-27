@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,75 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1115" type="wordsplit">
+<interp type="alignment" select="0">27ML24M,52M</interp>
+<entry>
+<form>aṉicca<c type="geminated">p</c></form>
+<def>Aṉiccam flower</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pū<c type="geminated">k</c></form>
+<def>flower</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāl</form>
+<def>stalk</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḷaiyāḷ</form>
+<def>remove-not-she</def>
+<gramGrp>
+  <gram type="role">feminine singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peytāḷ</form>
+<def>put-on-she</def>
+<form type="sandhi">peytāṇ</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">feminine singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nucuppiṟku</form>
+<def>waist</def>
+<form type="sandhi">ṇucuppiṟku</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nalla</form>
+<def>good</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭāa</form>
+<def>won't happen</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṟai</form>
+<def>drum</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
