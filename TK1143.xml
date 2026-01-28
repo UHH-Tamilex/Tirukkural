@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,70 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1143" type="wordsplit">
+<interp type="alignment" select="0">5M2G45M,52M</interp>
+<entry>
+<form>uṟāat<c type="elided">u</c>-ō</form>
+<def>have-not-it</def>
+<form type="simple">uṟāatu</form>
+<form type="sandhi">uṟāat</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ūr</form>
+<def>village</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟinta</form>
+<def>known</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kauvai</form>
+<def>scandal</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ataṉai<c type="geminated">p</c></form>
+<def>that</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟāatu</form>
+<def>obtain-not</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟṟaṉṉa</form>
+<def>obtained-like</def>
+<gramGrp>
+  <gram type="role">comparative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīrttu</form>
+<def>disposition-it</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
