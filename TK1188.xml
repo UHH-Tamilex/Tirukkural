@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,78 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1188" type="wordsplit">
+<interp type="alignment" select="0">17MG31M,49M</interp>
+<entry>
+<form>pacantāḷ</form>
+<def>she paled</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ivaḷ</form>
+<def>this one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">feminine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpat<c type="elided">u</c></form>
+<def>say-it</def>
+<form type="sandhi">eṉpat</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>allāl</form>
+<def>besides</def>
+</entry>
+<entry>
+<form>ivaḷai<c type="geminated">t</c></form>
+<def>this-one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">feminine</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṟantār</form>
+<def>he abandoned</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avar</form>
+<def>that one</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpār</form>
+<def>say they</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>il</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">finite verb</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
