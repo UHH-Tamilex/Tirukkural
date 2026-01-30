@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,74 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1178" type="wordsplit">
+<interp type="alignment" select="0">16MG9M2G10MG5MG6M,51M</interp>
+<entry>
+<form>pēṇātu</form>
+<def>esteem-not</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṭṭār</form>
+<def>falsehood-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷar-maṉṉō</form>
+<def>they are</def>
+<form type="simple">uḷar</form>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">maṉṉō</m></gramGrp>
+</entry>
+<entry>
+<form>maṟṟ<c type="elided">u</c>-avar<c type="geminated">k</c></form>
+<def>that-one</def>
+<form type="sandhi">maṟṟavar<c type="geminated">k</c></form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇāt<c type="elided">u</c></form>
+<def>see not</def>
+<form type="sandhi">kāṇāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>amaiv<c type="elided">u</c></form>
+<def>contentment</def>
+<form type="sandhi">amaiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ila</form>
+<def>not-they</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ</form>
+<def>eye</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>

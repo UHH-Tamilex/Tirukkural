@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,81 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1179" type="wordsplit">
+<interp type="alignment" select="0">45M,45M</interp>
+<entry>
+<form>vārā<c type="geminated">k</c></form>
+<def>come not</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāl</form>
+<def>time</def>
+<form type="sandhi">kāṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuñcā</form>
+<def>sleep-not-they</def>
+<form type="sandhi">ṟuñcā</form>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>variṉ</form>
+<def>come-if-even</def>
+<form type="sandhi">variṟ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuñcā</form>
+<def>sleep-not-they</def>
+<form type="sandhi">ṟuñcā</form>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āyiṭai</form>
+<def>in between</def>
+</entry>
+<entry>
+<form><c type="glide">y</c>ār</form>
+<def>difficult</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>añar</form>
+<def>sorrow</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṟṟaṉa</form>
+<def>they experienced</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ</form>
+<def>eye</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
