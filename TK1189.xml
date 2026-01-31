@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +24,7 @@
         <div rend="parallel">
             <lg xml:id="TK1189">
 <l>pacakkamaṟ paṭṭāṅkeṉ mēṉi nayappittār </l>
-<l> namnilaiya rāva reṉiṉ</l>            
+<l> naṉṉilaiya rāva reṉiṉ</l>            
             </lg>
             <lg xml:lang="en">
 <l>If he is clear of guilt who has conciliated me (to his departure) let my body suffer its due and turn sallow.</l>
@@ -34,84 +32,4 @@
         </div>
     </body>
   </text>
-<standOff corresp="#TK1189" type="wordsplit">
-<interp type="alignment" select="0">7MG10MG36M,55M</interp>
-<entry>
-<form>pacakka-maṉ</form>
-<def>may-become-pale</def>
-<form type="simple">pacakka</form>
-<gramGrp>
-  <gram type="role">optative</gram>
-</gramGrp>
-<gramGrp type="particle"><m type="enclitic">maṉ</m></gramGrp>
-</entry>
-<entry>
-<form>paṭṭāṅk<c type="elided">u</c></form>
-<def>happened-like</def>
-<form type="sandhi">paṭṭāṅk</form>
-<gramGrp>
-  <gram type="role">comparative</gram>
-  <gram type="role">absolutive</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>eṉ</form>
-<def>my</def>
-<gramGrp>
-  <gram type="role">singular</gram>
-  <gram type="role">oblique</gram>
-  <gram type="role">first person</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>mēṉi</form>
-<def>body</def>
-<gramGrp>
-  <gram type="role">noun</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>nayappittār</form>
-<def>made-agree-he</def>
-<gramGrp>
-  <gram type="role">participial noun</gram>
-  <gram type="role">causative</gram>
-  <gram type="role">imperfective aspect</gram>
-  <gram type="role">honorific</gram>
-  <gram type="role">third person</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>nal</form>
-<def>good</def>
-<form type="sandhi">nam</form>
-<gramGrp>
-  <gram type="role">adjective</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>nilaiyar</form>
-<def>condition-he</def>
-<gramGrp>
-  <gram type="role">pronominalised noun</gram>
-  <gram type="role">honorific</gram>
-  <gram type="role">third person</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>āvar</form>
-<def>he will be</def>
-<gramGrp>
-  <gram type="role">honorific</gram>
-  <gram type="role">third person</gram>
-  <gram type="role">imperfective aspect</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>eṉiṉ</form>
-<def>say if</def>
-<gramGrp>
-  <gram type="role">conditional</gram>
-</gramGrp>
-</entry>
-</standOff></TEI>
+</TEI>
