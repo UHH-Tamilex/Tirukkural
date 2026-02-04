@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,76 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1253" type="wordsplit">
+<interp type="alignment" select="0">9MG14MG7MG24M,57M</interp>
+<entry>
+<form>maṟaippēṉ-maṉ</form>
+<def>I hide</def>
+<form type="simple">maṟaippēṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">maṉ</m></gramGrp>
+</entry>
+<entry>
+<form>kāmattai</form>
+<def>passion</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yāṉ-ō</form>
+<def>I</def>
+<form type="simple">yāṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>kuṟipp<c type="elided">u</c></form>
+<def>intention</def>
+<form type="sandhi">kuṟipp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṟi<c type="geminated">t</c></form>
+<def>without</def>
+</entry>
+<entry>
+<form>tummal</form>
+<def>sneezing</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōl</form>
+<def>be similar</def>
+<form type="sandhi">pōṟ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōṉṟi</form>
+<def>appeared</def>
+<form type="sandhi">ṟōṉṟi</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭum</form>
+<def>lets go</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
