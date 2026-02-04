@@ -35,7 +35,7 @@
     </body>
   </text>
 <standOff corresp="#TK1251" type="wordsplit">
-<interp type="alignment" select="0">52M,52M</interp>
+<interp type="alignment" select="0">20MR10MR20M,52M</interp>
 <entry>
 <form>kāma<c type="geminated">k</c></form>
 <def>passion</def>
@@ -52,14 +52,15 @@
 </entry>
 <entry>
 <form><c type="glide">y</c>uṭaikkum</form>
-<def>breaking</def>
+<def>breaks</def>
+<form type="sandhi"><c type="glide">y</c>uṭaikkun</form>
 <gramGrp>
-  <gram type="role">peyareccam</gram>
+  <gram type="role">habitual future</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>niṟai</form>
-<def>self control</def>
+<def>self-control</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -67,6 +68,7 @@
 <entry>
 <form><c type="glide">y</c>eṉṉum</form>
 <def>saying</def>
+<form type="sandhi"><c type="glide">y</c>eṉṉun</form>
 <gramGrp>
   <gram type="role">peyareccam</gram>
 </gramGrp>
