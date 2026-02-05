@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,86 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1273" type="wordsplit">
+<interp type="alignment" select="0">16MR29MG3MG4M,55M</interp>
+<entry>
+<form>maṇiyiṉ</form>
+<def>sapphire</def>
+<form type="sandhi">maṇiyiṟ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tikaḻ</form>
+<def>glitter</def>
+<form type="sandhi">ṟikaḻ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tarum</form>
+<def>giving</def>
+<form type="sandhi">tarun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nūl</form>
+<def>thread</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōl</form>
+<def>be similar</def>
+<form type="sandhi">pōṉ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṭantai</form>
+<def>girl</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṇiyiṉ</form>
+<def>ornament</def>
+<form type="sandhi"><c type="glide">y</c>aṇiyiṟ</form>
+<gramGrp>
+  <gram type="role">comparative</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tikaḻvat<c type="elided">u</c></form>
+<def>glitter-it</def>
+<form type="sandhi">ṟikaḻvat</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oṉṟ<c type="elided">u</c></form>
+<def>one-it</def>
+<form type="sandhi">oṉṟ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇṭu</form>
+<def>it is</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
