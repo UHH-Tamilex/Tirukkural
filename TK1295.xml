@@ -46,7 +46,7 @@
 </entry>
 <entry>
 <form><c type="glide">y</c>añcum</form>
-<def>feas</def>
+<def>fears</def>
 <gramGrp>
   <gram type="role">habitual future</gram>
 </gramGrp>
@@ -83,9 +83,9 @@
 </gramGrp>
 </entry>
 <entry>
-<form>viṭumpaitt<c type="elided">u</c></form>
+<form><c type="glide">v</c>iṭumpaitt<c type="elided">u</c></form>
 <def>sorrow-it</def>
-<form type="sandhi">viṭumpaitt</form>
+<form type="sandhi"><c type="glide">v</c>iṭumpaitt</form>
 <gramGrp>
   <gram type="role">pronominalised noun</gram>
   <gram type="role">neuter singular</gram>
