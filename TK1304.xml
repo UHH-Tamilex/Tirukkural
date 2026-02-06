@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,55 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1304" type="wordsplit">
+<interp type="alignment" select="0">44M,44M</interp>
+<entry>
+<form>ūṭiyavarai</form>
+<def>quarelled-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṇarāmai</form>
+<def>not-reconciling</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāṭiya</form>
+<def>faded</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḷḷi</form>
+<def>creeper</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mutal</form>
+<def>base</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>arintaṟṟu</form>
+<def>cut-thus-it</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
