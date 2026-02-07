@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +24,7 @@
         <div rend="parallel">
             <lg xml:id="TK1312">
 <l>ūṭi yiruntēmāt tummiṉār yāntammai </l>
-<l>nīṭuvāḻ keṉpa taṟintu.</l>            
+<l>nīṭuvāḻ keṉpa taṟintu</l>            
             </lg>
             <lg xml:lang="en">
 <l>When I continued to be sulky he sneezed and thought I would (then) wish him a long life.</l>
@@ -34,88 +32,4 @@
         </div>
     </body>
   </text>
-<standOff corresp="#TK1312" type="wordsplit">
-<interp type="alignment" select="0">38MG5MG7M,51MG</interp>
-<entry>
-<form>ūṭi</form>
-<def>quarrelled</def>
-<gramGrp>
-  <gram type="role">absolutive</gram>
-</gramGrp>
-</entry>
-<entry>
-<form><c type="glide">y</c>iruntēm</form>
-<def>we were</def>
-<gramGrp>
-  <gram type="role">plural</gram>
-  <gram type="role">first person</gram>
-  <gram type="role">perfective aspect</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>ā<c type="geminated">t</c></form>
-<def>become</def>
-<gramGrp>
-  <gram type="role">verbal root</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>tummiṉār</form>
-<def>he sneezed</def>
-<gramGrp>
-  <gram type="role">perfective aspect</gram>
-  <gram type="role">honorific</gram>
-  <gram type="role">third person</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>yām</form>
-<def>we</def>
-<form type="sandhi">yān</form>
-<gramGrp>
-  <gram type="role">pronoun</gram>
-  <gram type="role">plural</gram>
-  <gram type="role">first person</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>tammai</form>
-<def>self</def>
-<gramGrp>
-  <gram type="role">plural</gram>
-  <gram type="role">accusative</gram>
-  <gram type="role">third person</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>nīṭu</form>
-<def>be-long</def>
-<gramGrp>
-  <gram type="role">verbal root</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>vāḻk<c type="uncertain">a</c></form>
-<def>may-live</def>
-<form type="sandhi">vāḻk</form>
-<gramGrp>
-  <gram type="role">optative</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>eṉpat<c type="elided">u</c></form>
-<def>saying</def>
-<form type="sandhi">eṉpat</form>
-<gramGrp>
-  <gram type="role">verbal noun</gram>
-  <gram type="role">neuter singular</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>aṟintu</form>
-<def>known</def>
-<gramGrp>
-  <gram type="role">absolutive</gram>
-</gramGrp>
-</entry>
-</standOff></TEI>
+</TEI>
