@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,69 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1327" type="wordsplit">
+<interp type="alignment" select="0">23MG3MG20M,48M</interp>
+<entry>
+<form>ūṭaliṉ</form>
+<def>quarelling</def>
+<form type="sandhi">ūṭaliṟ</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōṟṟavar</form>
+<def>make-appear-not-they</def>
+<form type="sandhi">ṟōṟṟavar</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">negative</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veṉṟār</form>
+<def>been-victorious-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>atu-maṉ-<c type="geminated">ṉ</c>um</form>
+<def>that</def>
+<form type="simple">atu-maṉ</form>
+<form type="sandhi">atumaṉ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kūṭaliṉ</form>
+<def>uniting</def>
+<form type="sandhi">kūṭaliṟ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇa<c type="geminated">p</c></form>
+<def>see</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭum</form>
+<def>happens</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
