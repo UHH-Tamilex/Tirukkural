@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,61 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1329" type="wordsplit">
+<interp type="alignment" select="0">5MG29MG9M,45M</interp>
+<entry>
+<form>ūṭuka-maṉṉō</form>
+<def>may quarell</def>
+<form type="simple">ūṭuka</form>
+<gramGrp>
+  <gram type="role">optative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">maṉṉō</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>oḷi</form>
+<def>brightness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iḻai</form>
+<def>jewel</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yām</form>
+<def>we</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irappa</form>
+<def>beg</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīṭuka-maṉṉō</form>
+<def>may be long</def>
+<form type="simple">nīṭuka</form>
+<gramGrp>
+  <gram type="role">optative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">maṉṉō</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>irā</form>
+<def>night</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
