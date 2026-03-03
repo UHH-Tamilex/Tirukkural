@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,79 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK168" type="wordsplit">
+<interp type="alignment" select="0">5MG2MG39M,48M</interp>
+<entry>
+<form>aḻukk<c type="elided">u</c></form>
+<def>envy</def>
+<form type="sandhi">aḻukk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṟ<c type="elided">u</c></form>
+<def>way</def>
+<form type="sandhi">āṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉa</form>
+<def>say</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>oru</form>
+<def>one</def>
+</entry>
+<entry>
+<form>pāvi</form>
+<def>sinner</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiru<c type="geminated">c</c></form>
+<def>fortune</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceṟṟu<c type="geminated">t</c></form>
+<def>destroyed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tī</form>
+<def>fire</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uḻi</form>
+<def>place</def>
+</entry>
+<entry>
+<form><c type="glide">y</c>uyttu</form>
+<def>led</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭum</form>
+<def>lets go</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
