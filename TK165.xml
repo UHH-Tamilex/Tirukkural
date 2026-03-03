@@ -35,19 +35,11 @@
     </body>
   </text>
 <standOff corresp="#TK165" type="wordsplit">
-<interp type="alignment" select="0">5MG2MG9MG20MG6MG6M,53M</interp>
+<interp type="alignment" select="0">7MG9MG20MG6MG6M,52M</interp>
 <entry>
-<form>aḻukk<c type="elided">u</c></form>
+<form>aḻukkāṟ<c type="elided">u</c></form>
 <def>envy</def>
-<form type="sandhi">aḻukk</form>
-<gramGrp>
-  <gram type="role">noun</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>āṟ<c type="elided">u</c></form>
-<def>way</def>
-<form type="sandhi">āṟ</form>
+<form type="sandhi">aḻukkāṟ</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
