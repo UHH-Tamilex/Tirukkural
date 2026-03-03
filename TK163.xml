@@ -35,7 +35,7 @@
     </body>
   </text>
 <standOff corresp="#TK163" type="wordsplit">
-<interp type="alignment" select="0">37MG5MG7M,51M</interp>
+<interp type="alignment" select="0">37MG12M,50M</interp>
 <entry>
 <form>aṟaṉ</form>
 <def>virtue</def>
@@ -96,16 +96,8 @@
 </gramGrp>
 </entry>
 <entry>
-<form>aḻukk<c type="elided">u</c></form>
-<def>envy</def>
-<form type="sandhi">aḻukk</form>
-<gramGrp>
-  <gram type="role">noun</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>aṟuppāṉ</form>
-<def>reap-he</def>
+<form>aḻukkaṟuppāṉ</form>
+<def>be-envious-he</def>
 <gramGrp>
   <gram type="role">participial noun</gram>
   <gram type="role">masculine singular</gram>

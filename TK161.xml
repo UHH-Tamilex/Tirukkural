@@ -35,7 +35,7 @@
     </body>
   </text>
 <standOff corresp="#TK161" type="wordsplit">
-<interp type="alignment" select="0">5MG2MG24MG5MG2MG12M,55M</interp>
+<interp type="alignment" select="0">5MG2MG24MG7MG12M,54M</interp>
 <entry>
 <form>oḻukk<c type="elided">u</c></form>
 <def>conduct</def>
@@ -93,17 +93,9 @@
 </gramGrp>
 </entry>
 <entry>
-<form>aḻukk<c type="elided">u</c></form>
+<form>aḻukkāṟ<c type="elided">u</c></form>
 <def>envy</def>
-<form type="sandhi">aḻukk</form>
-<gramGrp>
-  <gram type="role">noun</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>āṟ<c type="elided">u</c></form>
-<def>way</def>
-<form type="sandhi">āṟ</form>
+<form type="sandhi">aḻukkāṟ</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>

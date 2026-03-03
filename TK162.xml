@@ -35,7 +35,7 @@
     </body>
   </text>
 <standOff corresp="#TK162" type="wordsplit">
-<interp type="alignment" select="0">14MG5MG12M2G7MG15M,58M</interp>
+<interp type="alignment" select="0">14MG5MG12M2G22M,57M</interp>
 <entry>
 <form>viḻu<c type="geminated">p</c></form>
 <def>excellent</def>
@@ -89,16 +89,8 @@
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
-<form>aḻukk<c type="elided">u</c></form>
+<form>aḻukkāṟṟiṉ</form>
 <def>envy</def>
-<form type="sandhi">aḻukk</form>
-<gramGrp>
-  <gram type="role">noun</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>āṟṟiṉ</form>
-<def>way</def>
 <gramGrp>
   <gram type="role">oblique</gram>
 </gramGrp>
