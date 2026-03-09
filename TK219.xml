@@ -92,6 +92,11 @@
 </entry>
 <entry>
 <form>amaikalā</form>
+<def>content-not-it</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
 </entry>
 <entry>
 <form><c type="glide">v</c>āṟu</form>
