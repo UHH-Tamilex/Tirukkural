@@ -35,7 +35,7 @@
     </body>
   </text>
 <standOff corresp="#TK230" type="wordsplit">
-<interp type="alignment" select="0">14MG10MG2M2G19M,49M</interp>
+<interp type="alignment" select="0">14MG10MG3MG18M,48M</interp>
 <entry>
 <form>cātaliṉ</form>
 <def>dying</def>
@@ -72,12 +72,14 @@
 </gramGrp>
 </entry>
 <entry>
-<form>at<c type="elided">u</c>-ūum</form>
+<form>atu-um</form>
 <def>that</def>
-<form type="sandhi">atūum</form>
+<form type="simple">atu</form>
+<form type="sandhi">atū</form>
 <gramGrp>
   <gram type="role">neuter singular</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form>ītal</form>
