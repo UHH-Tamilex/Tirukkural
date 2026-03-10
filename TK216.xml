@@ -70,6 +70,7 @@
 <form type="simple">paḻuttaṟṟu</form>
 <form type="sandhi">paḻuttaṟṟ</form>
 <gramGrp>
+  <gram type="role">pronominalised noun</gram>
   <gram type="role">neuter singular</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">āl</m></gramGrp>
