@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,66 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK304" type="wordsplit">
+<interp type="alignment" select="0">5MG9MG22MG6MG6M,52M</interp>
+<entry>
+<form>nakai-<c type="glide">y</c>um</form>
+<def>laughter</def>
+<form type="simple">nakai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>uvakai-<c type="glide">y</c>um</form>
+<def>joy</def>
+<form type="simple">uvakai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kollum</form>
+<def>killing</def>
+<form type="sandhi">kolluñ</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ciṉattiṉ</form>
+<def>anger</def>
+<form type="sandhi">ciṉattiṟ</form>
+<gramGrp>
+  <gram type="role">comparative</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pakai-<c type="glide">y</c>um</form>
+<def>enemy</def>
+<form type="simple">pakai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>uḷa-<c type="glide">v</c>ō</form>
+<def>they are</def>
+<form type="simple">uḷa</form>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>piṟa</form>
+<def>other-they</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
