@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,96 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK319" type="wordsplit">
+<interp type="alignment" select="0">7MG24MG15MG6M,55M</interp>
+<entry>
+<form>piṟarkk<c type="elided">u</c></form>
+<def>others</def>
+<form type="sandhi">piṟarkk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṉā</form>
+<def>pleasing not</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉ</form>
+<def>before</def>
+<form type="sandhi">muṟ</form>
+</entry>
+<entry>
+<form>pakal</form>
+<def>day</def>
+<form type="sandhi">pakaṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyyiṉ</form>
+<def>do-if</def>
+<form type="sandhi">ceyyiṟ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tamakk<c type="elided">u</c></form>
+<def>self</def>
+<form type="sandhi">tamakk</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṉā</form>
+<def>pleasing not-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṉ</form>
+<def>after</def>
+<form type="sandhi">piṟ</form>
+</entry>
+<entry>
+<form>pakal</form>
+<def>day</def>
+<form type="sandhi">pakaṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tām-ē</form>
+<def>self</def>
+<form type="simple">tām</form>
+<form type="sandhi">ṟām</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>varum</form>
+<def>come</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
