@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,85 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK368" type="wordsplit">
+<interp type="alignment" select="0">11MG16MG23M,52M</interp>
+<entry>
+<form>avā</form>
+<def>longing</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>illārkk<c type="elided">u</c></form>
+<def>not-they</def>
+<form type="sandhi"><c type="glide">v</c>illārkk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+  <gram type="role">negative</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>il</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>ākum</form>
+<def>becomes</def>
+<form type="sandhi"><c type="geminated">l</c>ākun</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṉpam</form>
+<def>distress</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḵt<c type="elided">u</c></form>
+<def>that</def>
+<form type="sandhi">aḵt</form>
+</entry>
+<entry>
+<form>uṇṭēl</form>
+<def>it-is-if</def>
+<form type="sandhi">uṇṭēṟ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tavāatu</form>
+<def>fail-not</def>
+<form type="sandhi">ṟavāatu</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>upon</def>
+<form type="sandhi">mēṉ</form>
+</entry>
+<entry>
+<form>mēl</form>
+<def>upon</def>
+</entry>
+<entry>
+<form>varum</form>
+<def>comes</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
