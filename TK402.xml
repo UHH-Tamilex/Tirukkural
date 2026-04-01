@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,67 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK402" type="wordsplit">
+<interp type="alignment" select="0">31M2G22M,55M</interp>
+<entry>
+<form>kallātāṉ</form>
+<def>learn-not-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>word</def>
+<form type="sandhi">coṟ</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāmuṟutal</form>
+<def>feeling desire</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mulai</form>
+<def>breast</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iraṇṭ<c type="elided">u</c>-um</form>
+<def>two-it</def>
+<form type="simple">iraṇṭu</form>
+<form type="sandhi"><c type="glide">y</c>iraṇṭ</form>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>illātāḷ</form>
+<def>not-she</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">feminine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṇ</form>
+<def>woman</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāmuṟṟaṟṟu</form>
+<def>felt-desire-thus-it</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>

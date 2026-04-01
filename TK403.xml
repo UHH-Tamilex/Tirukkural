@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,69 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK403" type="wordsplit">
+<interp type="alignment" select="0">10MGMR25MG12M,51M</interp>
+<entry>
+<form>kallātavar-um</form>
+<def>learn-not-they</def>
+<form type="simple">kallātavar</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>naṉi</form>
+<def>very</def>
+</entry>
+<entry>
+<form>nallar</form>
+<def>good-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṟṟār</form>
+<def>learned-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉ</form>
+<def>in front</def>
+<form type="sandhi">muṟ</form>
+</entry>
+<entry>
+<form>collāt<c type="elided">u</c></form>
+<def>speak-not</def>
+<form type="sandhi">collāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irukka<c type="geminated">p</c></form>
+<def>be</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟiṉ</form>
+<def>obtain if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
