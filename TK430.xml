@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,77 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK430" type="wordsplit">
+<interp type="alignment" select="0">4MG23MG22M,51M</interp>
+<entry>
+<form>aṟiv<c type="elided">u</c></form>
+<def>knowledge</def>
+<form type="sandhi">aṟiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaiyār</form>
+<def>possess-they</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ellām</form>
+<def>all</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaiyar</form>
+<def>possess-they</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟiv<c type="elided">u</c></form>
+<def>knowledge</def>
+<form type="sandhi">aṟiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilār</form>
+<def>not-they</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>what</def>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>uṭaiyar</form>
+<def>possess-they</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṉum</form>
+<def>even</def>
+</entry>
+<entry>
+<form>ilar</form>
+<def>not-they</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
