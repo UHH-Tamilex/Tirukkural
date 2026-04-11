@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,69 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK527" type="wordsplit">
+<interp type="alignment" select="0">19MG10MG13M2G5M,51M</interp>
+<entry>
+<form>kākkai</form>
+<def>crow</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karavā</form>
+<def>hide-not</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karaint<c type="elided">u</c></form>
+<def>called</def>
+<form type="sandhi">karaint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇṇum</form>
+<def>eats</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākkam-um</form>
+<def>gain</def>
+<form type="simple">ākkam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>aṉṉa</form>
+<def>like</def>
+</entry>
+<entry>
+<form>nīrārkk<c type="elided">u</c>-ē</form>
+<def>disposition-they</def>
+<form type="simple">nīrārkku</form>
+<form type="sandhi">nīrārkk</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uḷa</form>
+<def>they are</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
