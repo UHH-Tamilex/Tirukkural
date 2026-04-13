@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,60 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK561" type="wordsplit">
+<interp type="alignment" select="0">39MG13M,53M</interp>
+<entry>
+<form>takkāṅku</form>
+<def>been-fit-like</def>
+<gramGrp>
+  <gram type="role">comparative</gram>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṭi<c type="geminated">t</c></form>
+<def>investigated</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talaiccellā</form>
+<def>go ahead not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇṇattāl</form>
+<def>manner</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ottāṅk<c type="elided">u</c></form>
+<def>equalled-like</def>
+<form type="sandhi">ottāṅk</form>
+<gramGrp>
+  <gram type="role">comparative</gram>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oṟuppatu</form>
+<def>punishes</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēntu</form>
+<def>king</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
