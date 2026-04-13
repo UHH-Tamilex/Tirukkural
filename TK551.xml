@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,83 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK551" type="wordsplit">
+<interp type="alignment" select="0">21M2G13MG11MG11M,60M</interp>
+<entry>
+<form>kolai</form>
+<def>murder</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēṟkoṇṭāriṉ</form>
+<def>taken-up-they</def>
+<form type="sandhi">mēṟkoṇṭāriṟ</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">comparative</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṭit<c type="elided">u</c>-ē</form>
+<def>cruel-it</def>
+<form type="simple">koṭitu</form>
+<form type="sandhi">koṭit</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>alai</form>
+<def>oppression</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēlkoṇṭ<c type="elided">u</c></form>
+<def>taken-up</def>
+<form type="sandhi">mēlkoṇṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>allavai</form>
+<def>not-so-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyt<c type="elided">u</c></form>
+<def>done</def>
+<form type="sandhi">ceyt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḻukum</form>
+<def>conducting</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēntu</form>
+<def>king</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
