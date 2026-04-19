@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,63 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK620" type="wordsplit">
+<interp type="alignment" select="0">4MG22MG10MG11M,50M</interp>
+<entry>
+<form>ūḻai-<c type="glide">y</c>um</form>
+<def>fate</def>
+<form type="simple">ūḻai</form>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>uppakkam</form>
+<def>back</def>
+<form type="sandhi">uppakkaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇpar</form>
+<def>they see</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulaiv<c type="elided">u</c></form>
+<def>tremor</def>
+<form type="sandhi">ulaiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṟi<c type="geminated">t</c></form>
+<def>without</def>
+</entry>
+<entry>
+<form>tāḻāt<c type="elided">u</c></form>
+<def>hang-back-not</def>
+<form type="sandhi">tāḻāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uñaṟṟupavar</form>
+<def>strive-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
