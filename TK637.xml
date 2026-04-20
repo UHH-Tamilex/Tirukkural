@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -23,7 +25,7 @@
     <body>
         <div rend="parallel">
             <lg xml:id="TK637">
-<l>ceyaṟkai yaṟintakkaṭaittu mulakat </l>
+<l>ceyaṟkai yaṟintak kaṭaittu mulakat </l>
 <l> tiyaṟkai yaṟintu ceyal</l>            
             </lg>
             <lg xml:lang="en">
@@ -32,4 +34,57 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK637" type="wordsplit">
+<interp type="alignment" select="0">32MG19M,52M</interp>
+<entry>
+<form>ceyaṟkai</form>
+<def>action</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṟinta<c type="geminated">k</c></form>
+<def>known</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭaittum</form>
+<def>even when</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulakatt<c type="elided">u</c></form>
+<def>world</def>
+<form type="sandhi">ulakatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iyaṟkai</form>
+<def>nature</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṟintu</form>
+<def>known</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyal</form>
+<def>acting</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
