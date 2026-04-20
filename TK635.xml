@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,83 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK635" type="wordsplit">
+<interp type="alignment" select="0">9MG3MG45M,59M</interp>
+<entry>
+<form>aṟaṉ</form>
+<def>duty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟint<c type="elided">u</c></form>
+<def>known</def>
+<form type="sandhi">aṟint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṉṟ<c type="elided">u</c></form>
+<def>been-worthy</def>
+<form type="sandhi">āṉṟ</form>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>amainta</form>
+<def>beeen-suited</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>collāṉ</form>
+<def>word-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eññāṉṟum</form>
+<def>at all times</def>
+<form type="sandhi">eññāṉṟun</form>
+</entry>
+<entry>
+<form>tiṟaṉ</form>
+<def>firmness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟintāṉ</form>
+<def>known-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tērcci<c type="geminated">t</c></form>
+<def>discernment</def>
+<form type="sandhi">ṟērcci<c type="geminated">t</c></form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṇai</form>
+<def>companion</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
