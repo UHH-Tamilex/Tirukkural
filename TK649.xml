@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,75 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK649" type="wordsplit">
+<interp type="alignment" select="0">27MG14ML9M,52M</interp>
+<entry>
+<form>pala</form>
+<def>many</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>colla<c type="geminated">k</c></form>
+<def>speak</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāmuṟuvar</form>
+<def>they feel desire</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṉṟa</form>
+<def>indeed</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māc<c type="elided">u</c></form>
+<def>flaw</def>
+<form type="sandhi">māc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟṟa</form>
+<def>been-severed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cila</form>
+<def>few</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>collal</form>
+<def>speaking</def>
+<form type="sandhi">collaṟ</form>
+</entry>
+<entry>
+<form>tēṟṟātavar</form>
+<def>understand-not-they</def>
+<form type="sandhi">ṟēṟṟātavar</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
