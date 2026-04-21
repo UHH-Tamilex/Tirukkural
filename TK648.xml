@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,74 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK648" type="wordsplit">
+<interp type="alignment" select="0">18MG11MG25M,56M</interp>
+<entry>
+<form>viraintu</form>
+<def>hastened</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toḻil</form>
+<def>task</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēṭkum</form>
+<def>hears</def>
+<form type="sandhi">kēṭku</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ñālam</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nirant<c type="elided">u</c></form>
+<def>placed in row</def>
+<form type="sandhi">nirant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉitu</form>
+<def>pleasant-it</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>collutal</form>
+<def>speaking</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vallār<c type="geminated">p</c></form>
+<def>capable-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟiṉ</form>
+<def>obtain if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
