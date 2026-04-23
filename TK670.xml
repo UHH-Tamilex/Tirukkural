@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,73 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK670" type="wordsplit">
+<interp type="alignment" select="0">21MG29MG5M,57M</interp>
+<entry>
+<form>eṉai<c type="geminated">t</c></form>
+<def>how much</def>
+</entry>
+<entry>
+<form>tiṭpam</form>
+<def>firmness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eytiya<c type="geminated">k</c></form>
+<def>attained</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ-<c type="geminated">ṇ</c>um</form>
+<def>area</def>
+<form type="simple">kaṇ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>viṉai<c type="geminated">t</c></form>
+<def>work</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṭpam</form>
+<def>firmness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṇṭārai</form>
+<def>want-not-they</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṇṭāt<c type="elided">u</c></form>
+<def>want-not-it</def>
+<form type="sandhi">vēṇṭāt</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulaku</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
