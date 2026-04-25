@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,77 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK694" type="wordsplit">
+<interp type="alignment" select="0">8MG14MG8MG23M,56M</interp>
+<entry>
+<form>cevi<c type="geminated">c</c></form>
+<def>ear</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col-<c type="geminated">l</c>um</form>
+<def>word</def>
+<form type="simple">col</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>cērnta</form>
+<def>joined</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nakai-<c type="glide">y</c>um</form>
+<def>smile</def>
+<form type="simple">nakai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>avitt<c type="elided">u</c></form>
+<def>ended</def>
+<form type="sandhi">avitt</form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>oḻukal</form>
+<def>conducting</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṉṟa</form>
+<def>noble</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>periyār</form>
+<def>great-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>akattu</form>
+<def>inside</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
