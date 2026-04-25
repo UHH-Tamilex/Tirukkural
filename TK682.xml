@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,79 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK682" type="wordsplit">
+<interp type="alignment" select="0">3MG4MG19MG9MG18M,57M</interp>
+<entry>
+<form>aṉp<c type="elided">u</c></form>
+<def>love</def>
+<form type="sandhi">aṉp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟiv<c type="elided">u</c></form>
+<def>knowledge</def>
+<form type="sandhi">aṟiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ārāynta</form>
+<def>researched</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṉmai</form>
+<def>strength</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tūt<c type="elided">u</c></form>
+<def>messenger</def>
+<form type="sandhi">tūt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uraippāṟk<c type="elided">u</c></form>
+<def>speak-he</def>
+<form type="sandhi">uraippāṟk</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṟi</form>
+<def>without</def>
+</entry>
+<entry>
+<form><c type="glide">y</c>amaiyāta</form>
+<def>suited-not-they</def>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mūṉṟu</form>
+<def>three</def>
+</entry>
+</standOff></TEI>

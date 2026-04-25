@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,78 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK684" type="wordsplit">
+<interp type="alignment" select="0">4MG4MG26MG20M,57M</interp>
+<entry>
+<form>aṟiv<c type="elided">u</c></form>
+<def>knowledge</def>
+<form type="sandhi">aṟiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uruv<c type="elided">u</c></form>
+<def>form</def>
+<form type="sandhi">uruv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ārāynta</form>
+<def>researched</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kalvi</form>
+<def>learning</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>i<c type="geminated">m</c></form>
+<def>this-</def>
+</entry>
+<entry>
+<form>mūṉṟiṉ</form>
+<def>three-it</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceṟiv<c type="elided">u</c></form>
+<def>tightness</def>
+<form type="sandhi">ceṟiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaiyāṉ</form>
+<def>possess-he</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>celka</form>
+<def>may go</def>
+<gramGrp>
+  <gram type="role">optative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṉaikku</form>
+<def>work</def>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
