@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,99 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK771" type="wordsplit">
+<interp type="alignment" select="0">52M,52M</interp>
+<entry>
+<form>eṉ</form>
+<def>my</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>ai</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉ</form>
+<def>in front</def>
+</entry>
+<entry>
+<form>nillaṉmiṉ</form>
+<def>may not stand</def>
+<form type="sandhi">ṉillaṉmiṉ</form>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">optative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tevvir</form>
+<def>enemy</def>
+<form type="sandhi">ṟevvir</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>palar</form>
+<def>many</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>ai</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉ</form>
+<def>in front</def>
+</entry>
+<entry>
+<form>niṉṟu</form>
+<def>stood</def>
+<form type="sandhi">ṉiṉṟu</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kal</form>
+<def>stone</def>
+<form type="sandhi">kaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟavar</form>
+<def>stood.they</def>
+<form type="sandhi">ṉiṉṟavar</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
