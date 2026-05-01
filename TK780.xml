@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,85 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK780" type="wordsplit">
+<interp type="alignment" select="0">34MG15MG7M,58M</interp>
+<entry>
+<form>purantār</form>
+<def>protected-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṇīr</form>
+<def>tear</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malka<c type="geminated">c</c></form>
+<def>increase</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cā</form>
+<def>die</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kiṟpiṉ</form>
+<def>be-able-if</def>
+<form type="sandhi">kiṟpiṟ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cākkāṭ<c type="elided">u</c></form>
+<def>death</def>
+<form type="sandhi">cākkāṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irantu</form>
+<def>begged</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōḷ</form>
+<def>taking</def>
+<form type="sandhi">kōṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>takkat<c type="elided">u</c></form>
+<def>been-fit-it</def>
+<form type="sandhi">ṭakkat</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaittu</form>
+<def>possess-it</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
