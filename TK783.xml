@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,82 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK783" type="wordsplit">
+<interp type="alignment" select="0">5ML3MR3ML14ML8MG16M,54M</interp>
+<entry>
+<form>navil</form>
+<def>be-trained</def>
+<form type="sandhi">naviṟ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toṟum</form>
+<def>ever</def>
+<form type="sandhi">ṟoṟun</form>
+</entry>
+<entry>
+<form>nūl</form>
+<def>treatise</def>
+<form type="sandhi">nūṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nayam</form>
+<def>longing</def>
+<form type="sandhi">ṉayam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōlum</form>
+<def>it seems</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>payil</form>
+<def>practice</def>
+<form type="sandhi">payiṟ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toṟum</form>
+<def>ever</def>
+<form type="sandhi">ṟoṟum</form>
+</entry>
+<entry>
+<form>paṇp<c type="elided">u</c></form>
+<def>quality</def>
+<form type="sandhi">paṇp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭai</form>
+<def>possess</def>
+</entry>
+<entry>
+<form><c type="glide">y</c>āḷar</form>
+<def>men</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toṭarpu</form>
+<def>attachment</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
