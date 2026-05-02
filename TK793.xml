@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,72 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK793" type="wordsplit">
+<interp type="alignment" select="0">5MG9MG9MG12MG18M,57M</interp>
+<entry>
+<form>kuṇaṉ-um</form>
+<def>quality</def>
+<form type="simple">kuṇaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kuṭimai-<c type="glide">y</c>um</form>
+<def>birth</def>
+<form type="simple">kuṭimai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kuṟṟam-um</form>
+<def>mistake</def>
+<form type="simple">kuṟṟam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kuṉṟā</form>
+<def>be-diminished not</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>iṉaṉ-um</form>
+<def>group</def>
+<form type="simple">iṉaṉ</form>
+<form type="sandhi"><c type="glide">v</c>iṉaṉ</form>
+<gramGrp>
+  <gram type="role">masculine</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>aṟintu</form>
+<def>known</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yākka</form>
+<def>may bind</def>
+<gramGrp>
+  <gram type="role">optative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṭpu</form>
+<def>friendship</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
