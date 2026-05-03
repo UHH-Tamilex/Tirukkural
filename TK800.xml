@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,79 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK800" type="wordsplit">
+<interp type="alignment" select="0">11MG15MG16MG9M,54M</interp>
+<entry>
+<form>maruvuka</form>
+<def>may join</def>
+<gramGrp>
+  <gram type="role">optative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māc<c type="elided">u</c></form>
+<def>stain</def>
+<form type="sandhi">māc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟṟār</form>
+<def>severed-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēṇmai</form>
+<def>friendship</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>oṉṟ<c type="elided">u</c></form>
+<def>become-one</def>
+<form type="sandhi"><c type="glide">y</c>oṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īttum</form>
+</entry>
+<entry>
+<form>oruvuka</form>
+<def>may renouce</def>
+<gramGrp>
+  <gram type="role">optative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>opp<c type="elided">u</c></form>
+<def>equality</def>
+<form type="sandhi"><c type="glide">v</c>opp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilār</form>
+<def>not-they</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṭpu</form>
+<def>friendship</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
