@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,72 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK857" type="wordsplit">
+<interp type="alignment" select="0">10ML37M,48M</interp>
+<entry>
+<form>mikal</form>
+<def>becoming-much</def>
+<form type="sandhi">mikaṉ</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēvum</form>
+<def>dwelling</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mey<c type="geminated">p</c></form>
+<def>truth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poruḷ</form>
+<def>meaning</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇār</form>
+<def>see-not-they</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ikal</form>
+<def>hostility</def>
+</entry>
+<entry>
+<form>mēvum</form>
+<def>dwelling</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṉā</form>
+<def>pleasing not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṟiviṉavar</form>
+<def>knowledge-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
