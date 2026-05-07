@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,81 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK848" type="wordsplit">
+<interp type="alignment" select="0">3MG34M2G7M,47M</interp>
+<entry>
+<form>ēva-<c type="glide">v</c>um</form>
+<def>which-things</def>
+<form type="simple">ēva</form>
+<gramGrp>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ceykalāṉ</form>
+<def>do-not-he</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṉ</form>
+<def>self</def>
+<form type="sandhi">ṟāṉ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tēṟāṉ</form>
+<def>make-clear-not-he</def>
+<form type="sandhi">ṟēṟāṉ</form>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>a<c type="geminated">v</c></form>
+<def>that</def>
+</entry>
+<entry>
+<form><c type="glide">v</c>uyir</form>
+<def>life</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōom</form>
+<def>going</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷav<c type="elided">u</c>-um</form>
+<def>measure</def>
+<form type="simple">aḷavu</form>
+<form type="sandhi">aḷav</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ōr</form>
+<def>one</def>
+</entry>
+<entry>
+<form>nōy</form>
+<def>pain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
