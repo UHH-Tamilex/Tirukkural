@@ -85,7 +85,7 @@
 <gramGrp>
   <gram type="role">participial noun</gram>
   <gram type="role">dative</gram>
-  <gram type="role">imperfect aspect</gram>
+  <gram type="role">imperfective aspect</gram>
   <gram type="role">plural</gram>
 </gramGrp>
 </entry>
@@ -101,7 +101,7 @@
 <form>āya</form>
 <def>being</def>
 <gramGrp>
-  <gram type="role">imperfect aspect</gram>
+  <gram type="role">imperfective aspect</gram>
   <gram type="role">peyareccam</gram>
 </gramGrp>
 </entry>
@@ -126,7 +126,7 @@
 <gramGrp>
   <gram type="role">participial noun</gram>
   <gram type="role">dative</gram>
-  <gram type="role">imperfect aspect</gram>
+  <gram type="role">imperfective aspect</gram>
   <gram type="role">plural</gram>
 </gramGrp>
 </entry>
