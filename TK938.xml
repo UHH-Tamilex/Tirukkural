@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,76 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK938" type="wordsplit">
+<interp type="alignment" select="0">55M,55M</interp>
+<entry>
+<form>poruḷ</form>
+<def>wealth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṭuttu<c type="geminated">p</c></form>
+<def>given</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poy</form>
+<def>lie</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>upon</def>
+<form type="sandhi">mēṟ</form>
+</entry>
+<entry>
+<form>koḷīi</form>
+<def>made-take</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aruḷ</form>
+<def>consideration</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>keṭuttu</form>
+<def>destroyed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>allal</form>
+<def>unhappiness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḻappikkum</form>
+<def>makes bear</def>
+<form type="sandhi">uḻappikkuñ</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+  <gram type="role">causative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cūtu</form>
+<def>gambling</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
