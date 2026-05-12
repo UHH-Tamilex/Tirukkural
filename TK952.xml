@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,70 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK952" type="wordsplit">
+<interp type="alignment" select="0">7MG9MGMR3MG8M2G22M,56M</interp>
+<entry>
+<form>oḻukkam-um</form>
+<def>conduct</def>
+<form type="simple">oḻukkam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vāymaiy-um</form>
+<def>truthfulness</def>
+<form type="simple">vāymaiy</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>nāṇ-um</form>
+<def>shame</def>
+<form type="simple">nāṇ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>i<c type="geminated">m</c></form>
+<def>this-</def>
+</entry>
+<entry>
+<form>mūṉṟ<c type="elided">u</c>-um</form>
+<def>three</def>
+<form type="simple">mūṉṟu</form>
+<form type="sandhi">mūṉṟ</form>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>iḻukkār</form>
+<def>slip-not-they</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṭi<c type="geminated">p</c></form>
+<def>family</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟantār</form>
+<def>born-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
