@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,54 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1048" type="wordsplit">
+<interp type="alignment" select="0">3M2G10MG12MG13MR7M,50M</interp>
+<entry>
+<form>iṉṟ<c type="elided">u</c>-um</form>
+<def>today</def>
+<form type="simple">iṉṟu</form>
+<form type="sandhi">iṉṟ</form>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>varuvatu-kollō</form>
+<def>come it</def>
+<form type="simple">varuvatu</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">kollō</m></gramGrp>
+</entry>
+<entry>
+<form>nerunal-um</form>
+<def>yesterday</def>
+<form type="simple">nerunal</form>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>koṉṟatu</form>
+<def>killed-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōlum</form>
+<def>it seems</def>
+<form type="sandhi">pōlun</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nirappu</form>
+<def>destitution</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
