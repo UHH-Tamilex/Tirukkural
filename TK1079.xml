@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,75 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1079" type="wordsplit">
+<interp type="alignment" select="0">7M2G8M2G29MG7M,56M</interp>
+<entry>
+<form>uṭuppat<c type="elided">u</c>-ūum</form>
+<def>wear-it</def>
+<form type="sandhi">uṭuppatūum</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇpat<c type="elided">u</c>-ūum</form>
+<def>eat-it</def>
+<form type="sandhi">uṇpatūuṅ</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇiṉ</form>
+<def>see if</def>
+<form type="sandhi">kāṇiṟ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟar</form>
+<def>other-they</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>upon</def>
+</entry>
+<entry>
+<form>vaṭu<c type="geminated">k</c></form>
+<def>reproach</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇavaṟṟ<c type="elided">u</c></form>
+<def>see-they</def>
+<form type="sandhi">kāṇavaṟṟ</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākum</form>
+<def>becomes</def>
+<form type="sandhi">ākuṅ</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kīḻ</form>
+<def>below</def>
+</entry>
+</standOff></TEI>
