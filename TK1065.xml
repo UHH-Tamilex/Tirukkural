@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,4 +34,95 @@
         </div>
     </body>
   </text>
-</TEI>
+<standOff corresp="#TK1065" type="wordsplit">
+<interp type="alignment" select="0">25ML5MG10MG6MG2M,52M</interp>
+<entry>
+<form>teḷ</form>
+<def>be clear</def>
+<form type="sandhi">teṇ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>water</def>
+<form type="sandhi">ṇīr</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭu</form>
+<def>cook</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṟkai</form>
+<def>gruel</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āyiṉum</form>
+<def>if-even</def>
+<form type="sandhi"><c type="glide">y</c>āyiṉun</form>
+<gramGrp>
+  <gram type="role">concessive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāḷ</form>
+<def>effort</def>
+<form type="sandhi">tāṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tantat<c type="elided">u</c></form>
+<def>brought-it</def>
+<form type="sandhi">ṭantat</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇṇaliṉ</form>
+<def>eating</def>
+<gramGrp>
+  <gram type="role">comparative</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūṅk<c type="elided">u</c></form>
+<def>greatness</def>
+<form type="sandhi">ūṅk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉiyat<c type="elided">u</c></form>
+<def>pleasant-it</def>
+<form type="sandhi">iṉiyat</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>il</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">finite verb</gram>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
