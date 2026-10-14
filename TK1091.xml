@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1091. <term xml:lang="ta">kuṟippu aṟital</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Hibathullah Abdul Wahab</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -29,9 +29,165 @@
 <l>nōynōkkoṉ ṟannōy maruntu</l>            
             </lg>
             <lg xml:lang="en">
-<l>There are two looks in the dyed eyes of this (fair one); one causes pain, and the other is the cure thereof.</l>
+<l>There are two looks in the dyed eyes of this (fair one); one causes pain and the other is the cure thereof.</l>
             </lg>
         </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+      <body>
+        <head>Parimēlaḻakar</head>
+        <div rend="parallel">
+          <p xml:id="TK1091-Pari_paayiram">
+            [kuṟippu aṟital] aḵtāvatu talaimakan talaimakaḷ kuṟippiṉai aṟitalum tōḻi kuṟippiṉai aṟitalum, avaḷtāṉ 
+            avviruvar kuṟippiṉaiyum aṟitalumām. takaiyaṇaṅkuṟṟa talaimakan talaimakaḷaik kūṭuṅkāl itu 
+            vēṇṭumākaliṉ, takaiyaṇaṅkuṟuttaliṉpiṉ vaikkappaṭṭatu.
+          </p>
+          <p xml:lang="en">
+          [This section is called "Praise of the Deity"]—
+          </p>
+        </div>
+        <div rend="parallel">
+          <p xml:id="TK1091-Pari1">
+                     (itaṉporuḷ) talaimakan talaimakaḷ uḷappāṭṭukkuṟippiṉai avaḷ ṉōkkiṉāṉ aṟintatu.
+                     </p>
+          <p xml:lang="en">
+          The meaning of this [Kuṟaḷ]
+          </p>
+        </div>
+        <div rend="parallel">
+          <p xml:id="TK1091-Pari2">
+          ivaḷ uṇkaṇ uḷḷatu irunōkku - ivaḷuṭaiya uṇkaṇakattatāya nōkku itupoḻutu eṉmēl iraṇṭu 
+          nōkkāyiṟṟu ; orunōkku nōynōkku oṉṟu annōy maruntu - avaṟṟuḷ orunōkku eṉkaṇ nōy ceyyumnōkku. 
+          ēṉaiyatu annōykku maruntāya nōkku eṉṟavāṟu.
+          uṇkaṇ - maiyuṇṭa kaṇ. nōyceyyum nōkku avaḷ maṉattiṉāya 
+          kāmakkuṟippiṉai veḷippaṭukkiṉṟa nōkku. maruntāya nōkkut 
+          taṉkaṇ nikaḻkiṉra aṉpu nōkku. nōyceyyum nōkkiṉaip 
+          potunōkku eṉpārum uḷar ; atu nōyceyiṉ kaikkiḷaiyāvatallatu 
+          akamākāmai aṟika. ivvaruttam tīrum vāyilum uṇṭāyiṟṟu eṉpatām.
+          </p>
+          <p xml:lang="en">
+          This is a comparison of the [subject]
+          </p>
+        </div>
+        <div>
+        </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar</head>
+      <div rend="parallel">
+        <p xml:id="TK1091-Maṇa_paayiram">
+          [kuṟippu aṟital] kuṟippaṟitalāvatu, talaimakaḷ uḷḷak kuṟippiṉait talaimakaṉ aṟital.
+        </p>
+        <p xml:lang="en">
+          [This section is called "Praise of the Deity"]—
+          </p>
+        </div>
+        <div rend="parallel">
+          <p xml:id="TK1091-M1">
+          (itaṉ poruḷ.) ivaḷ uṇ kaṇṇiluḷḷa nōkkam iraṇṭu vakaittu ; avviru vakaiyiṉum orunōkku nōy ceyyum ; orunōkku ataṟku maruntām enṟavāṟu.
+        </p>
+        <p xml:lang="en">
+          The meaning of this [is as follows]
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK1091-M2">
+          nōynōkkeṉpatu mutalnōkkiṉa nōkkam ; maruntunōkku eṉpatu itaṉāl varuttamuṟṟa talaimakaṉait talaimakaḷ uḷḷaṅkalaṅki nāṇōṭukūṭi nōkkiṉa nōkkam.
+        </p>
+        <p xml:lang="en">
+          [Tiruvaḷḷuvar] has said that the primordial Lord is He who is the cause(?) of the world.
+        </p>
+        </div>
+      <div rend="parallel">
+        <p xml:id="TK1091-M3">
+          itu, nāṇamuṭaiya peṇṭiratu uḷḷakkaruttu veḷippaṭumāṟu kūṟiyatu.
+        </p>
+        <p xml:lang="en">
+          [Tiruvaḷḷuvar] has said that the primordial Lord is He who is the cause(?) of the world.
+        </p>
+      </div>
+    </body>
+  </text>
+    <text xml:lang="ta" type="edition">
+    <body>
+      <head>Paripperumāḷ</head>
+      <div rend="parallel">
+        <p xml:id="TK1091-Parip_paayiram">
+          [kuṟippu aṟital] kuṟippaṟitalāvatu, talaimakaḷ 
+          uḷḷak kuṟippiṉait talaimakaṉ aṟital. itu talaimakaṟkē urittu. 
+          peṇṭir nāṇamuṭaiyaraṉṟē! avaratu uḷḷakkaruttu veḷippaṭumāṟu 
+          eṉṉaiyeṉiṉ, mēlai atikārattut talaimakaṉaik kaṇṭa talamakaḷ, 'kāmam 
+          pōl kaṇtār makiḻceytal iṉṟu' (tirukkuṟal 1090) eṉṟu niṉaittāḷākak 
+          kūṟiṉāraṉṟē; ataṉāṉē kaṇṇum mukamum vēṟupaṭum; ataṉaṉē aṟiyalākum. 
+          maṉakkuṟippu aṟital kūṟiyatu eṟṟukku? piṟavāṟṟāṉuṅkūṭutaṟku neṟiyuḷavāleṉiṉ, 
+          piṟavāṟṟāṟ kūṭuṅkāl, kuravarāṟkūṭiṉ peruntiṇaiyām ; poruḷ koṭuttuc cāriṉ 
+          acuramām ; valiyiṟcāriṉ irākkatamām ; maṟaviyiṟ cāriṉ pacācamām ; ātaliṉ 
+          ikkūṭṭattukkuc kuṟippaṟintē puṇaravēṇṭutaliṉ itu kūṟappaṭṭatu. mēlataṉōṭu 
+          iyaipum itu. itu talaimakaṟku urittaṉṟēveṉiṉ avaṉ veḷippaṭa irattalāṉ vēṇṭā eṉka.
+        </p>
+        <p xml:lang="en">
+          [This section is called "Praise of the Deity"]—
+          </p>
+        </div>
+        <div rend="parallel">
+          <p xml:id="TK1091-P1">
+          (itaṉ poruḷ.) ivaḷ maiyuṇ kaṇṇiluḷḷa nōkkam iraṇṭu vakaittu ; avviru vakaiyiṉum orunōkku nōy ceyyum ; orunōkku ataṟku maruntām enṟavāṟu.
+        </p>
+        <p xml:lang="en">
+          The meaning of this [is as follows]
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK1091-P2">
+          nōynōkkeṉpatu mutalnōkkiṉa nōkkam ; maruntunōkku eṉpatu itaṉāl varuttamuṟṟa talaimakaṉait talaimakaḷ uḷḷaṅkalaṅki nāṇōṭukūṭi nōkkiṉa nōkkam.
+        </p>
+        <p xml:lang="en">
+          [Tiruvaḷḷuvar] has said that the primordial Lord is He who is the cause(?) of the world.
+        </p>
+        </div>
+      <div rend="parallel">
+        <p xml:id="TK1091-P3">
+          ataṉāṉē uṭampāṭu kāṇṭaliṉ maruntāyiṟṟu. itu, naṇinōkkutal uṭampaṭutalām eṉṟatu.
+        </p>
+        <p xml:lang="en">
+          [Tiruvaḷḷuvar] has said that the primordial Lord is He who is the cause(?) of the world.
+        </p>
+      </div>
+    </body>
+  </text>
+       <text xml:lang="ta" type="edition">
+    <body>
+      <head>Paritiyār</head>
+      <div rend="parallel">
+          <p xml:id="TK1091-Pa1">
+          (itaṉ poruḷ.) iraṇṭu pārvai uṇṭu nāyakikku: orupārvai virakam tarum ; orupārvai virakattukku 
+          maruntākiya amutapārvai koṭukkum eṉṟavāṟu.
+        </p>
+        <p xml:lang="en">
+          [Tiruvaḷḷuvar] has said that the primordial Lord is He who is the cause(?) of the world.
+        </p>
+      </div>
+    </body>
+  </text>
+    <text xml:lang="ta" type="edition">
+    <body>
+      <head>Kāliṅkar</head>
+      <div rend="parallel">
+          <p xml:id="TK1091-K1">
+          (itaṉ poruḷ.) neñcamē! ivaḷatu maiyuṇṭā kaṇṇiṉkaṇ uḷatākiya nōkkuttāṉ nampāl iraṇṭu 
+          nōkkāyiruntatu. iktu eṅṅaṉam eṉil, oru nōkkunam iṭarceyyum nōkkam ; oru nōkkam maṟṟu 
+          avviṭaṟ taṇittaṟku oru taṇimaruntu pōlum eṉṟavāṟu. eṉavē eṅkum ōṭumpōtu nōkkiṉ, taṉakku 
+          oru payaṉ iṉmaiyiṉ nōyatu eṉṟum. iṉit taṉvayiṟceṉṟa nōkkut taṉatu uyir āṟṟaṟkōr taṇṇaḷi 
+          ākaiyāl iṭartaṇi nōkku eṉṟum iṅṅaṉam ivaḷnōkkiṉaip pirittukkoṇṭu avaḷ uṭkuṟippu aṟintāṉ 
+          eṉpatu karuttu eṉṟavāṟu.
+        </p>
+        <p xml:lang="en">
+          [Tiruvaḷḷuvar] has said that the primordial Lord is He who is the cause(?) of the world.
+        </p>
+      </div>
     </body>
   </text>
 <standOff corresp="#TK1091" type="wordsplit">
