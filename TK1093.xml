@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1093. <term xml:lang="ta">kuṟippu aṟital</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Hibathullah Abdul Wahab</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -29,9 +29,111 @@
 <l>yāppiṉu ḷaṭṭiya nīr</l>            
             </lg>
             <lg xml:lang="en">
-<l>She has looked (at men) and stooped (her head) and that (sign) waters as it were (the corn of) our love.</l>
+<l>She looked, and then she bowed ; that was the watering of the young plant of love that was springing up between us.</l>
             </lg>
         </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK1092-Pari1">
+          (i - ḷ). nōkkiṉāṉum nāṇiṉāṉum aṟintatu.
+          </p>
+        <p xml:lang="en">
+          The meaning ... 
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK1092-Pari2">
+        nōkkiṉaḷ - yāṉ nōkkāvaḷavil tāṉ eṉṉai aṉpōṭu nōkkiṉāḷ; nōkki iṟaiñciṉāḷ - nōkki oṉṟaṉai 
+        uṭkoṇṭu nāṇi iṟaiñciṉāḷ; aktu yappiṉāḷ avaḷ aṭṭiya nīr - akkuṟippu 
+        iruvēmiṭaiyum tōṉṟiya aṉpuppayir vaḷara ataṉkaṇ avaḷ vārtta nīrāyiṟṟu eṉṟavāṟu.   
+        </p>
+        <p xml:lang="en">
+          [The interrogative base form?] His feet.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK1092-Pari3">
+          aktu eṉṉum cuṭṭuppeyar acceykaikku ētu vāya kuṟippiṉmēl niṉṟatu. yāppiṉāāyataṉai yāppu eṉṟar. ēkatēcavuruvakam.
+        </p>
+        <p xml:lang="en">
+          [The interrogative base form?] His feet.
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar</head>
+      <div rend="parallel">
+        <p xml:id="TK1092-M1">
+          (i - ḷ.) muṟpaṭa nōkkiṉāḷ, nōkkiṉa piṉpu nāṇiṉāḷ ; aktu avaḷ naṭpuppayir vaḷara ataṉ kaṇ vārtta nīr eṉṟavāṟu.
+        </p>
+        <p xml:lang="en">
+          The meaning ... :
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK1092-M2">
+          talaimakaḷ nāṇpōkāmaikkuk kāraṇam kūṟiyavāṟum.
+        </p>
+        <p xml:lang="en">
+          Because it is only 
+        </p>
+      </div>
+    </body>
+  </text>
+    <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parippeṟumāḷ</head>
+      <div rend="parallel">
+        <p xml:id="TK1092-M1">
+          (i - ḷ.) muṟpaṭa nōkkip piṉpu nāṇināḷ; aktu avaḷ naṭpu vaḷara vārtta nīr eṉṟavāṟu.
+        </p>
+        <p xml:lang="en">
+          The meaning ... :
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK1092-M2">
+          naṇ pōkāmaikkuk kāraṇam kūṟiyavāṟāyiṟṟu. pantam eṉpataṉai yāppu eṉṟu kūṟiṉār. pārttavaḷ peyarātu nāṇi niṟṟālum uṭaṉpaṭutalām eṉṟatu.
+        </p>
+        <p xml:lang="en">
+          Because it is only 
+        </p>
+      </div>
+    </body>
+  </text>
+    <text xml:lang="ta" type="edition">
+    <body>
+      <head>Paritiyār</head>
+      <div rend="parallel">
+        <p xml:id="TK1092-M1">
+          (i - ḷ.) nōkkiṉāḷ mukattai yāṉ nōkkat talaikīḻiṭṭatu ; aktu eṉpōla eṉṉil kaṭṭiya kaṭṭil taṇṇīrviṭṭataṟku okkum eṉṟavāṟu.
+        </p>
+        <p xml:lang="en">
+          The meaning ... :
+        </p>
+      </div>
+    </body>
+  </text>
+      <text xml:lang="ta" type="edition">
+    <body>
+      <head>Kāliṅkar</head>
+      <div rend="parallel">
+        <p xml:id="TK1092-M1">
+          (i - ḷ.) neñcame! iṅṅaṉam ciṟanta nōkkiṉai uṭaiyāḷ muṉṉam tāṉ nōkkip piṉṉar yāṉ taṉṉai 
+          nōkkumiṭattu etirnōkku iṉṟi mukam iṟaiñci niṉṟāḷ. maṟṟu aktu yātiṉai okkumō aṉil ōrp 
+          puṟainta iṭattup piṉṉum ataṟku uṟuti peṟuvatāka nīr peytu kūṟu koṇṭāṟpōlat tāṉum 
+          nammiṭattu ōrttaṟ kuṟippuṭaimai vaippuṟuttiṉāḷpōlum eṉṟu makiḻntu tēṟiṉāṉ talaimakaṉ eṉpatu karuttu eṉṟavāṟu.
+        </p>
+        <p xml:lang="en">
+          The meaning ... :
+        </p>
+      </div>
     </body>
   </text>
 <standOff corresp="#TK1093" type="wordsplit">
