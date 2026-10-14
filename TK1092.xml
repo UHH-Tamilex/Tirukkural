@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title><title xml:lang="ta">Tirukkuṟaḷ</title> 1092. <term xml:lang="ta">kuṟippu aṟital</term>.</title>
-        <editor role="translator">George Uglow Pope</editor>
+        <editor role="translator">Hibathullah Abdul Wahab</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -29,9 +29,114 @@
 <l>cempāka maṉṟu peritu</l>            
             </lg>
             <lg xml:lang="en">
-<l>A single stolen glance of her eyes is more than half the pleasure (of sexual embrace).</l>
+<l>The Furtive lightning glance that is turned on the lover the moment 
+  that his eyes are turned aside, is not merely the half of love; it is more than a moiety. </l>
             </lg>
         </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parimēlaḻakar</head>
+      <div rend="parallel">
+        <p xml:id="TK1092-Pari1">
+          (i - ḷ). ituvum atu.
+          </p>
+        <p xml:lang="en">
+          The meaning ... 
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK1092-Pari2">
+          kaṇ kaḷavukoḷḷum ciṟunōkkam - ivaḷ kaṇkaḷ yāṉ kāṇāmal eṉmēl 
+          nōkkukiṉṟa arukiyanōkkam; kāmattil cempākam aṉṟu peritu - meyyuṟupuṇarcciyiṉ otta pātiyaḷavu aṉṟu. ataṉiṉum mikum eṉṟavāṟu.</p>
+        <p xml:lang="en">
+          [The interrogative base form?] His feet.
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK1092-Pari3">
+          tāṉ nōkkiyavaḻi nāṇiyiṟaiñciyum nōkkāvaḻi uṟṟu nōkkiyum varutalāl 'kaḷavukoḷḷum' eṉṟum, aktu uḷatāṅkālam 
+          ciṟitākaliṉ 'ciṟunōkkam' eṉṟum, aktu uḷappāṭuḷvaḻi nikaḻvatākaliṉ iṉip puṇartal orutalai eṉpāṉ 'cempākamaṉṟu peritu' eṉṟum kūṟiṉāṉ.
+        </p>
+        <p xml:lang="en">
+          [The interrogative base form?] His feet.
+        </p>
+      </div>
+    </body>
+  </text>
+  <text xml:lang="ta" type="edition">
+    <body>
+      <head>Maṇakkuṭavar</head>
+      <div rend="parallel">
+        <p xml:id="TK1092-M1">
+          (i - ḷ.) eṉ kaṇkaḷaic cōrvupārttuc kaḷaviṉāl nōkkukiṉṟa ciṟiyanōkkam, vēṇṭappaṭṭa poruḷiṟ pātiyēyaṉṟu; peritu eṉṟavāṟu.
+        </p>
+        <p xml:lang="en">
+          The meaning ... :
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK2-M2">
+          talaimakaḷ talaimakaṉ kāṇāmai nōkkutaliṉ. itu kaḷavāyiṟṟu.
+        </p>
+        <p xml:lang="en">
+          Because it is only 
+        </p>
+      </div>
+    </body>
+  </text>
+    <text xml:lang="ta" type="edition">
+    <body>
+      <head>Parippeṟumāḷ</head>
+      <div rend="parallel">
+        <p xml:id="TK1092-M1">
+          (i - ḷ.) eṉ kaṇkaḷaic cōrvupārttuc kaḷaviṉāl nōkkukiṉṟa ciṟiyanōkkam, vēṇṭappaṭṭa poruḷiṟ pātiyēyaṉṟu; peritu eṉṟavāṟu.
+        </p>
+        <p xml:lang="en">
+          The meaning ... :
+        </p>
+      </div>
+      <div rend="parallel">
+        <p xml:id="TK2-M2">
+          cōrvu pārttalāvatu, talaimakaṉ taṉatu kātaliṉālē eppoḻutum nōkkuvaṉaṉṟē ; talaimakaḷukkum avvāṟu 
+          nōkka vēṇṭutaliṉ avaṉ pārākkālattaik kuṟittu niṟṟal. kaḷaviṉāṉ nōkkutalāvatu. akkālattē nōkkutal. talaimakaṉ kāṇāmal nōkkutaliṉ 
+          kaḷavu āyiṟṟu. koḷḷutal nōkkutaṟ poruḷmēl varutaliṉ nōkku āyiṟṟu. ciṟunōkkamāvatu pārttatum mīḷutal. neṭitu nērakkāmaiyiṉ ciṟitāyiṟṟu. vēṇtappaṭṭa porulāvatu puṇarcci. 
+          cempāka maṉṟu peritu eṉpatu ataṟkup pāti icaivukku mēlē peṟṟēm eṉpatu. itu maṟaiya nōkkutal uṭampāṭu eṉṟatu.
+        </p>
+        <p xml:lang="en">
+          Because it is only 
+        </p>
+      </div>
+    </body>
+  </text>
+    <text xml:lang="ta" type="edition">
+    <body>
+      <head>Paritiyār</head>
+      <div rend="parallel">
+        <p xml:id="TK1092-M1">
+          (i - ḷ.) kaṇ kaḷavukoṇṭu kaṭaikkaṇittup pārttapārvai cemmai aḻakupeṟṟa kāmakkūṭṭattilum peritu eṉṟavāṟu.
+        </p>
+        <p xml:lang="en">
+          The meaning ... :
+        </p>
+      </div>
+    </body>
+  </text>
+      <text xml:lang="ta" type="edition">
+    <body>
+      <head>Kāliṅkar</head>
+      <div rend="parallel">
+        <p xml:id="TK1092-M1">
+          (i - ḷ.) iṅṅaṉam ivaḷatu kaṇkaḷāṉavai vēṟu pulappaṭātavāṟu tām kātal urupiṉaik kavarntu 
+          koḷvatu pōlum ciṟunōkkamāṉatu kāmac cuvaiyaip pakuttuṇariṉ yāṇṭum paranta muḻu nōkkuṭaiya 
+          kalaviyāṉa kāmattiṟ cevvaṉam pakutta pākaccuvaip paṅku ; eṉave, aṉṟiyum piṉṉum periteṉalām eṉṟu 
+          iṅṅaṉam peṟṟāṉ pōlvatōr paṟṟukkōṭu eyticciṟitu paṭar tīrntāṉ eṉpatu poruḷ eṉṟavāṟu. 
+        </p>
+        <p xml:lang="en">
+          The meaning ... :
+        </p>
+      </div>
     </body>
   </text>
 <standOff corresp="#TK1092" type="wordsplit">
