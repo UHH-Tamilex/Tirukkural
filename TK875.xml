@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -33,7 +35,7 @@
     </body>
   </text>
 <standOff corresp="#TK875" type="wordsplit">
-<interp type="alignment" select="0">12M2G13M2G26M3G10M,68M</interp>
+<interp type="alignment" select="0">12M2G13M2G25MG11M,66M</interp>
 <entry>
 <form>taṉ</form>
 <def>self</def>
@@ -41,6 +43,7 @@
   <gram type="role">singular</gram>
   <gram type="role">oblique</gram>
   <gram type="role">third person</gram>
+  <gram type="role">pronoun</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -56,6 +59,9 @@
 <def>without</def>
 <form type="simple">iṉṟu</form>
 <form type="sandhi"><c type="glide">y</c>iṉṟ</form>
+<gramGrp>
+  <gram type="role">postposition</gram>
+</gramGrp>
 <gramGrp type="particle"><m type="enclitic">āl</m></gramGrp>
 </entry>
 <entry>
@@ -113,19 +119,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>koḷka</form>
+<form>koḷk<c type="uncertain">a</c></form>
 <def>may take</def>
+<form type="sandhi">koḷk</form>
 <gramGrp>
   <gram type="role">optative</gram>
 </gramGrp>
 </entry>
 <entry>
-<form>[a]vaṟṟiṉ</form>
+<form>avaṟṟiṉ</form>
 <def>those</def>
-<form type="sandhi">vaṟṟiṉ</form>
 <gramGrp>
   <gram type="role">neuter plural</gram>
   <gram type="role">oblique</gram>
+  <gram type="role">pronoun</gram>
 </gramGrp>
 </entry>
 <entry>
