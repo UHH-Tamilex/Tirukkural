@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -33,7 +35,7 @@
     </body>
   </text>
 <standOff corresp="#TK871" type="wordsplit">
-<interp type="alignment" select="0">15MG15ML4MG2MG13MG4M,58M</interp>
+<interp type="alignment" select="0">15MG15ML4MG15MG4M,57M</interp>
 <entry>
 <form>pakai</form>
 <def>enmity</def>
@@ -74,14 +76,14 @@
 </gramGrp>
 </entry>
 <entry>
-<form>nakai-<c type="glide">y</c>ē-<c type="glide">y</c>um</form>
+<form>nakai-<c type="glide">y</c>ēyum</form>
 <def>jest</def>
-<form type="simple">nakai-ē</form>
-<form type="sandhi">ṉakai<c type="glide">y</c>ē</form>
+<form type="simple">nakai</form>
+<form type="sandhi">ṉakai</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+<gramGrp type="particle"><m type="enclitic">ēyum</m></gramGrp>
 </entry>
 <entry>
 <form>vēṇṭal</form>
