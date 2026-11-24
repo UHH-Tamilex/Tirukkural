@@ -49,8 +49,13 @@
           </xsl:when>
           <xsl:otherwise/>
       </xsl:choose>
-      <xsl:apply-templates select="./x:persName"/>
-      <xsl:apply-templates select="./x:orgName"/>
+      <xsl:choose>
+        <xsl:when test="./x:persName">
+          <xsl:apply-templates select="./x:persName"/>
+          <xsl:apply-templates select="./x:orgName"/>
+        </xsl:when>
+        <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+      </xsl:choose>
   </xsl:for-each>
   <xsl:text>. </xsl:text>
 </xsl:template>
