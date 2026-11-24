@@ -417,23 +417,6 @@
     </xsl:element>
 </xsl:template>
 
-<xsl:template match="x:choice">
-    <xsl:element name="span">
-    <xsl:attribute name="class">
-        <xsl:text>choice</xsl:text>
-        <xsl:if test="@type='ambiguous'"><xsl:text> inline</xsl:text></xsl:if>
-    </xsl:attribute>
-    <xsl:apply-templates />
-    </xsl:element>
-</xsl:template>
-<xsl:template match="x:choice/x:seg">
-    <xsl:element name="span">
-        <xsl:attribute name="class">choiceseg</xsl:attribute>
-        <xsl:call-template name="lang"/>
-        <xsl:apply-templates/>
-    </xsl:element>
-</xsl:template>
-
 <xsl:template match="x:standOff">
     <xsl:element name="div">
         <xsl:attribute name="class">standOff</xsl:attribute>

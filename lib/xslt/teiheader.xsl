@@ -37,50 +37,62 @@
   </xsl:choose>
 </xsl:template>
 
+<xsl:template name="editors-each">
+  <xsl:param name="selector" select="x:editor"/>
+  <xsl:for-each select="$selector">
+      <xsl:choose>
+          <xsl:when test="position() = last() and position() != 1">
+              <xsl:text> &amp; </xsl:text>
+          </xsl:when>
+          <xsl:when test="position() != 1">
+              <xsl:text>, </xsl:text>
+          </xsl:when>
+          <xsl:otherwise/>
+      </xsl:choose>
+      <xsl:apply-templates select="./x:persName"/>
+      <xsl:apply-templates select="./x:orgName"/>
+  </xsl:for-each>
+  <xsl:text>. </xsl:text>
+</xsl:template>
+
 <xsl:template name="editors">
-    <xsl:element name="div">
-        <xsl:attribute name="class">editionStmt</xsl:attribute>
-        <p>
-            <xsl:if test="x:editor[not(@role)]">
-                <xsl:text>Catalogue description by </xsl:text>
-                <xsl:for-each select="x:editor[not(@role)]">
-                    <xsl:choose>
-                        <xsl:when test="position() = last() and position() != 1">
-                            <xsl:text> &amp; </xsl:text>
-                        </xsl:when>
-                        <xsl:when test="position() != 1">
-                            <xsl:text>, </xsl:text>
-                        </xsl:when>
-                        <xsl:otherwise/>
-                    </xsl:choose>
-                    <xsl:apply-templates select="x:persName"/>
-                    <xsl:apply-templates select="x:orgName"/>
-                </xsl:for-each>
-                <xsl:text>. </xsl:text>
-            </xsl:if>
-            <xsl:if test="x:editor[@role='translator']">
-                <xsl:text>Translated by </xsl:text>
-                <xsl:for-each select="x:editor[@role='translator']">
-                    <xsl:choose>
-                        <xsl:when test="position() = last() and position() != 1">
-                            <xsl:text> &amp; </xsl:text>
-                        </xsl:when>
-                        <xsl:when test="position() != 1">
-                            <xsl:text>, </xsl:text>
-                        </xsl:when>
-                        <xsl:otherwise/>
-                    </xsl:choose>
-                    <xsl:apply-templates/>
-                </xsl:for-each>
-                <xsl:text>.</xsl:text>
-            </xsl:if>
-        </p>
-   </xsl:element>
+  <xsl:element name="div">
+    <xsl:attribute name="class">editionStmt</xsl:attribute>
+    <p>
+      <xsl:variable name="cataloguers" select="x:editor[@role='cataloguer']"/>
+      <xsl:if test="$cataloguers">
+        <xsl:text>Catalogue description by </xsl:text>
+        <xsl:call-template name="editors-each">
+          <xsl:with-param name="selector" select="$cataloguers"/>
+        </xsl:call-template>
+      </xsl:if>
+      <xsl:variable name="editors" select="x:editor[not(@role)]"/>
+      <xsl:if test="$editors">
+        <xsl:text>Edited by </xsl:text>
+        <xsl:call-template name="editors-each">
+          <xsl:with-param name="selector" select="$editors"/>
+        </xsl:call-template>
+      </xsl:if>
+      <xsl:variable name="translators" select="x:editor[@role='translator']"/>
+      <xsl:if test="$translators">
+        <xsl:text>Translated by </xsl:text>
+        <xsl:call-template name="editors-each">
+          <xsl:with-param name="selector" select="$translators"/>
+        </xsl:call-template>
+      </xsl:if>
+      <xsl:variable name="transcribers" select="x:editor[@role='transcriber']"/>
+      <xsl:if test="$transcribers">
+        <xsl:text>Transcribed by </xsl:text>
+        <xsl:call-template name="editors-each">
+          <xsl:with-param name="selector" select="$transcribers"/>
+        </xsl:call-template>
+      </xsl:if>
+    </p>
+ </xsl:element>
 </xsl:template>
 
 <xsl:template match="x:titleStmt/x:editor/x:persName">
-    <xsl:apply-templates/>
-    <xsl:text> </xsl:text>
+  <xsl:apply-templates/>
 </xsl:template>
 
 <!--xsl:template match="x:titleStmt/x:respStmt">
@@ -158,6 +170,7 @@
     <tr><td colspan="2"><xsl:apply-templates/></td></tr>
 </xsl:template>
 <xsl:template match="x:orgName">
+    <xsl:text> </xsl:text>
     <xsl:element name="span">
         <xsl:attribute name="class">orgname</xsl:attribute>
         <xsl:call-template name="lang"/>
@@ -835,11 +848,11 @@
         <xsl:text>. </xsl:text>
       </xsl:if>
       <xsl:if test="@writtenLines and not(@writtenLines='')">
-        <xsl:value-of select="translate(@writtenLines,' ','-')"/>
+        <xsl:value-of select="translate(@writtenLines,' ','–')"/>
         <xsl:text> written lines per page. </xsl:text>
       </xsl:if>
       <xsl:if test="@ruledLines and not(@ruledLines='')">
-        <xsl:value-of select="translate(@ruledLines,' ','-')"/>
+        <xsl:value-of select="translate(@ruledLines,' ','–')"/>
         <xsl:text> ruled lines per page. </xsl:text>
       </xsl:if>
       <xsl:apply-templates />
@@ -1074,13 +1087,13 @@
                         <xsl:with-param name="search-string">#</xsl:with-param>
                     </xsl:call-template>
                 </xsl:variable>
-                <xsl:if test="$cu or $tu">
+                <xsl:if test="$cu != '' or $tu != ''">
                     <span class="lihead">
                         <xsl:value-of select="$cu"/>
-                        <xsl:if test="$cu and $tu">
+                        <xsl:if test="$cu != '' and $tu != ''">
                             <xsl:text>, </xsl:text>
                         </xsl:if>
-                        <xsl:if test="$tu">
+                        <xsl:if test="$tu != ''">
                             <xsl:element name="a">
                                 <!--xsl:attribute name="class">local</xsl:attribute-->
                                 <xsl:attribute name="href">
@@ -1255,6 +1268,10 @@
     </xsl:if>
 </xsl:template>
 
+<xsl:template match="x:origPlace">
+  <xsl:apply-templates/>
+</xsl:template>
+
 <xsl:template match="x:history">
     <section>
     <h3>History</h3>
@@ -1306,11 +1323,24 @@
 
 <xsl:template match="x:revisionDesc">
     <section>
-        <h3>Revision history</h3>
-        <p id="latestcommit"></p>
-        <xsl:element name="table">
-            <xsl:apply-templates/>
-        </xsl:element>
+        <xsl:choose>
+          <xsl:when test="x:change">
+            <details>
+              <summary style="font-style: italic; font-weight: 400; font-size: 1.7rem; margin-bottom: 1rem">Revision history</summary>
+              <xsl:element name="table">
+                <xsl:apply-templates/>
+              </xsl:element>
+            </details>
+          </xsl:when>
+          <xsl:otherwise>
+            <h3>Revision history</h3>
+          </xsl:otherwise>
+        </xsl:choose>
+      <p id="latestcommit">
+        <xsl:if test="@source">
+          <xsl:attribute name="data-commits"><xsl:value-of select="@source"/></xsl:attribute>
+        </xsl:if>
+      </p>
     </section>
 </xsl:template>
 
@@ -1391,6 +1421,20 @@
 
 <xsl:template match="x:sourceDoc"/>
 
+<xsl:template match="x:gi">
+    <xsl:element name="code">
+        <xsl:attribute name="class">tag</xsl:attribute>
+        <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
+
+<xsl:template match="x:att">
+    <xsl:element name="code">
+      <xsl:attribute name="class">attribute</xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
+
 <xsl:template name="import-milestone">
     <!--xsl:if test="self::x:seg and not(./*[1]/@facs)"-->
     <!--xsl:if test="(self::x:fw or @function) and not(./node()[1][@facs or local-name() = 'milestone' or local-name() = 'pb'])"-->
@@ -1422,7 +1466,6 @@
         <xsl:variable name="milestone" select="exsl:node-set($testnode)/node()[1]"/>
         <!--xsl:if test="(self::x:fw or @function) and not(./node()[1][self::x:lb or self::x:pb or self::x:milestone or self::x:cb] or ./node()[1]/x:lb or ./node()[1]/x:pb or ./node()[1]/x:cb or ./node()[1]/x:milestone)"-->
         <xsl:if test="not($milestone)">
-
             <xsl:variable name="lb" select="preceding::*[self::x:lb][1]"/>
             <xsl:if test="$lb">
                 <xsl:apply-templates select="$lb">

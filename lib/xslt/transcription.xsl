@@ -169,12 +169,25 @@
 </xsl:template>
 
 <xsl:template match="x:choice">
-    <xsl:element name="span">
-    <xsl:attribute name="class">choice</xsl:attribute>
-    <xsl:attribute name="data-anno">
-        <xsl:text>choice</xsl:text>
+  <xsl:element name="span">
+    <xsl:attribute name="class">
+      <xsl:text>choice</xsl:text>
+      <xsl:if test="./x:sic or @type='ambiguous'">
+        <xsl:text> inline</xsl:text>
+      </xsl:if>
     </xsl:attribute>
-    <xsl:apply-templates />
+  <xsl:attribute name="data-anno">
+      <xsl:text>choice</xsl:text>
+  </xsl:attribute>
+  <xsl:apply-templates />
+  </xsl:element>
+</xsl:template>
+
+<xsl:template match="x:choice/x:seg">
+    <xsl:element name="span">
+        <xsl:attribute name="class">choiceseg</xsl:attribute>
+        <xsl:call-template name="lang"/>
+        <xsl:apply-templates/>
     </xsl:element>
 </xsl:template>
 
